@@ -1,8 +1,8 @@
-Company name,Trustscore,Number of Reviews,Domain
-Evergreen Credit Union,4.9,216,ATM·Credit Union·Financial Institution
-Liberty First Credit Union,4.8,196,Credit Union·Financial Institution·Car Finance and Loan Company·Mortgage Lender·ATM
-Crypto Dispensers ,2.3,119,Non-Bank Financial Service·ATM·Cryptocurrency Service·Investment Service
-Swadesh,4.3,7,Bank·Money Transfer Service·ATM·Financial Institution
+companyname,trustscore,totalreviews,domain
+Evergreen Credit Union,4.9,219,ATM·Financial Institution·Credit Union
+Liberty First Credit Union,4.8,198,Car Finance and Loan Company·Credit Union·ATM·Financial Institution·Mortgage Lender
+Crypto Dispensers ,2.4,118,Cryptocurrency Service·Non-Bank Financial Service·Investment Service·ATM
+Swadesh,4.3,9,ATM·Bank·Financial Institution·Money Transfer Service
 Heritage Valley Federal Credit Union,4.1,11,ATM·Bank·Federal Credit Union·Financial Institution·Mortgage Lender·Credit Union
 The Payment HQ,3.8,2,Business to Business Service·Payment Service·Finance Broker·Payroll Service·ATM
 ASDFTEST,3.7,1,ATM
@@ -10,12 +10,12 @@ Kryptominerstech,3.7,1,Money Order Service·Business Center·Gold Mining Company
 WPC Merchant Services & Credit Card Processing,3.7,1,ATM·Business to Business Service
 Meriwest Credit Union,3.5,8,Credit Counseling Service·Car Finance and Loan Company·Investment Service·ATM·Debt Relief Service·Credit Union·Financial Institution·Mortgage Lender
 Slide2Thrive,,,ATM
-NorthOne,3.2,123,Bookkeeping Service·ATM·Non-Bank Financial Service·Financial Institution·Money Transfer Service·Bank
+NorthOne,3.1,124,Bank·Bookkeeping Service·Financial Institution·ATM·Non-Bank Financial Service·Money Transfer Service
 cryptobaseatm.com,3.0,4,Cryptocurrency Service·ATM
 Coinhub Bitcoin ATM,2.9,2,Cryptocurrency Service·ATM·Currency Exchange Service
 Cash Express,2.8,12,Check Cashing Service·ATM·Alternative Financial Service·Loan Agency·Non-Bank Financial Service
 Asic Miners Rig,2.3,6,Money Order Service·Money Transfer Service·ATM·Cryptocurrency Service·Business Center·Mining Company
-Asicminertech,2.2,28,Coin Dealer·ATM·Cryptocurrency Service·Wholesaler·Produce Wholesaler·Mining Company
-Coin Cloud,2.0,100,Non-Bank Financial Service·ATM·Cryptocurrency Service
-PNC Bank,1.3,829,Bank·ATM
+Asicminertech,2.2,28,Coin Dealer·Cryptocurrency Service·ATM·Mining Company·Wholesaler·Produce Wholesaler
+Coin Cloud,1.9,104,Cryptocurrency Service·Non-Bank Financial Service·ATM
+PNC Bank,1.3,840,ATM·Bank
 Covault,,,Cryptocurrency Service·ATM
