@@ -1,2 +1,19 @@
-name,reviews,star_5,star_4,star_3,star_2,star_1
-Evergreen Credit Union,221,97%,2%,<1%,<1%,<1%
+company_name,rating_class,star_5,star_4,star_3,star_2,star_1,total_reviews
+Meriwest Credit Union, Average,62%,13%,0%,0%,25%,8 
+Evergreen Credit Union, Excellent,97%,2%,<1%,<1%,<1%,224 
+ASDFTEST, Average,100%,0%,0%,0%,0%,1 
+Swadesh, Excellent,100%,0%,0%,0%,0%,9 
+Liberty First Credit Union, Excellent,92%,4%,2%,1%,1%,198 
+Coinhub Bitcoin ATM, Average,0%,0%,0%,0%,100%,2 
+Coin Cloud, Poor,14%,4%,6%,8%,68%,104 
+Asicminertech, Poor,14%,7%,0%,4%,75%,28 
+Kryptominerstech, Average,100%,0%,0%,0%,0%,1 
+PNC Bank, Bad,5%,1%,2%,4%,88%,842 
+Heritage Valley Federal Credit Union, Great,82%,0%,9%,9%,0%,11 
+Asic Miners Rig, Poor,0%,0%,0%,0%,100%,6 
+cryptobaseatm.com, Average,50%,0%,0%,0%,50%,4 
+Cash Express, Average,25%,17%,8%,8%,42%,12 
+NorthOne, Average,41%,7%,2%,3%,47%,124 
+WPC Merchant Services & Credit Card Processing, Average,100%,0%,0%,0%,0%,1 
+The Payment HQ, Great,100%,0%,0%,0%,0%,2 
+Crypto Dispensers, Poor,47%,7%,4%,2%,40%,120 
