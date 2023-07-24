@@ -22,7 +22,7 @@ Select * from company_details;
 Create table reviews(
 	company_name varchar not null,
 	review_star varchar,
-	rreview_title varchar,
+	review_title varchar,
 	reviewer_name varchar,
 	review_text varchar,
 	experience_date varchar,
