@@ -7,3 +7,7 @@
   - Run subpage_details.ipynb notebook
   - Run subpage_reviews.ipynb notebook
   - Download reviews table as csv if you want. Done!
+
+#Step 3: Organising relational database
+  - Run the python script that connect to you warehouse,
+  - Scripts imports webscrapig data and transforms csv files in 2 relational files containing company details and their reviews
