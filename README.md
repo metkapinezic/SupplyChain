@@ -16,7 +16,7 @@
   - run the followings command in Bash:
     - cd elasticsearch
     - docker-compose up -d
-    - elasticsearch % docker cp elasticsearch-es01-1:usr/share/elasticsearch/config/certs/ca/ ./
+    - docker cp elasticsearch-es01-1:usr/share/elasticsearch/config/certs/ca/ ./
   - access kibana from Docker or from any browser: http://localhost:5601
   - create an Index name "atm_reviews"
   - run the bulk_script.py file to import the CSV data into Elasticsearch
