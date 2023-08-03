@@ -9,5 +9,5 @@
   - Download reviews table as csv if you want. Done!
 
 #Step 3: Organising relational database
-  - Run the python script that connect to you warehouse,
+  - Run the python script that connects to your warehouse
   - Scripts imports webscrapig data and transforms csv files in 2 relational files containing company details and their reviews
