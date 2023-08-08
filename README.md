@@ -18,5 +18,12 @@
     - docker-compose up -d
     - docker cp elasticsearch-es01-1:usr/share/elasticsearch/config/certs/ca/ ./
   - access kibana from Docker or from any browser: http://localhost:5601
+  - once in kibana User: elastic, Password : datascientest
   - create an Index name "atm_reviews"
   - run the bulk_script.py file to import the CSV data into Elasticsearch
+
+Step 5: Sentiment analysis
+  - before running the script:
+      - make sure important that you set-upthe connection to elasticsearch and - run pip install elasticsearch vaderSentiment 
+  - the script runs through each of the review and allocates its sentiment (positive, negative neutral)
+  
