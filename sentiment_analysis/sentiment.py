@@ -1,32 +1,44 @@
 from elasticsearch import Elasticsearch, helpers
-import csv
-import json
-import warnings
-warnings.filterwarnings("ignore")
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Connection to the cluster
 
-es = Elasticsearch(hosts = "https://elastic:datascientest@localhost:9200", ca_certs="./ca/ca.crt")
+##!! dont forget to change the path to ca.crt
 
-with open('reviews_indexed.csv', encoding='utf-8') as f:
-    reader = csv.DictReader(f)
-    helpers.bulk(es, reader, index='atm_reviews')
+es = Elasticsearch(hosts = "https://elastic:datascientest@localhost:9200", 
+                   ca_certs="/Users/metka/Desktop/DST/SupplyChain/elasticsearch/ca/ca.crt") 
 
 
-#display some documents from our atm_reviews index
-filename = "docu"
 
-query = {
-  "query": {
-    "match_all": {}
-  }
+# Define the search query to retrieve all documents
+search_query = {
+    "query": {
+        "match_all": {}
+    }
 }
 
-response = es.search(index="atm_reviews", body=query)
+# Execute the search query
+response = es.search(index="reviews", body=search_query)
 
-# Saving the request and response in a json file
-with open("./query/{}.json".format("q_" + filename + "_response"), "w") as f:
-  json.dump(dict(response), f, indent=2)
+# Initialize the VADER sentiment analyzer
+analyzer = SentimentIntensityAnalyzer()
 
-with open("./query/{}.json".format("q_" + filename + "_request"), "w") as f:
-  json.dump(query, f, indent=2)
+# Analyze sentiment for each document and print the results
+for hit in response["hits"]["hits"]:
+    review_text = hit["_source"]["review_text"]
+    sentiment_scores = analyzer.polarity_scores(review_text)
+
+    sentiment_label = ""
+    if sentiment_scores["compound"] >= 0.05:
+        sentiment_label = "Positive"
+    elif sentiment_scores["compound"] <= -0.05:
+        sentiment_label = "Negative"
+    else:
+        sentiment_label = "Neutral"
+
+    print(f"Review: {review_text}")
+    print(f"Sentiment: {sentiment_label}")
+    print("---")
+
+#This code prints out the reviews and its sentiment
+
