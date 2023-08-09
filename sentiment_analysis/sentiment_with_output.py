@@ -3,8 +3,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import pandas as pd
 
 # Connection to the cluster
-es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
-                   ca_certs="/Users/metka/Desktop/DST/SupplyChain/elasticsearch/ca/ca.crt")
+es = Elasticsearch(hosts = "https://elastic:datascientest@localhost:9200", ca_certs="./elasticsearch/ca/ca.crt")
 
 # Initialize the VADER sentiment analyzer
 analyzer = SentimentIntensityAnalyzer()
@@ -28,7 +27,7 @@ sentiment_labels = []
 # Paginated search
 page = 1
 while True:
-    response = es.search(index="reviews", body=search_query, from_=(page - 1) * 100)
+    response = es.search(index="atm_reviews", body=search_query, from_=(page - 1) * 100)
     
     if not response["hits"]["hits"]:
         break
@@ -62,19 +61,19 @@ while True:
 
 # Create data_all dictionary
 data_all = {
-    "Review ID": review_ids,
-    "Company ID": company_ids,
-    "Company Name": company_names,
-    "Review Text": review_texts,
-    "Sentiment Scores": compound_scores,
-    "Sentiment Label": sentiment_labels
+    "Review_ID": review_ids,
+    "Company_ID": company_ids,
+    "Company_name": company_names,
+    "Review_text": review_texts,
+    "Sentiment_score": compound_scores,
+    "Sentiment_label": sentiment_labels
 }
 
 # Create DataFrame
 df_all = pd.DataFrame(data_all)
 
 # Output DataFrame to a CSV file
-#df_all.to_csv("all_reviews_sentiments.csv", index=False)
+df_all.to_csv("./sentiment_analysis/all_reviews_sentiments.csv", index=False)
 
 # Print DataFrame
 #print(df_all)
