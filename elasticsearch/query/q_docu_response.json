@@ -1,22 +1,22 @@
 {
-  "took": 1001,
+  "took": 3822,
   "timed_out": false,
   "_shards": {
-    "total": 2,
-    "successful": 2,
+    "total": 1,
+    "successful": 1,
     "skipped": 0,
     "failed": 0
   },
   "hits": {
     "total": {
-      "value": 9282,
+      "value": 7188,
       "relation": "eq"
     },
     "max_score": 1.0,
     "hits": [
       {
         "_index": "atm_reviews",
-        "_id": "-lyWuokB6o4YxrPgKaay",
+        "_id": "-CsD34kB6QCpK_Dcv-T_",
         "_score": 1.0,
         "_source": {
           "review_id": "0",
@@ -34,7 +34,67 @@
       },
       {
         "_index": "atm_reviews",
-        "_id": "_lyWuokB6o4YxrPgKaay",
+        "_id": "-SsD34kB6QCpK_Dcv-T_",
+        "_score": 1.0,
+        "_ignored": [
+          "review_text.keyword"
+        ],
+        "_source": {
+          "review_id": "1",
+          "company_id": "1118",
+          "company_name": "PNC Bank",
+          "review_star": "1 out of 5",
+          "review_title": "PNC WILL STEAL YOUR MONEY !!!",
+          "reviewer_name": "Tina Blanco Carrizales",
+          "review_text": "If I could give them no stars I WOULD !!! DO NOT USE PNC BANK UNLESS YOU LIKE THEM GIVIBG YOUR MONEY AWAY !!! This is the worst bank and the dumbest people work here .  They lie about transactions \u2026. I paid a company and the money came out of my account.  But the company I paid said they declined the payment .  Which seems totally impossible because I moved money to the account just to pay a bill and to pay for services in advance because they gave me a discount.   Then the company called and said that they did release the money to them but then called me back shortly four hours later to let me know that they had reversed the charges and taking the money back from them.   But the money was still gone from my account\u2026\u2026\u2026 PNC gave me the runaround saying that I needed to dispute the charge so that they could get the money back which they already had it back.  I talked to five or six different people and every single person gave me a different excuse and a different solution.   The money was gone from my account for over six weeks and never paid to the company that I was trying to pay.    It took about 20 hours worth of calls to finally get someone that had the money put back in my account.   Then two weeks later the money was taken out again which overdrafted my account and cost me to incur many fees\u2026..   I even spoke to the company that they were supposed to pay and still to this day they\u2019ve never received one penny I have since then canceled service with them and signed up with someone else.    I spoke to someone and their executive offices today and they proceeded to tell me that the money was given to the other company but we called the other company yesterday on three-way with PNC and they told him at that time that still to this day they don\u2019t have the money from them and I\u2019ve close the account so I no longer need to pay them.   Now I see online that PNC is giving away $400 to new customers\u2026\u2026 and because I\u2019m an existing customer they\u2019re not worried about it they don\u2019t care they don\u2019t care that they\u2019ve caused me to have fees and I\u2019m probably gonna be evicted because they have kept my money and I wasn\u2019t able to pay my rent.  Do you think these people care that they\u2019re going to cause me to be evicted of course not !!   So unless you like your money being taken from you at any time for whatever they feel like then you should bank here but if you\u2019d like to keep your money and pay your own bills go somewheres else.   My husband is disabled and unable to work so the little bit of money that we get plus my pay it\u2019s just enough for us to pay our bills.   I\u2019m sick of talking to these line people that work there they keep on pretending like the company has the money that they gave it to them and that\u2019s a straight out lie I know this other company is trustworthy because I used to work there and that\u2019s why it\u2019s so embarrassing to me that this even happened",
+          "experience_date": "April 23, 2023",
+          "review_date": "2023-07-12",
+          "reply_date": "",
+          "reply_text": ""
+        }
+      },
+      {
+        "_index": "atm_reviews",
+        "_id": "-isD34kB6QCpK_Dcv-T_",
+        "_score": 1.0,
+        "_source": {
+          "review_id": "2",
+          "company_id": "1118",
+          "company_name": "PNC Bank",
+          "review_star": "1 out of 5",
+          "review_title": "High Yield Savings application could\u2026",
+          "reviewer_name": "sop testov",
+          "review_text": "High Yield Savings application could not be approved. w tf?When I called several times they declined to answer, why? Never got regular mail with explanation. They are rude and incompetent.",
+          "experience_date": "May 15, 2023",
+          "review_date": "2023-05-25",
+          "reply_date": "",
+          "reply_text": ""
+        }
+      },
+      {
+        "_index": "atm_reviews",
+        "_id": "-ysD34kB6QCpK_Dcv-T_",
+        "_score": 1.0,
+        "_ignored": [
+          "review_text.keyword"
+        ],
+        "_source": {
+          "review_id": "3",
+          "company_id": "1118",
+          "company_name": "PNC Bank",
+          "review_star": "1 out of 5",
+          "review_title": "I loved my local branch, BUT!",
+          "reviewer_name": "Peter Neally Sr",
+          "review_text": "I loved my local branch, all the employees  were great.  Now Corporate, the online banking.  Horrible.  Never tell a customer that \"This is the only choice you have\"  no, not true.  I made a different choice, and 30 min later closed my account.  Lots of other financial institutions out there.  Choices, I have many.  Buh Bye PNC, thanks for helping me make the correct choice.",
+          "experience_date": "April 14, 2023",
+          "review_date": "2023-04-14",
+          "reply_date": "",
+          "reply_text": ""
+        }
+      },
+      {
+        "_index": "atm_reviews",
+        "_id": "_CsD34kB6QCpK_Dcv-T_",
         "_score": 1.0,
         "_ignored": [
           "review_text.keyword"
@@ -55,7 +115,7 @@
       },
       {
         "_index": "atm_reviews",
-        "_id": "_1yWuokB6o4YxrPgKaay",
+        "_id": "_SsD34kB6QCpK_Dcv-T_",
         "_score": 1.0,
         "_ignored": [
           "review_text.keyword"
@@ -76,7 +136,25 @@
       },
       {
         "_index": "atm_reviews",
-        "_id": "AVyWuokB6o4YxrPgKaey",
+        "_id": "_isD34kB6QCpK_Dcv-T_",
+        "_score": 1.0,
+        "_source": {
+          "review_id": "6",
+          "company_id": "1118",
+          "company_name": "PNC Bank",
+          "review_star": "1 out of 5",
+          "review_title": "I would have given 0 if that were an\u2026",
+          "reviewer_name": "Tom Clark",
+          "review_text": "I would have given 0 if that were an option.  Probably made 12 calls to an untrained (and consequently, incompetent) customer service center.  Not sure who JD Powers talked to get their they survey data but PNC customer service is a (bad) joke",
+          "experience_date": "April 19, 2023",
+          "review_date": "2023-04-19",
+          "reply_date": "",
+          "reply_text": ""
+        }
+      },
+      {
+        "_index": "atm_reviews",
+        "_id": "_ysD34kB6QCpK_Dcv-T_",
         "_score": 1.0,
         "_ignored": [
           "review_text.keyword"
@@ -97,7 +175,28 @@
       },
       {
         "_index": "atm_reviews",
-        "_id": "A1yWuokB6o4YxrPgKaey",
+        "_id": "ACsD34kB6QCpK_Dcv-X_",
+        "_score": 1.0,
+        "_ignored": [
+          "review_text.keyword"
+        ],
+        "_source": {
+          "review_id": "8",
+          "company_id": "1118",
+          "company_name": "PNC Bank",
+          "review_star": "1 out of 5",
+          "review_title": "This bank is awful",
+          "reviewer_name": "Katie Rash",
+          "review_text": "This bank is awful. I forgot my password and I changed my phone number and there is no way for me to get access to my bank account without a code going to my OLD phone number.  I mean 2023 and there\u2019s no way for them to update my phone number online so I can login? He says the ONLY way we can do it is my snail mailing me a new password.  Who even does that for ONLINE banking.  I am fearful after reading reviews now, that they will be horrible with my $$.  Definitely going to refinance my balance transfers wayyyy before the 16th month so they don\u2019t charge me interest.",
+          "experience_date": "April 23, 2023",
+          "review_date": "2023-04-23",
+          "reply_date": "",
+          "reply_text": ""
+        }
+      },
+      {
+        "_index": "atm_reviews",
+        "_id": "ASsD34kB6QCpK_Dcv-X_",
         "_score": 1.0,
         "_ignored": [
           "review_text.keyword"
@@ -112,108 +211,6 @@
           "review_text": "PNC is trash because they send me a letter stating they were closing my account. I tried to cash app someone got declined. I was able to get gas today thank god but I call and ask why the operator was rude and told me we dont have to tell you why we are just closing your account. I go to a branch they tell me that is crazy because its nothing wrong with the account, I call the customer service again they tell me the same which is they have it in their agreement where they can \u201cEnd the relationship\u201d like that sounds crazy to me and I dont think its right now I have bills to pay as well as things to pay for out of my account now I have to go get my money from there and shop around for another bank. I have always thought highly of this bank but man was I wrong.",
           "experience_date": "May 22, 2023",
           "review_date": "2023-05-22",
-          "reply_date": "",
-          "reply_text": ""
-        }
-      },
-      {
-        "_index": "atm_reviews",
-        "_id": "BFyWuokB6o4YxrPgKaey",
-        "_score": 1.0,
-        "_ignored": [
-          "review_text.keyword"
-        ],
-        "_source": {
-          "review_id": "10",
-          "company_id": "1118",
-          "company_name": "PNC Bank",
-          "review_star": "1 out of 5",
-          "review_title": "PNC SUCKS!",
-          "reviewer_name": "Pro Wingnut",
-          "review_text": "I was at BBVA for years with zero problems before PNC took over. Now I\u2019ve had nothing but problems, treacherous fees and charges because of their gestapo style banking practices that THEY CREATE only benefit themselves. I cant trust them any longer and as soon as my latest transaction clears overnight, I\u2019m closing my account and bringing my business to a credit union!",
-          "experience_date": "February 23, 2023",
-          "review_date": "2023-02-24",
-          "reply_date": "",
-          "reply_text": ""
-        }
-      },
-      {
-        "_index": "atm_reviews",
-        "_id": "BlyWuokB6o4YxrPgKaey",
-        "_score": 1.0,
-        "_source": {
-          "review_id": "12",
-          "company_id": "1117",
-          "company_name": "Coin Cloud",
-          "review_star": "1 out of 5",
-          "review_title": "How long does it take for my money to\u2026",
-          "reviewer_name": "Maria Tina",
-          "review_text": "How long does it take for my money to be mail back to me",
-          "experience_date": "June 01, 2023",
-          "review_date": "2023-06-24",
-          "reply_date": "",
-          "reply_text": ""
-        }
-      },
-      {
-        "_index": "atm_reviews",
-        "_id": "CVyWuokB6o4YxrPgKaey",
-        "_score": 1.0,
-        "_ignored": [
-          "review_text.keyword"
-        ],
-        "_source": {
-          "review_id": "15",
-          "company_id": "1118",
-          "company_name": "PNC Bank",
-          "review_star": "1 out of 5",
-          "review_title": "Cash back rewards is bogus for larger purchases...",
-          "reviewer_name": "Charisse Anna Streeter-Wenger",
-          "review_text": "I received a cash back rewards notice for Tire Kingdom for both my cc & debit card which I activated because I needed 4 new tires. I checked the morning of my appointment to make sure it was activated for my visa cash back. I was supposed to get $40 for using it. I didn't receive it & when I checked the next day the bank had removed it. The activation was good through 5/15/2023. It is still available on my debit card. I think it is pretty dirty of them to reneg on this purchase. I would have used a different card where I was guaranteed cash back.",
-          "experience_date": "April 12, 2023",
-          "review_date": "2023-04-29",
-          "reply_date": "",
-          "reply_text": ""
-        }
-      },
-      {
-        "_index": "atm_reviews",
-        "_id": "C1yWuokB6o4YxrPgKaey",
-        "_score": 1.0,
-        "_ignored": [
-          "review_text.keyword"
-        ],
-        "_source": {
-          "review_id": "17",
-          "company_id": "1118",
-          "company_name": "PNC Bank",
-          "review_star": "1 out of 5",
-          "review_title": "Bank somewhere else",
-          "reviewer_name": "margie Buckmaster",
-          "review_text": "PNC froze my online banking three weeks ago with no notice. Multiple reps said \"you should be getting a letter.' Three weeks in, no letter or explanation. Then a rep said I would need my verbal password (does not exist.)  Told me to come to a branch in person.  I'm disabled and do not drive.  Already moved my direct deposit to another bank.  Enough, already",
-          "experience_date": "March 13, 2023",
-          "review_date": "2023-04-06",
-          "reply_date": "",
-          "reply_text": ""
-        }
-      },
-      {
-        "_index": "atm_reviews",
-        "_id": "DlyWuokB6o4YxrPgKaey",
-        "_score": 1.0,
-        "_ignored": [
-          "review_text.keyword"
-        ],
-        "_source": {
-          "review_id": "20",
-          "company_id": "1118",
-          "company_name": "PNC Bank",
-          "review_star": "1 out of 5",
-          "review_title": "We have been with PNC for 20+ years.",
-          "reviewer_name": "customer",
-          "review_text": "We have been with PNC for 20+ years.  I initially pulled my savings and opened an account elsewhere because they had become annoying in how they handled business. Now, I am in a difficult interim, not late on bills\u2026a previous balance transfer offer I had with PNC had been fully paid and on time.  Now, they sent me another balance transfer offer that said \u201cpre-approved\u201d. So I called in because could use it right now.  What do they do after I called and spent time on the phone signing up?! Flat out denied. Said some nonsense about status with Experian. I don\u2019t buy it and don\u2019t care. They had sent me a \u201cpre-approved\u201d offer, I spent my valuable time signing up, and get zero return.  This is absolutely, hands down THE worst banking company! I strongly urge others to stear clear and give your business to a bank that appreciates its customers. And follows thru on their \u201cword\u201d.",
-          "experience_date": "May 13, 2023",
-          "review_date": "2023-05-13",
           "reply_date": "",
           "reply_text": ""
         }
