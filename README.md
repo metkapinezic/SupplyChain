@@ -23,7 +23,17 @@
   - run the bulk_script.py file to import the CSV data into Elasticsearch
 
 #Step 5: Sentiment analysis
-  - before running the script:
-      - make sure important that you set-up the connection to elasticsearch and - run pip install elasticsearch vaderSentiment 
-  - the pyhon script runs through each of the review and allocates its sentiment score and  label (positive, negative, neutral), then outputs dataframe with review id, company id, company name, review text, sentiment score and sentiment label
+  - before running the sentiment script:
+      - make sure that you set up the connection to elasticsearch from step 4 and - run pip install elasticsearch vaderSentiment 
+  - sentiment script:
+      - runs through each of the reviews and allocates its sentiment score and  label (positive, negative, neutral), then outputs dataframe with review id, company id, company name, review text, sentiment score, and sentiment label (exports reviews_sentiments.csv)
+      - creates a string of all reviews, counts and outputs 20 words based on their appearance
+      - creates manually defined buckets based on the most used words (bank account, customer service, and credit) and outputs a dataframe containing company details, sentiment scores, and labels, and counts words within the buckets (exports word_analysis.csv)
+   
+#Step 6: Dash application
+  - in the sentiment_anslysis folder you can run a dash app script and review it on http://localhost:8050/ 
+  - main elements of the application:
+    - dropdown menu where you can filter data for one or multiple companies
+    - horizontal bar chart showing the count of reviews per company distributed by the sentiment label
+    - bar chart showing the distribution of sentiment labels per topic (word buckets) of the reviews 
   
