@@ -5,7 +5,7 @@ from dash import html
 import plotly.express as px 
 from dash.dependencies import Input,Output
 
-df = pd.read_csv("all_reviews_sentiments.csv")
+df = pd.read_csv("all_reviews_sentiments.csv", sep = ',')
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
@@ -27,6 +27,7 @@ app.layout = html.Div([
 def update_figure(_):
     fig = px.line(df['Sentiment_score'][-50:], range_y=[-1,1])
     return fig
+
 
 if __name__ == '__main__':
   app.run_server(debug=True, host='0.0.0.0')
