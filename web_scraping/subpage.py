@@ -127,7 +127,7 @@ df_details = pd.DataFrame(data=company_data, columns=columns)
 df_details['total_reviews'] = df_details['rating_class'].apply(lambda x: x.split(' ')[0])
 df_details['rating_class'] = df_details['rating_class'].apply(lambda x: x.split(' ')[-1])
 df_details.drop(df_details[df_details['total_reviews'] == '0'].index, inplace = True)
-print(df_details)
+df_details
 
 
 # In[14]:
@@ -216,13 +216,13 @@ def parse_reviews(sub_soup):
 for url in deduplicated_company_urls:
     soup = get_soup(url)
     while soup:
-        df_review = parse_reviews(soup)
+        reviews_df = parse_reviews(soup)
         next_page = get_next_page_url(soup)
         if next_page:
             soup = get_soup(BASE_URL+next_page)
         else:
             soup = None
-        print(df_review)
+        print(reviews_df)
 
 
 # In[ ]:
