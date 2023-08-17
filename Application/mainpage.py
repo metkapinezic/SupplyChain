@@ -69,7 +69,7 @@ atm_df = atm_df.dropna(subset=['total_reviews'])
 # In[33]:
 
 
-#atm_df.to_csv('./csv_files/atm.csv', index=False)
+atm_df.to_csv('atm.csv', index=False)
 atm_df
 
 

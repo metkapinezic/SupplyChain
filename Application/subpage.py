@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[93]:
 
 
 #retrieve and store in a list of url_ending. For example: [egcu.org,libertyfirstcu.com, etc]
@@ -10,7 +10,7 @@
 #set up cron job & automated scraping for new reviews daily, then append them to the table. 
 
 
-# In[2]:
+# In[94]:
 
 
 import requests 
@@ -21,7 +21,7 @@ atm_url = 'https://www.trustpilot.com/categories/atm'
 BASE_URL = "https://www.trustpilot.com"
 
 
-# In[3]:
+# In[95]:
 
 
 #function for html parser
@@ -30,34 +30,34 @@ def get_soup(url):
     return BeautifulSoup(response.content, "html.parser")
 
 
-# In[4]:
+# In[96]:
 
 
 soup = get_soup(atm_url)
 
 
-# In[5]:
+# In[97]:
 
 
 #function to scrap all the URLs of business page
 
 def get_company_urls(soup_response):
     company_urls = []
-    for a in soup.select("a[name='business-unit-card']"):
+    for a in soup_response.select("a[name='business-unit-card']"):
         url_subdirectory = a.attrs.get("href")
         company_urls.append(BASE_URL+url_subdirectory)
     return company_urls
 
 
-# In[6]:
+# In[98]:
 
 
 #function to get the link of the next page button and scrap content on next page
 def get_next_page_url(soup_response):
-    return soup.select("a[name='pagination-button-next']")[0].attrs.get("href")
+    return soup_response.select("a[name='pagination-button-next']")[0].attrs.get("href")
 
 
-# In[7]:
+# In[99]:
 
 
 #scrap the list of company URLs
@@ -72,13 +72,13 @@ while soup:
         soup = None
 
 
-# In[8]:
+# In[100]:
 
 
 print(len(company_urls))
 
 
-# In[9]:
+# In[101]:
 
 
 #remove duplicates in the URL list if any
@@ -90,7 +90,7 @@ print(len(deduplicated_company_urls))
 deduplicated_company_urls
 
 
-# In[10]:
+# In[102]:
 
 
 def parse_company_data(sub_soup):
@@ -101,7 +101,7 @@ def parse_company_data(sub_soup):
     return [name, ratings] + stars
 
 
-# In[11]:
+# In[103]:
 
 
 company_data = []
@@ -110,7 +110,7 @@ for company_url in deduplicated_company_urls:
     company_data.append(parse_company_data(subpage))
 
 
-# In[12]:
+# In[104]:
 
 
 import pandas as pd
@@ -120,7 +120,7 @@ columns = ['company_name', 'rating_class', 'star_5', 'star_4', 'star_3', 'star_2
 df_details = pd.DataFrame(data=company_data, columns=columns)
 
 
-# In[13]:
+# In[105]:
 
 
 #cleaning the data in dataframe
@@ -130,52 +130,49 @@ df_details.drop(df_details[df_details['total_reviews'] == '0'].index, inplace = 
 df_details
 
 
-# In[14]:
+# In[106]:
 
 
-#df_details.to_csv('./csv_files/company_details.csv', index=False)
+df_details.to_csv('company_details.csv', index=False)
 
 
-# #Establish connection with PostgreSQL using psycopg2
-# 
-# import psycopg2
-# import numpy as np
-# import psycopg2.extras as extras
-# 
-# #Function to insert values into existing table
-# def execute_values(conn, df, table):
-#   
-#     tuples = [tuple(x) for x in df.to_numpy()]
-#   
-#     col = ','.join(list(df.columns))
-#     # SQL query to execute
-#     query = "DELETE FROM %s; INSERT INTO %s(%s) VALUES %%s" % (table, table, col)
-#     
-#     cursor = conn.cursor()
-#     try:
-#         extras.execute_values(cursor, query, tuples)
-#         conn.commit()
-#     except (Exception, psycopg2.DatabaseError) as error:
-#         print("Error: %s" % error)
-#         conn.rollback()
-#         cursor.close()
-#         return 1
-#     print("the dataframe is inserted")
-#     cursor.close()
-#   
-#   
-# conn = psycopg2.connect(
-#     database="atm_scraping", user='postgres', password='postgres', host='127.0.0.1', port='5432'
-# )
-
-# In[15]:
+# In[107]:
 
 
-#uncomment this command to add df to sql table
-#execute_values(conn, df_details, 'company_details')
+#Establish connection with PostgreSQL using psycopg2
+
+import psycopg2
+import numpy as np
+import psycopg2.extras as extras
+
+#Function to insert values into existing table
+def execute_values(conn, df, table):
+  
+    tuples = [tuple(x) for x in df.to_numpy()]
+  
+    col = ','.join(list(df.columns))
+    # SQL query to execute
+    query = "INSERT INTO %s(%s) VALUES %%s" % (table, col)
+    
+    cursor = conn.cursor()
+    try:
+        extras.execute_values(cursor, query, tuples)
+        conn.commit()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print("Error: %s" % error)
+        conn.rollback()
+        cursor.close()
+        return 1
+    print("the dataframe is inserted")
+    cursor.close()
+  
+  
+conn = psycopg2.connect(
+    database="atm_scraping", user='postgres', password='postgres', host='127.0.0.1', port='5432'
+)
 
 
-# In[16]:
+# In[108]:
 
 
 #function to parse company page reviews: 
@@ -208,26 +205,36 @@ def parse_reviews(sub_soup):
     return df_reviews
 
 
-# In[21]:
+# In[109]:
 
 
-#scrap all reviews of all companies and upload them to Postgres
-#RUN ONLY ONCE, or delete data on table reviews before running this code again, otherwise it will appends dupplicated reviews to the table. 
+#scrap all reviews of all companies:
 for url in deduplicated_company_urls:
     soup = get_soup(url)
     while soup:
-        reviews_df = parse_reviews(soup)
+        df = parse_reviews(soup)
         next_page = get_next_page_url(soup)
         if next_page:
             soup = get_soup(BASE_URL+next_page)
         else:
             soup = None
-        print(reviews_df)
+        execute_values(conn, df, 'reviews')
 
 
-# In[ ]:
+# In[112]:
 
 
-#uncomment this command to add df to sql table
-#execute_values(conn, df_review, 'reviews')
+from sqlalchemy import create_engine
+
+engine = create_engine("postgresql://postgres:postgres@localhost/atm_scraping")
+
+df_review = pd.read_sql_query('SELECT * FROM reviews', engine)
+
+engine.dispose()
+
+
+# In[113]:
+
+
+df_review.to_csv('reviews.csv', index=False)
 
