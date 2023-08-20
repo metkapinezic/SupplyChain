@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[93]:
+# In[58]:
 
 
 #retrieve and store in a list of url_ending. For example: [egcu.org,libertyfirstcu.com, etc]
@@ -10,7 +10,7 @@
 #set up cron job & automated scraping for new reviews daily, then append them to the table. 
 
 
-# In[94]:
+# In[59]:
 
 
 import requests 
@@ -21,7 +21,7 @@ atm_url = 'https://www.trustpilot.com/categories/atm'
 BASE_URL = "https://www.trustpilot.com"
 
 
-# In[95]:
+# In[60]:
 
 
 #function for html parser
@@ -30,13 +30,13 @@ def get_soup(url):
     return BeautifulSoup(response.content, "html.parser")
 
 
-# In[96]:
+# In[61]:
 
 
 soup = get_soup(atm_url)
 
 
-# In[97]:
+# In[62]:
 
 
 #function to scrap all the URLs of business page
@@ -49,7 +49,7 @@ def get_company_urls(soup_response):
     return company_urls
 
 
-# In[98]:
+# In[63]:
 
 
 #function to get the link of the next page button and scrap content on next page
@@ -57,7 +57,7 @@ def get_next_page_url(soup_response):
     return soup_response.select("a[name='pagination-button-next']")[0].attrs.get("href")
 
 
-# In[99]:
+# In[64]:
 
 
 #scrap the list of company URLs
@@ -72,13 +72,13 @@ while soup:
         soup = None
 
 
-# In[100]:
+# In[65]:
 
 
 print(len(company_urls))
 
 
-# In[101]:
+# In[66]:
 
 
 #remove duplicates in the URL list if any
@@ -90,7 +90,7 @@ print(len(deduplicated_company_urls))
 deduplicated_company_urls
 
 
-# In[102]:
+# In[67]:
 
 
 def parse_company_data(sub_soup):
@@ -101,7 +101,7 @@ def parse_company_data(sub_soup):
     return [name, ratings] + stars
 
 
-# In[103]:
+# In[68]:
 
 
 company_data = []
@@ -110,7 +110,7 @@ for company_url in deduplicated_company_urls:
     company_data.append(parse_company_data(subpage))
 
 
-# In[104]:
+# In[69]:
 
 
 import pandas as pd
@@ -120,7 +120,7 @@ columns = ['company_name', 'rating_class', 'star_5', 'star_4', 'star_3', 'star_2
 df_details = pd.DataFrame(data=company_data, columns=columns)
 
 
-# In[105]:
+# In[70]:
 
 
 #cleaning the data in dataframe
@@ -130,49 +130,13 @@ df_details.drop(df_details[df_details['total_reviews'] == '0'].index, inplace = 
 df_details
 
 
-# In[106]:
+# In[71]:
 
 
 df_details.to_csv('company_details.csv', index=False)
 
 
-# In[107]:
-
-
-#Establish connection with PostgreSQL using psycopg2
-
-import psycopg2
-import numpy as np
-import psycopg2.extras as extras
-
-#Function to insert values into existing table
-def execute_values(conn, df, table):
-  
-    tuples = [tuple(x) for x in df.to_numpy()]
-  
-    col = ','.join(list(df.columns))
-    # SQL query to execute
-    query = "INSERT INTO %s(%s) VALUES %%s" % (table, col)
-    
-    cursor = conn.cursor()
-    try:
-        extras.execute_values(cursor, query, tuples)
-        conn.commit()
-    except (Exception, psycopg2.DatabaseError) as error:
-        print("Error: %s" % error)
-        conn.rollback()
-        cursor.close()
-        return 1
-    print("the dataframe is inserted")
-    cursor.close()
-  
-  
-conn = psycopg2.connect(
-    database="atm_scraping", user='postgres', password='postgres', host='127.0.0.1', port='5432'
-)
-
-
-# In[108]:
+# In[78]:
 
 
 #function to parse company page reviews: 
@@ -199,42 +163,80 @@ def parse_reviews(sub_soup):
         reply_date = reply_date_.text.strip() if reply_date_ else None
         reply_text = review_reply_text.text.strip() if review_reply_text else None
         data.append([name, star, title, reviewer, text, experience, review_date, reply_date, reply_text])
-        columns = ['company_name','review_star', 'review_title', 'reviewer_name', 'review_text', 'experience_date', 'review_date', 'reply_date', 'reply_text']
-        global df_reviews 
-        df_reviews = pd.DataFrame(data, columns=columns)
-    return df_reviews
+        
+    return data
 
 
-# In[109]:
+# In[79]:
 
 
 #scrap all reviews of all companies:
+alist = []
 for url in deduplicated_company_urls:
     soup = get_soup(url)
     while soup:
-        df = parse_reviews(soup)
+        alist.extend(parse_reviews(soup))
         next_page = get_next_page_url(soup)
         if next_page:
             soup = get_soup(BASE_URL+next_page)
         else:
             soup = None
-        execute_values(conn, df, 'reviews')
+        
+columns = ['company_name','review_star', 'review_title', 'reviewer_name', 'review_text', 'experience_date', 'review_date', 'reply_date', 'reply_text']
+df_reviews = pd.DataFrame(alist, columns=columns)
+df_reviews.to_csv('reviews.csv', index=False)
 
 
-# In[112]:
+# #Establish connection with PostgreSQL using psycopg2
+# 
+# import psycopg2
+# import numpy as np
+# import psycopg2.extras as extras
+# 
+# #Function to insert values into existing table
+# def execute_values(conn, df, table):
+#   
+#     tuples = [tuple(x) for x in df.to_numpy()]
+#   
+#     col = ','.join(list(df.columns))
+#     # SQL query to execute
+#     query = "DELETE FROM %s; INSERT INTO %s(%s) VALUES %%s" % (table, table, col)
+#     
+#     cursor = conn.cursor()
+#     try:
+#         extras.execute_values(cursor, query, tuples)
+#         conn.commit()
+#     except (Exception, psycopg2.DatabaseError) as error:
+#         print("Error: %s" % error)
+#         conn.rollback()
+#         cursor.close()
+#         return 1
+#     print("the dataframe is inserted")
+#     cursor.close()
+#   
+#   
+# conn = psycopg2.connect(
+#     database="atm_scraping", user='postgres', password='postgres', host='127.0.0.1', port='5432'
+# )
+
+# In[75]:
 
 
-from sqlalchemy import create_engine
-
-engine = create_engine("postgresql://postgres:postgres@localhost/atm_scraping")
-
-df_review = pd.read_sql_query('SELECT * FROM reviews', engine)
-
-engine.dispose()
+#execute_values(conn, df_reviews, 'reviews')
 
 
-# In[113]:
+# In[76]:
 
 
-df_review.to_csv('reviews.csv', index=False)
+#execute_values(conn, df_details, 'company_details')
 
+
+# #export csv from postgres
+# from sqlalchemy import create_engine
+# 
+# engine = create_engine("postgresql://postgres:postgres@localhost/atm_scraping")
+# 
+# df_review = pd.read_sql_query('SELECT * FROM reviews', engine)
+# 
+# engine.dispose()
+# df_review.to_csv('/Users/dunghoang/GitHub/SupplyChain/csv_files/reviews.csv', index=False)
