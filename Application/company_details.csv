@@ -1,19 +1,19 @@
 company_name,rating_class,star_5,star_4,star_3,star_2,star_1,total_reviews
-PNC Bank, Bad,5%,1%,2%,4%,88%,891 
-Asicminertech, Poor,14%,7%,0%,4%,75%,28 
-Coin Cloud, Poor,14%,4%,5%,9%,68%,109 
-The Payment HQ, Great,100%,0%,0%,0%,0%,2 
 WPC Merchant Services & Credit Card Processing, Average,100%,0%,0%,0%,0%,1 
-Coinhub Bitcoin ATM, Average,0%,0%,0%,0%,100%,2 
-ASDFTEST, Average,100%,0%,0%,0%,0%,1 
-Crypto Dispensers, Poor,45%,6%,5%,5%,39%,129 
-cryptobaseatm.com, Average,50%,0%,0%,0%,50%,4 
+Asic Miners Rig, Poor,0%,0%,0%,0%,100%,6 
 Evergreen Credit Union, Excellent,96%,2%,<1%,<1%,<1%,229 
 Liberty First Credit Union, Excellent,93%,3%,2%,<1%,<1%,204 
 Heritage Valley Federal Credit Union, Great,82%,0%,9%,9%,0%,11 
+Crypto Dispensers, Poor,45%,6%,5%,5%,39%,128 
+ASDFTEST, Average,100%,0%,0%,0%,0%,1 
+Coinhub Bitcoin ATM, Average,0%,0%,0%,0%,100%,2 
 Kryptominerstech, Average,100%,0%,0%,0%,0%,1 
-Asic Miners Rig, Poor,0%,0%,0%,0%,100%,6 
-NorthOne, Average,40%,7%,3%,3%,47%,121 
-Cash Express, Average,36%,14%,7%,7%,36%,14 
+Coin Cloud, Poor,14%,4%,6%,9%,67%,108 
+Asicminertech, Poor,14%,7%,0%,4%,75%,28 
 Meriwest Credit Union, Average,62%,13%,0%,0%,25%,8 
 Swadesh, Excellent,100%,0%,0%,0%,0%,11 
+NorthOne, Average,40%,7%,3%,3%,47%,121 
+The Payment HQ, Great,100%,0%,0%,0%,0%,2 
+Cash Express, Average,36%,14%,7%,7%,36%,14 
+PNC Bank, Bad,5%,1%,2%,4%,88%,893 
+cryptobaseatm.com, Average,50%,0%,0%,0%,50%,4 

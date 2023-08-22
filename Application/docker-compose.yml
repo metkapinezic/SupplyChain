@@ -1,6 +1,17 @@
 version: '3'
 services:
-  web:
-    build: .
-    ports:
-      - "8050:8050"
+  application:
+    build:
+      context: .
+      dockerfile: Dockerfile-APP  # Specify the Dockerfile for your Python app
+    depends_on:
+      - elasticsearch_setup  
+    volumes:
+      - .:/app/output
+
+  elasticsearch_setup:
+    build:
+      context: ./elasticsearch
+      dockerfile: Dockerfile-ES
+    volumes:
+      - ./elasticsearch/ca:/usr/share/elasticsearch/config/certs/ca  # Map the ca directory in the container to a directory on your host

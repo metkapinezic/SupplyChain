@@ -1,0 +1,15 @@
+# Build the application image
+FROM python:3.8
+
+# Copy your Python scripts and other necessary files
+COPY ./Application/ /app/
+COPY ./run_scripts.sh /app/
+
+# Set the working directory
+WORKDIR /app
+
+# Make the shell script executable
+RUN chmod +x run_scripts.sh
+
+# Run the shell script
+CMD ["./run_scripts.sh"]

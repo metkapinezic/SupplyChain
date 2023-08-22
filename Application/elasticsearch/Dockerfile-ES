@@ -1,0 +1,27 @@
+# Build Elasticsearch setup
+FROM docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION} AS builder
+COPY ./elasticsearch/ /elasticsearch/
+WORKDIR /Application/elasticsearch
+# Run Elasticsearch setup here, if necessary
+
+# Final Image
+FROM docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+
+# Copy files from the builder stage
+COPY --from=builder /elasticsearch /elasticsearch
+
+# Set the working directory
+WORKDIR /Application/elasticsearch
+
+# Build and run the Elasticsearch setup using Docker Compose
+RUN docker-compose -f docker-compose.yml up -d
+
+# Wait for 240
+RUN sleep 240
+
+# Copy the specific files from the running Elasticsearch container
+RUN docker cp elasticsearch-es01-1:/usr/share/elasticsearch/config/certs/ca/ ./
+
+# Set the working directory
+WORKDIR /elasticsearch
+
