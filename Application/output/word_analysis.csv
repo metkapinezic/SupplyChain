@@ -3052,3 +3052,2976 @@ SentimentScores,SentimentLabel,CompanyName,CompanyID,bank account,customer servi
 0.6369,Positive,Swadesh,113,0,0,0
 0.7351,Positive,Swadesh,113,0,0,0
 0.7178,Positive,Swadesh,113,0,0,0
+-0.6778,Negative,PNC Bank,1118,10,0,0
+-0.9074,Negative,PNC Bank,1118,0,1,0
+0.3038,Positive,PNC Bank,1118,2,0,0
+-0.8541,Negative,PNC Bank,1118,3,0,0
+-0.2732,Negative,PNC Bank,1118,0,4,0
+-0.965,Negative,PNC Bank,1118,2,0,0
+-0.8687,Negative,PNC Bank,1118,2,0,0
+-0.5423,Negative,PNC Bank,1118,2,2,0
+0.6808,Positive,PNC Bank,1118,3,0,0
+0.8731,Positive,PNC Bank,1118,1,0,0
+0.4517,Positive,PNC Bank,1118,0,2,0
+0.8797,Positive,PNC Bank,1118,1,0,0
+-0.7979,Negative,PNC Bank,1118,1,0,0
+-0.923,Negative,PNC Bank,1118,2,5,0
+0.5917,Positive,PNC Bank,1118,3,0,1
+0.1862,Positive,PNC Bank,1118,1,3,0
+0.871,Positive,PNC Bank,1118,0,1,0
+0.6369,Positive,PNC Bank,1118,6,4,1
+-0.296,Negative,PNC Bank,1118,0,0,0
+-0.8991,Negative,PNC Bank,1118,9,2,0
+0.8622,Positive,PNC Bank,1118,0,0,0
+-0.9271,Negative,PNC Bank,1118,7,0,1
+0.8379,Positive,PNC Bank,1118,1,0,0
+0.7906,Positive,PNC Bank,1118,4,0,0
+-0.8402,Negative,PNC Bank,1118,0,0,0
+-0.7597,Negative,PNC Bank,1118,1,2,0
+-0.8935,Negative,PNC Bank,1118,0,0,0
+-0.5352,Negative,PNC Bank,1118,1,0,0
+-0.1983,Negative,PNC Bank,1118,3,0,0
+-0.552,Negative,PNC Bank,1118,0,0,0
+-0.8058,Negative,PNC Bank,1118,4,0,0
+-0.5363,Negative,PNC Bank,1118,0,0,0
+-0.5106,Negative,PNC Bank,1118,0,0,0
+0.6322,Positive,PNC Bank,1118,2,0,0
+-0.5242,Negative,PNC Bank,1118,3,0,0
+-0.6788,Negative,PNC Bank,1118,0,0,0
+-0.8139,Negative,PNC Bank,1118,1,2,2
+-0.8034,Negative,PNC Bank,1118,1,0,1
+0.0,Neutral,PNC Bank,1118,0,0,0
+-0.8326,Negative,PNC Bank,1118,3,0,1
+-0.765,Negative,PNC Bank,1118,3,1,1
+0.6369,Positive,PNC Bank,1118,0,1,0
+-0.8877,Negative,PNC Bank,1118,2,3,0
+-0.2023,Negative,PNC Bank,1118,1,0,0
+0.0516,Positive,PNC Bank,1118,0,2,0
+-0.4767,Negative,PNC Bank,1118,4,2,0
+-0.4497,Negative,PNC Bank,1118,4,0,1
+-0.8748,Negative,PNC Bank,1118,0,0,0
+-0.8323,Negative,PNC Bank,1118,1,1,1
+-0.9429,Negative,PNC Bank,1118,1,0,2
+-0.5719,Negative,PNC Bank,1118,1,2,0
+-0.0853,Negative,PNC Bank,1118,1,0,0
+-0.7379,Negative,PNC Bank,1118,1,0,1
+-0.8083,Negative,PNC Bank,1118,2,2,0
+-0.3134,Negative,PNC Bank,1118,0,3,0
+-0.2271,Negative,PNC Bank,1118,0,0,0
+0.4019,Positive,PNC Bank,1118,4,0,0
+0.3049,Positive,PNC Bank,1118,3,1,0
+-0.1511,Negative,PNC Bank,1118,0,0,0
+0.0,Neutral,PNC Bank,1118,0,0,0
+-0.8367,Negative,PNC Bank,1118,0,0,0
+-0.7959,Negative,PNC Bank,1118,1,0,0
+-0.5859,Negative,PNC Bank,1118,2,0,1
+-0.9361,Negative,PNC Bank,1118,0,0,2
+0.7983,Positive,PNC Bank,1118,1,0,1
+-0.6179,Negative,PNC Bank,1118,2,1,0
+-0.1546,Negative,PNC Bank,1118,0,0,0
+-0.946,Negative,PNC Bank,1118,5,2,0
+-0.9099,Negative,PNC Bank,1118,2,0,0
+0.1027,Positive,PNC Bank,1118,1,0,2
+0.9283,Positive,PNC Bank,1118,2,2,0
+-0.802,Negative,PNC Bank,1118,1,0,0
+0.34,Positive,PNC Bank,1118,0,0,0
+0.762,Positive,PNC Bank,1118,1,1,3
+0.8528,Positive,PNC Bank,1118,1,0,0
+-0.7975,Negative,PNC Bank,1118,3,0,0
+-0.5267,Negative,PNC Bank,1118,0,1,0
+-0.6124,Negative,PNC Bank,1118,1,0,0
+-0.9537,Negative,PNC Bank,1118,2,2,0
+-0.9496,Negative,PNC Bank,1118,0,0,0
+-0.733,Negative,PNC Bank,1118,1,2,0
+-0.2263,Negative,PNC Bank,1118,0,0,0
+0.7695,Positive,PNC Bank,1118,1,0,0
+-0.1531,Negative,PNC Bank,1118,0,0,0
+0.5284,Positive,PNC Bank,1118,4,0,5
+-0.1779,Negative,PNC Bank,1118,1,0,4
+-0.7241,Negative,PNC Bank,1118,3,1,0
+-0.7058,Negative,PNC Bank,1118,2,0,0
+0.3804,Positive,PNC Bank,1118,5,2,0
+-0.879,Negative,PNC Bank,1118,0,0,1
+-0.1531,Negative,PNC Bank,1118,0,0,0
+0.6604,Positive,PNC Bank,1118,4,0,0
+0.1289,Positive,PNC Bank,1118,0,0,0
+-0.861,Negative,PNC Bank,1118,1,0,1
+-0.6852,Negative,PNC Bank,1118,2,2,0
+0.7416,Positive,PNC Bank,1118,2,0,3
+0.8057,Positive,PNC Bank,1118,0,1,0
+0.6566,Positive,PNC Bank,1118,0,1,0
+0.7878,Positive,PNC Bank,1118,2,0,0
+-0.6685,Negative,PNC Bank,1118,0,4,0
+-0.5267,Negative,PNC Bank,1118,0,0,0
+0.7881,Positive,PNC Bank,1118,0,5,0
+0.5962,Positive,PNC Bank,1118,1,0,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.5574,Negative,PNC Bank,1118,1,0,0
+-0.7579,Negative,PNC Bank,1118,3,0,0
+0.9184,Positive,PNC Bank,1118,1,0,2
+-0.8465,Negative,PNC Bank,1118,0,0,0
+-0.4798,Negative,PNC Bank,1118,2,0,0
+-0.6124,Negative,PNC Bank,1118,0,2,0
+0.8225,Positive,PNC Bank,1118,1,0,0
+-0.34,Negative,PNC Bank,1118,1,0,0
+-0.4215,Negative,PNC Bank,1118,4,0,1
+-0.8601,Negative,PNC Bank,1118,3,3,0
+-0.8313,Negative,PNC Bank,1118,0,0,0
+-0.5423,Negative,PNC Bank,1118,1,0,1
+-0.2354,Negative,PNC Bank,1118,2,0,2
+-0.1825,Negative,PNC Bank,1118,2,2,0
+-0.2924,Negative,PNC Bank,1118,2,0,0
+0.4404,Positive,PNC Bank,1118,1,0,0
+-0.9521,Negative,PNC Bank,1118,2,2,0
+-0.7339,Negative,PNC Bank,1118,1,0,1
+-0.7321,Negative,PNC Bank,1118,1,0,0
+-0.659,Negative,PNC Bank,1118,1,2,0
+0.8634,Positive,PNC Bank,1118,6,2,0
+0.5185,Positive,PNC Bank,1118,1,0,0
+0.0,Neutral,PNC Bank,1118,5,0,0
+-0.8746,Negative,PNC Bank,1118,0,0,0
+-0.8058,Negative,PNC Bank,1118,5,1,0
+-0.8114,Negative,PNC Bank,1118,1,0,0
+-0.829,Negative,PNC Bank,1118,1,2,0
+-0.7896,Negative,PNC Bank,1118,0,0,0
+-0.8268,Negative,PNC Bank,1118,4,0,0
+-0.5984,Negative,PNC Bank,1118,2,5,0
+-0.9435,Negative,PNC Bank,1118,12,2,0
+-0.296,Negative,PNC Bank,1118,1,0,0
+-0.3164,Negative,PNC Bank,1118,0,2,0
+0.6028,Positive,PNC Bank,1118,0,0,0
+-0.7599,Negative,PNC Bank,1118,2,0,0
+-0.4588,Negative,PNC Bank,1118,0,0,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.7547,Negative,PNC Bank,1118,2,0,0
+0.0557,Positive,PNC Bank,1118,2,0,2
+-0.9249,Negative,PNC Bank,1118,1,0,0
+0.0,Neutral,PNC Bank,1118,2,0,0
+-0.69,Negative,PNC Bank,1118,0,2,0
+-0.7111,Negative,PNC Bank,1118,6,2,0
+0.9758,Positive,PNC Bank,1118,0,1,0
+0.5526,Positive,PNC Bank,1118,1,0,0
+-0.7622,Negative,PNC Bank,1118,0,0,0
+-0.8677,Negative,PNC Bank,1118,2,0,0
+0.0,Neutral,PNC Bank,1118,0,0,0
+-0.1141,Negative,PNC Bank,1118,3,0,0
+-0.2755,Negative,PNC Bank,1118,0,0,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.3384,Negative,PNC Bank,1118,0,0,0
+-0.807,Negative,PNC Bank,1118,1,2,0
+0.9162,Positive,PNC Bank,1118,2,0,1
+0.9699,Positive,PNC Bank,1118,4,2,7
+-0.7003,Negative,PNC Bank,1118,1,2,0
+-0.8847,Negative,PNC Bank,1118,0,1,0
+0.9493,Positive,PNC Bank,1118,1,0,0
+-0.6146,Negative,PNC Bank,1118,5,2,0
+0.5994,Positive,PNC Bank,1118,2,0,1
+-0.8636,Negative,PNC Bank,1118,0,0,0
+0.6124,Positive,PNC Bank,1118,2,2,0
+-0.7179,Negative,PNC Bank,1118,3,0,0
+-0.8591,Negative,PNC Bank,1118,5,0,0
+-0.8663,Negative,PNC Bank,1118,1,0,1
+-0.5423,Negative,PNC Bank,1118,0,0,0
+-0.872,Negative,PNC Bank,1118,3,0,0
+-0.9667,Negative,PNC Bank,1118,2,3,0
+0.8133,Positive,PNC Bank,1118,3,1,0
+-0.6075,Negative,PNC Bank,1118,1,0,0
+0.9552,Positive,PNC Bank,1118,7,2,0
+-0.4404,Negative,PNC Bank,1118,1,0,0
+-0.91,Negative,PNC Bank,1118,6,0,0
+0.3912,Positive,PNC Bank,1118,3,6,0
+0.9824,Positive,PNC Bank,1118,0,0,0
+-0.636,Negative,PNC Bank,1118,1,1,0
+-0.8802,Negative,PNC Bank,1118,3,0,0
+0.9622,Positive,PNC Bank,1118,19,5,0
+0.9035,Positive,PNC Bank,1118,5,0,0
+-0.9938,Negative,PNC Bank,1118,8,4,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+0.9729,Positive,PNC Bank,1118,4,2,0
+0.8974,Positive,PNC Bank,1118,0,1,0
+0.0,Neutral,PNC Bank,1118,0,0,0
+-0.3506,Negative,PNC Bank,1118,2,0,0
+-0.5197,Negative,PNC Bank,1118,3,0,0
+0.5766,Positive,PNC Bank,1118,7,0,0
+-0.1761,Negative,PNC Bank,1118,0,0,0
+-0.4767,Negative,PNC Bank,1118,0,0,0
+-0.965,Negative,PNC Bank,1118,7,1,3
+-0.8884,Negative,PNC Bank,1118,11,8,1
+-0.9422,Negative,PNC Bank,1118,7,7,2
+-0.0772,Negative,PNC Bank,1118,1,1,0
+0.7063,Positive,PNC Bank,1118,1,1,0
+-0.1531,Negative,PNC Bank,1118,0,0,0
+0.34,Positive,PNC Bank,1118,2,0,0
+-0.8271,Negative,PNC Bank,1118,0,0,0
+0.4926,Positive,PNC Bank,1118,1,0,0
+-0.9479,Negative,PNC Bank,1118,1,7,1
+0.0,Neutral,PNC Bank,1118,1,1,0
+0.6073,Positive,PNC Bank,1118,0,1,0
+-0.78,Negative,PNC Bank,1118,1,2,0
+0.296,Positive,PNC Bank,1118,1,0,0
+-0.8564,Negative,PNC Bank,1118,0,2,2
+-0.7717,Negative,PNC Bank,1118,1,0,0
+0.3597,Positive,PNC Bank,1118,1,0,0
+0.8302,Positive,PNC Bank,1118,1,2,0
+-0.8173,Negative,PNC Bank,1118,5,4,0
+-0.1058,Negative,PNC Bank,1118,1,0,1
+-0.9689,Negative,PNC Bank,1118,0,4,0
+-0.7579,Negative,PNC Bank,1118,0,0,0
+-0.7407,Negative,PNC Bank,1118,3,0,0
+0.6345,Positive,PNC Bank,1118,6,0,1
+-0.7824,Negative,PNC Bank,1118,2,0,0
+0.4019,Positive,PNC Bank,1118,0,0,0
+-0.8004,Negative,PNC Bank,1118,2,0,0
+-0.7248,Negative,PNC Bank,1118,6,2,0
+0.8807,Positive,PNC Bank,1118,0,1,0
+-0.5719,Negative,PNC Bank,1118,2,0,0
+-0.9365,Negative,PNC Bank,1118,2,1,0
+-0.9291,Negative,PNC Bank,1118,1,0,0
+-0.9134,Negative,PNC Bank,1118,1,0,0
+0.6687,Positive,PNC Bank,1118,2,2,0
+-0.9605,Negative,PNC Bank,1118,0,0,0
+-0.4215,Negative,PNC Bank,1118,1,0,0
+0.5023,Positive,PNC Bank,1118,4,0,0
+-0.802,Negative,PNC Bank,1118,4,1,0
+-0.3637,Negative,PNC Bank,1118,2,0,0
+-0.5775,Negative,PNC Bank,1118,9,6,0
+-0.8176,Negative,PNC Bank,1118,3,0,0
+0.9311,Positive,PNC Bank,1118,1,0,6
+0.8283,Positive,PNC Bank,1118,1,0,1
+-0.7398,Negative,PNC Bank,1118,1,0,2
+-0.6991,Negative,PNC Bank,1118,1,1,1
+-0.5992,Negative,PNC Bank,1118,1,2,4
+-0.9196,Negative,PNC Bank,1118,3,0,0
+-0.3875,Negative,PNC Bank,1118,1,0,0
+-0.6199,Negative,PNC Bank,1118,3,1,0
+-0.8558,Negative,PNC Bank,1118,2,0,0
+-0.1531,Negative,PNC Bank,1118,1,0,0
+0.6418,Positive,PNC Bank,1118,6,7,0
+0.1779,Positive,PNC Bank,1118,0,0,1
+-0.5805,Negative,PNC Bank,1118,2,0,1
+-0.1315,Negative,PNC Bank,1118,0,2,2
+0.4019,Positive,PNC Bank,1118,2,0,0
+-0.952,Negative,PNC Bank,1118,7,1,0
+-0.9414,Negative,PNC Bank,1118,1,0,0
+-0.7405,Negative,PNC Bank,1118,1,2,0
+-0.9446,Negative,PNC Bank,1118,4,0,4
+-0.6449,Negative,PNC Bank,1118,0,0,0
+-0.2732,Negative,PNC Bank,1118,0,2,0
+0.1045,Positive,PNC Bank,1118,0,0,0
+0.0657,Positive,PNC Bank,1118,1,0,0
+0.9594,Positive,PNC Bank,1118,1,0,3
+-0.1027,Negative,PNC Bank,1118,1,0,1
+-0.8181,Negative,PNC Bank,1118,2,0,0
+0.685,Positive,PNC Bank,1118,3,2,2
+-0.9758,Negative,PNC Bank,1118,2,0,1
+-0.9243,Negative,PNC Bank,1118,0,4,0
+-0.8852,Negative,PNC Bank,1118,5,1,0
+-0.7514,Negative,PNC Bank,1118,3,0,1
+0.2691,Positive,PNC Bank,1118,1,0,2
+-0.8914,Negative,PNC Bank,1118,0,0,2
+-0.8313,Negative,PNC Bank,1118,1,0,0
+-0.9882,Negative,PNC Bank,1118,0,0,0
+-0.5967,Negative,PNC Bank,1118,0,2,0
+-0.3022,Negative,PNC Bank,1118,0,2,0
+0.7828,Positive,PNC Bank,1118,3,2,0
+-0.9734,Negative,PNC Bank,1118,1,3,0
+-0.8224,Negative,PNC Bank,1118,0,1,1
+-0.7866,Negative,PNC Bank,1118,3,6,0
+-0.2732,Negative,PNC Bank,1118,0,0,0
+-0.6571,Negative,PNC Bank,1118,0,2,1
+-0.6486,Negative,PNC Bank,1118,0,0,0
+-0.8983,Negative,PNC Bank,1118,3,2,0
+-0.9845,Negative,PNC Bank,1118,8,2,0
+0.7884,Positive,PNC Bank,1118,1,1,0
+0.4019,Positive,PNC Bank,1118,1,0,0
+-0.9192,Negative,PNC Bank,1118,2,0,0
+-0.7819,Negative,PNC Bank,1118,0,2,0
+-0.9098,Negative,PNC Bank,1118,1,0,0
+0.296,Positive,PNC Bank,1118,0,0,0
+-0.2144,Negative,PNC Bank,1118,4,0,0
+-0.968,Negative,PNC Bank,1118,1,2,0
+-0.7906,Negative,PNC Bank,1118,0,2,0
+-0.296,Negative,PNC Bank,1118,0,0,0
+0.0,Neutral,PNC Bank,1118,2,0,0
+-0.6249,Negative,PNC Bank,1118,1,0,0
+-0.4344,Negative,PNC Bank,1118,1,0,0
+-0.9168,Negative,PNC Bank,1118,2,0,0
+0.4914,Positive,PNC Bank,1118,1,1,0
+0.4215,Positive,PNC Bank,1118,6,1,1
+-0.7184,Negative,PNC Bank,1118,1,0,0
+-0.6249,Negative,PNC Bank,1118,2,0,0
+-0.8402,Negative,PNC Bank,1118,3,0,0
+-0.7836,Negative,PNC Bank,1118,3,0,0
+0.8525,Positive,PNC Bank,1118,0,0,0
+-0.434,Negative,PNC Bank,1118,3,0,0
+-0.9104,Negative,PNC Bank,1118,1,0,0
+-0.3071,Negative,PNC Bank,1118,2,0,0
+-0.2291,Negative,PNC Bank,1118,1,1,0
+-0.7834,Negative,PNC Bank,1118,3,2,0
+-0.7906,Negative,PNC Bank,1118,2,0,0
+0.2433,Positive,PNC Bank,1118,2,0,1
+0.0982,Positive,PNC Bank,1118,2,1,0
+0.807,Positive,PNC Bank,1118,1,0,0
+-0.9715,Negative,PNC Bank,1118,0,2,0
+0.1531,Positive,PNC Bank,1118,1,0,0
+0.3048,Positive,PNC Bank,1118,1,0,0
+0.1779,Positive,PNC Bank,1118,1,2,0
+-0.9891,Negative,PNC Bank,1118,13,2,2
+-0.659,Negative,PNC Bank,1118,0,0,0
+0.7326,Positive,PNC Bank,1118,0,0,1
+-0.7859,Negative,PNC Bank,1118,5,2,0
+-0.9176,Negative,PNC Bank,1118,3,6,0
+-0.6984,Negative,PNC Bank,1118,0,0,2
+0.9094,Positive,PNC Bank,1118,0,0,0
+0.1603,Positive,PNC Bank,1118,0,0,0
+-0.25,Negative,PNC Bank,1118,5,0,0
+-0.872,Negative,PNC Bank,1118,4,0,0
+0.5267,Positive,PNC Bank,1118,1,0,1
+0.1722,Positive,PNC Bank,1118,2,2,2
+0.5053,Positive,PNC Bank,1118,0,2,0
+-0.9355,Negative,PNC Bank,1118,1,0,0
+-0.5628,Negative,PNC Bank,1118,0,0,0
+0.5247,Positive,PNC Bank,1118,2,0,0
+-0.571,Negative,PNC Bank,1118,2,2,0
+-0.6249,Negative,PNC Bank,1118,2,0,0
+-0.6671,Negative,PNC Bank,1118,0,0,0
+-0.5824,Negative,PNC Bank,1118,3,2,0
+-0.7326,Negative,PNC Bank,1118,0,0,1
+-0.4989,Negative,PNC Bank,1118,0,0,1
+0.743,Positive,PNC Bank,1118,0,0,0
+-0.5255,Negative,PNC Bank,1118,0,0,0
+-0.6998,Negative,PNC Bank,1118,3,0,0
+-0.1779,Negative,PNC Bank,1118,0,2,0
+-0.29,Negative,PNC Bank,1118,3,1,0
+-0.8355,Negative,PNC Bank,1118,3,0,0
+-0.5423,Negative,PNC Bank,1118,2,1,0
+-0.6398,Negative,PNC Bank,1118,4,0,1
+-0.4767,Negative,PNC Bank,1118,1,0,0
+-0.9042,Negative,PNC Bank,1118,0,2,1
+0.765,Positive,PNC Bank,1118,1,0,0
+-0.0258,Neutral,PNC Bank,1118,3,0,1
+-0.997,Negative,PNC Bank,1118,2,0,0
+-0.9209,Negative,PNC Bank,1118,1,0,0
+0.0,Neutral,PNC Bank,1118,1,2,0
+-0.9396,Negative,PNC Bank,1118,4,0,0
+0.453,Positive,PNC Bank,1118,0,0,0
+-0.6675,Negative,PNC Bank,1118,4,2,0
+-0.3102,Negative,PNC Bank,1118,2,1,0
+-0.9697,Negative,PNC Bank,1118,0,2,0
+0.3413,Positive,PNC Bank,1118,2,0,0
+0.6249,Positive,PNC Bank,1118,1,0,4
+-0.7837,Negative,PNC Bank,1118,5,4,0
+0.9245,Positive,PNC Bank,1118,0,0,0
+0.4877,Positive,PNC Bank,1118,0,0,0
+0.193,Positive,PNC Bank,1118,1,0,2
+-0.7003,Negative,PNC Bank,1118,1,2,0
+-0.5267,Negative,PNC Bank,1118,1,0,0
+-0.2006,Negative,PNC Bank,1118,0,2,0
+-0.0129,Neutral,PNC Bank,1118,1,1,2
+-0.8541,Negative,PNC Bank,1118,0,0,0
+0.634,Positive,PNC Bank,1118,0,3,0
+0.5878,Positive,PNC Bank,1118,2,0,3
+-0.7167,Negative,PNC Bank,1118,1,0,0
+0.8593,Positive,PNC Bank,1118,8,2,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.8632,Negative,PNC Bank,1118,0,0,0
+-0.5597,Negative,PNC Bank,1118,2,0,0
+0.1928,Positive,PNC Bank,1118,4,0,0
+-0.706,Negative,PNC Bank,1118,3,4,0
+-0.8306,Negative,PNC Bank,1118,2,0,0
+-0.714,Negative,PNC Bank,1118,0,0,0
+-0.8797,Negative,PNC Bank,1118,6,2,0
+0.825,Positive,PNC Bank,1118,1,0,2
+-0.9729,Negative,PNC Bank,1118,3,0,0
+-0.9709,Negative,PNC Bank,1118,3,1,0
+-0.1531,Negative,PNC Bank,1118,0,0,0
+-0.4404,Negative,PNC Bank,1118,0,0,0
+-0.3102,Negative,PNC Bank,1118,1,0,0
+0.8097,Positive,PNC Bank,1118,4,0,2
+-0.5951,Negative,PNC Bank,1118,1,0,0
+0.8853,Positive,PNC Bank,1118,1,3,0
+-0.9295,Negative,PNC Bank,1118,1,0,0
+-0.1027,Negative,PNC Bank,1118,0,0,1
+-0.3479,Negative,PNC Bank,1118,1,6,3
+-0.4404,Negative,PNC Bank,1118,3,0,2
+-0.6808,Negative,PNC Bank,1118,4,0,0
+0.5423,Positive,PNC Bank,1118,0,0,0
+-0.8122,Negative,PNC Bank,1118,1,1,0
+-0.1513,Negative,PNC Bank,1118,0,0,0
+-0.4927,Negative,PNC Bank,1118,1,0,1
+-0.5859,Negative,PNC Bank,1118,3,0,0
+-0.2732,Negative,PNC Bank,1118,1,0,0
+0.1451,Positive,PNC Bank,1118,3,0,0
+-0.8307,Negative,PNC Bank,1118,0,2,1
+-0.3533,Negative,PNC Bank,1118,0,0,0
+-0.9469,Negative,PNC Bank,1118,0,0,0
+-0.8277,Negative,PNC Bank,1118,4,0,0
+-0.8461,Negative,PNC Bank,1118,4,0,0
+-0.1672,Negative,PNC Bank,1118,0,0,4
+0.0018,Neutral,PNC Bank,1118,1,0,1
+-0.9382,Negative,PNC Bank,1118,2,0,1
+-0.7331,Negative,PNC Bank,1118,3,0,0
+-0.8331,Negative,PNC Bank,1118,2,0,0
+-0.8858,Negative,PNC Bank,1118,0,0,8
+-0.9218,Negative,PNC Bank,1118,0,0,0
+-0.8004,Negative,PNC Bank,1118,2,0,0
+-0.9882,Negative,PNC Bank,1118,0,0,0
+-0.0987,Negative,PNC Bank,1118,1,0,4
+-0.9373,Negative,PNC Bank,1118,2,0,0
+0.2235,Positive,PNC Bank,1118,0,0,0
+-0.7096,Negative,PNC Bank,1118,2,0,0
+0.5256,Positive,PNC Bank,1118,0,0,0
+0.0299,Neutral,PNC Bank,1118,2,0,0
+0.5216,Positive,PNC Bank,1118,0,0,0
+0.2406,Positive,PNC Bank,1118,3,1,1
+-0.8857,Negative,PNC Bank,1118,2,0,0
+0.2732,Positive,PNC Bank,1118,0,0,0
+-0.9718,Negative,PNC Bank,1118,1,2,1
+-0.992,Negative,PNC Bank,1118,8,2,0
+-0.9599,Negative,PNC Bank,1118,3,0,0
+-0.7276,Negative,PNC Bank,1118,1,0,0
+-0.0772,Negative,PNC Bank,1118,1,1,2
+0.8687,Positive,PNC Bank,1118,4,0,0
+0.4003,Positive,PNC Bank,1118,0,1,3
+-0.1901,Negative,PNC Bank,1118,2,1,0
+0.9216,Positive,PNC Bank,1118,1,0,0
+0.893,Positive,PNC Bank,1118,2,0,0
+0.93,Positive,PNC Bank,1118,1,2,0
+0.719,Positive,PNC Bank,1118,0,0,1
+-0.6487,Negative,PNC Bank,1118,0,0,0
+-0.6083,Negative,PNC Bank,1118,1,0,0
+0.818,Positive,PNC Bank,1118,4,3,0
+0.5859,Positive,PNC Bank,1118,0,0,0
+-0.8979,Negative,PNC Bank,1118,0,1,0
+-0.9714,Negative,PNC Bank,1118,6,11,0
+-0.7777,Negative,PNC Bank,1118,0,0,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+0.6358,Positive,PNC Bank,1118,0,2,3
+-0.4767,Negative,PNC Bank,1118,0,2,0
+-0.9656,Negative,PNC Bank,1118,8,0,2
+-0.7632,Negative,PNC Bank,1118,0,0,0
+-0.7695,Negative,PNC Bank,1118,4,3,0
+0.8611,Positive,PNC Bank,1118,2,2,0
+-0.925,Negative,PNC Bank,1118,2,0,0
+-0.5744,Negative,PNC Bank,1118,1,0,0
+-0.049,Neutral,PNC Bank,1118,0,0,2
+-0.4939,Negative,PNC Bank,1118,0,0,0
+0.2732,Positive,PNC Bank,1118,0,0,0
+-0.1896,Negative,PNC Bank,1118,0,0,0
+0.8382,Positive,PNC Bank,1118,4,1,0
+-0.9933,Negative,PNC Bank,1118,20,1,0
+-0.7579,Negative,PNC Bank,1118,0,2,0
+-0.9587,Negative,PNC Bank,1118,6,1,0
+-0.9032,Negative,PNC Bank,1118,0,1,0
+-0.977,Negative,PNC Bank,1118,5,0,0
+0.5994,Positive,PNC Bank,1118,0,0,0
+-0.7925,Negative,PNC Bank,1118,0,0,0
+-0.6495,Negative,PNC Bank,1118,6,0,0
+-0.9171,Negative,PNC Bank,1118,3,0,0
+0.4124,Positive,PNC Bank,1118,8,0,0
+-0.9875,Negative,PNC Bank,1118,1,3,0
+-0.7386,Negative,PNC Bank,1118,1,2,0
+-0.7036,Negative,PNC Bank,1118,3,0,0
+-0.1027,Negative,PNC Bank,1118,1,1,0
+-0.588,Negative,PNC Bank,1118,2,0,0
+-0.6987,Negative,PNC Bank,1118,1,2,0
+-0.8906,Negative,PNC Bank,1118,1,3,1
+0.0701,Positive,PNC Bank,1118,0,0,0
+-0.2726,Negative,PNC Bank,1118,0,0,0
+-0.9442,Negative,PNC Bank,1118,2,1,0
+-0.9245,Negative,PNC Bank,1118,4,0,0
+-0.9318,Negative,PNC Bank,1118,5,0,0
+-0.8507,Negative,PNC Bank,1118,1,0,0
+-0.9411,Negative,PNC Bank,1118,0,2,0
+-0.8844,Negative,PNC Bank,1118,2,3,1
+0.8771,Positive,PNC Bank,1118,1,0,1
+-0.296,Negative,PNC Bank,1118,0,0,0
+-0.9643,Negative,PNC Bank,1118,5,0,0
+0.6369,Positive,PNC Bank,1118,2,2,1
+-0.8588,Negative,PNC Bank,1118,0,1,0
+-0.5106,Negative,PNC Bank,1118,0,0,0
+-0.4939,Negative,PNC Bank,1118,1,0,0
+0.2263,Positive,PNC Bank,1118,2,4,0
+0.676,Positive,PNC Bank,1118,0,0,0
+-0.8106,Negative,PNC Bank,1118,1,0,0
+-0.8519,Negative,PNC Bank,1118,0,0,0
+-0.2481,Negative,PNC Bank,1118,2,0,0
+-0.3182,Negative,PNC Bank,1118,2,0,0
+-0.77,Negative,PNC Bank,1118,0,0,0
+-0.7506,Negative,PNC Bank,1118,1,0,1
+-0.8346,Negative,PNC Bank,1118,0,1,0
+-0.2481,Negative,PNC Bank,1118,2,0,0
+-0.9485,Negative,PNC Bank,1118,1,0,0
+-0.8439,Negative,PNC Bank,1118,2,0,0
+-0.5948,Negative,PNC Bank,1118,1,1,0
+-0.5801,Negative,PNC Bank,1118,2,2,0
+-0.9777,Negative,PNC Bank,1118,2,1,0
+-0.3111,Negative,PNC Bank,1118,0,0,0
+-0.9146,Negative,PNC Bank,1118,2,3,0
+-0.6705,Negative,PNC Bank,1118,2,0,0
+-0.9231,Negative,PNC Bank,1118,5,0,0
+-0.7222,Negative,PNC Bank,1118,0,0,0
+-0.9375,Negative,PNC Bank,1118,8,0,0
+0.8439,Positive,PNC Bank,1118,1,0,2
+-0.5411,Negative,PNC Bank,1118,1,0,0
+-0.1717,Negative,PNC Bank,1118,1,0,0
+0.2247,Positive,PNC Bank,1118,1,2,0
+0.4429,Positive,PNC Bank,1118,1,8,0
+0.1779,Positive,PNC Bank,1118,0,0,0
+0.5423,Positive,PNC Bank,1118,1,0,0
+-0.8716,Negative,PNC Bank,1118,1,2,0
+-0.6597,Negative,PNC Bank,1118,0,0,1
+-0.9666,Negative,PNC Bank,1118,1,0,0
+-0.9186,Negative,PNC Bank,1118,4,1,0
+-0.2118,Negative,PNC Bank,1118,4,0,0
+0.8473,Positive,PNC Bank,1118,4,2,0
+-0.7184,Negative,PNC Bank,1118,0,0,0
+-0.8807,Negative,PNC Bank,1118,1,0,0
+-0.8588,Negative,PNC Bank,1118,0,1,0
+-0.7184,Negative,PNC Bank,1118,1,0,0
+-0.7326,Negative,PNC Bank,1118,2,0,1
+0.6308,Positive,PNC Bank,1118,3,0,0
+-0.9734,Negative,PNC Bank,1118,1,1,2
+-0.7003,Negative,PNC Bank,1118,3,0,1
+0.3851,Positive,PNC Bank,1118,0,2,0
+0.0,Neutral,PNC Bank,1118,3,0,0
+0.5719,Positive,PNC Bank,1118,0,1,0
+-0.9843,Negative,PNC Bank,1118,2,0,2
+-0.8338,Negative,PNC Bank,1118,0,0,0
+0.5267,Positive,PNC Bank,1118,2,0,3
+-0.4694,Negative,PNC Bank,1118,2,0,0
+-0.8297,Negative,PNC Bank,1118,0,0,0
+-0.8999,Negative,PNC Bank,1118,2,0,0
+-0.7488,Negative,PNC Bank,1118,2,0,0
+-0.0127,Neutral,PNC Bank,1118,1,0,0
+0.3612,Positive,PNC Bank,1118,0,0,0
+-0.8269,Negative,PNC Bank,1118,2,1,1
+0.5828,Positive,PNC Bank,1118,3,1,1
+-0.2876,Negative,PNC Bank,1118,2,0,0
+-0.6597,Negative,PNC Bank,1118,0,0,0
+-0.7265,Negative,PNC Bank,1118,1,0,0
+0.3612,Positive,PNC Bank,1118,1,0,0
+-0.5121,Negative,PNC Bank,1118,2,1,0
+-0.7269,Negative,PNC Bank,1118,0,2,0
+-0.9516,Negative,PNC Bank,1118,6,1,0
+-0.956,Negative,PNC Bank,1118,4,1,0
+-0.7984,Negative,PNC Bank,1118,2,3,0
+0.8168,Positive,PNC Bank,1118,0,0,0
+-0.8221,Negative,PNC Bank,1118,1,3,5
+-0.8225,Negative,PNC Bank,1118,1,0,0
+0.0,Neutral,PNC Bank,1118,3,0,0
+-0.6596,Negative,PNC Bank,1118,2,0,0
+0.4866,Positive,PNC Bank,1118,1,3,2
+-0.3586,Negative,PNC Bank,1118,1,2,0
+0.6744,Positive,PNC Bank,1118,3,0,0
+-0.8691,Negative,PNC Bank,1118,2,0,0
+-0.8375,Negative,PNC Bank,1118,2,0,0
+0.8619,Positive,PNC Bank,1118,4,2,0
+-0.9597,Negative,PNC Bank,1118,13,0,0
+-0.3612,Negative,PNC Bank,1118,0,0,0
+0.9305,Positive,PNC Bank,1118,1,1,0
+-0.9018,Negative,PNC Bank,1118,3,2,0
+-0.3094,Negative,PNC Bank,1118,0,0,0
+0.8059,Positive,PNC Bank,1118,3,0,0
+-0.4876,Negative,PNC Bank,1118,3,0,0
+-0.9649,Negative,PNC Bank,1118,1,0,0
+-0.3595,Negative,PNC Bank,1118,0,0,0
+0.9474,Positive,PNC Bank,1118,0,0,1
+-0.359,Negative,PNC Bank,1118,0,4,0
+-0.8666,Negative,PNC Bank,1118,2,1,0
+0.6895,Positive,PNC Bank,1118,2,0,0
+-0.6779,Negative,PNC Bank,1118,0,2,1
+-0.5267,Negative,PNC Bank,1118,1,0,0
+0.7048,Positive,PNC Bank,1118,1,2,0
+-0.9337,Negative,PNC Bank,1118,2,0,0
+-0.1027,Negative,PNC Bank,1118,2,1,2
+0.8625,Positive,PNC Bank,1118,0,0,0
+-0.6249,Negative,PNC Bank,1118,0,6,0
+0.0927,Positive,PNC Bank,1118,2,1,1
+-0.8408,Negative,PNC Bank,1118,3,4,0
+0.7469,Positive,PNC Bank,1118,0,0,0
+0.0772,Positive,PNC Bank,1118,2,0,0
+-0.743,Negative,PNC Bank,1118,1,0,0
+-0.7777,Negative,PNC Bank,1118,2,5,0
+0.0,Neutral,PNC Bank,1118,0,0,0
+0.3279,Positive,PNC Bank,1118,1,0,0
+0.1343,Positive,PNC Bank,1118,0,2,2
+-0.8775,Negative,PNC Bank,1118,1,0,0
+-0.4854,Negative,PNC Bank,1118,5,0,0
+-0.2023,Negative,PNC Bank,1118,1,0,0
+-0.8829,Negative,PNC Bank,1118,0,0,0
+-0.8071,Negative,PNC Bank,1118,1,4,0
+-0.7517,Negative,PNC Bank,1118,4,0,3
+-0.7096,Negative,PNC Bank,1118,0,2,0
+0.0,Neutral,PNC Bank,1118,2,0,0
+0.5682,Positive,PNC Bank,1118,1,1,1
+-0.9514,Negative,PNC Bank,1118,6,2,0
+-0.4767,Negative,PNC Bank,1118,0,1,0
+-0.8316,Negative,PNC Bank,1118,0,0,0
+0.4927,Positive,PNC Bank,1118,2,0,0
+-0.9399,Negative,PNC Bank,1118,2,0,0
+-0.4404,Negative,PNC Bank,1118,3,0,0
+-0.272,Negative,PNC Bank,1118,2,0,1
+-0.4798,Negative,PNC Bank,1118,3,0,0
+-0.4588,Negative,PNC Bank,1118,1,2,6
+-0.7452,Negative,PNC Bank,1118,1,2,0
+-0.6467,Negative,PNC Bank,1118,1,0,0
+-0.9707,Negative,PNC Bank,1118,3,2,0
+0.2278,Positive,PNC Bank,1118,0,0,0
+-0.6927,Negative,PNC Bank,1118,0,0,0
+-0.5255,Negative,PNC Bank,1118,1,1,0
+-0.6826,Negative,PNC Bank,1118,7,3,1
+-0.9748,Negative,PNC Bank,1118,1,2,5
+0.2263,Positive,PNC Bank,1118,1,2,0
+0.9022,Positive,PNC Bank,1118,0,0,0
+-0.6249,Negative,PNC Bank,1118,0,2,0
+-0.9526,Negative,PNC Bank,1118,2,0,1
+0.0923,Positive,PNC Bank,1118,2,4,0
+-0.0632,Negative,PNC Bank,1118,5,5,0
+-0.6597,Negative,PNC Bank,1118,2,2,0
+0.9735,Positive,PNC Bank,1118,2,1,2
+0.9362,Positive,PNC Bank,1118,3,0,3
+-0.9201,Negative,PNC Bank,1118,0,2,0
+-0.6898,Negative,PNC Bank,1118,6,0,0
+-0.5346,Negative,PNC Bank,1118,4,2,0
+-0.9349,Negative,PNC Bank,1118,2,3,0
+-0.6893,Negative,PNC Bank,1118,4,0,0
+-0.9115,Negative,PNC Bank,1118,0,0,0
+-0.4753,Negative,PNC Bank,1118,1,0,0
+-0.9081,Negative,PNC Bank,1118,4,0,0
+0.9819,Positive,PNC Bank,1118,3,2,0
+-0.8732,Negative,PNC Bank,1118,5,0,0
+-0.4576,Negative,PNC Bank,1118,1,0,0
+-0.296,Negative,PNC Bank,1118,0,0,0
+-0.7891,Negative,PNC Bank,1118,0,2,0
+-0.8097,Negative,PNC Bank,1118,4,0,0
+0.8176,Positive,PNC Bank,1118,1,1,0
+-0.8147,Negative,PNC Bank,1118,2,1,0
+-0.9513,Negative,PNC Bank,1118,0,0,0
+-0.5778,Negative,PNC Bank,1118,0,3,0
+0.0,Neutral,PNC Bank,1118,0,0,0
+0.6288,Positive,PNC Bank,1118,2,7,0
+0.1255,Positive,PNC Bank,1118,1,0,1
+0.3818,Positive,PNC Bank,1118,0,0,1
+-0.8848,Negative,PNC Bank,1118,7,0,0
+-0.6249,Negative,PNC Bank,1118,1,0,0
+-0.9431,Negative,PNC Bank,1118,1,1,0
+-0.8104,Negative,PNC Bank,1118,0,0,0
+-0.9787,Negative,PNC Bank,1118,3,1,0
+0.9919,Positive,PNC Bank,1118,5,5,0
+0.5127,Positive,PNC Bank,1118,0,2,0
+-0.5881,Negative,PNC Bank,1118,2,0,0
+-0.7824,Negative,PNC Bank,1118,0,0,0
+-0.7506,Negative,PNC Bank,1118,0,2,0
+-0.6652,Negative,PNC Bank,1118,0,1,0
+-0.8376,Negative,PNC Bank,1118,2,2,0
+-0.9235,Negative,PNC Bank,1118,0,2,0
+0.9809,Positive,PNC Bank,1118,4,3,0
+0.0516,Positive,PNC Bank,1118,0,0,0
+0.6908,Positive,PNC Bank,1118,2,4,0
+-0.6808,Negative,PNC Bank,1118,1,1,0
+-0.1027,Negative,PNC Bank,1118,0,0,0
+0.4939,Positive,PNC Bank,1118,0,3,0
+0.8057,Positive,PNC Bank,1118,2,8,0
+-0.5229,Negative,PNC Bank,1118,3,0,1
+-0.9287,Negative,PNC Bank,1118,2,0,2
+0.6331,Positive,PNC Bank,1118,6,1,1
+0.4732,Positive,PNC Bank,1118,0,1,0
+-0.9923,Negative,PNC Bank,1118,2,2,0
+-0.8675,Negative,PNC Bank,1118,5,1,1
+-0.8478,Negative,PNC Bank,1118,5,2,0
+-0.2481,Negative,PNC Bank,1118,1,4,0
+-0.9945,Negative,PNC Bank,1118,12,7,1
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.9616,Negative,PNC Bank,1118,1,0,0
+-0.7661,Negative,PNC Bank,1118,4,0,0
+-0.8159,Negative,PNC Bank,1118,1,0,0
+-0.9888,Negative,PNC Bank,1118,6,0,0
+-0.25,Negative,PNC Bank,1118,0,0,0
+-0.5423,Negative,PNC Bank,1118,0,0,0
+0.7969,Positive,PNC Bank,1118,2,3,1
+-0.7096,Negative,PNC Bank,1118,0,2,1
+0.8811,Positive,PNC Bank,1118,3,0,0
+0.7096,Positive,PNC Bank,1118,1,2,0
+0.5926,Positive,PNC Bank,1118,2,0,0
+-0.9302,Negative,PNC Bank,1118,5,6,0
+-0.8225,Negative,PNC Bank,1118,0,3,0
+-0.6327,Negative,PNC Bank,1118,5,2,0
+0.9377,Positive,PNC Bank,1118,4,0,0
+-0.7237,Negative,PNC Bank,1118,1,1,0
+0.0726,Positive,PNC Bank,1118,0,0,0
+-0.7081,Negative,PNC Bank,1118,0,0,0
+-0.9039,Negative,PNC Bank,1118,3,3,0
+-0.6283,Negative,PNC Bank,1118,2,2,1
+-0.9564,Negative,PNC Bank,1118,1,1,0
+-0.5707,Negative,PNC Bank,1118,7,0,0
+-0.8789,Negative,PNC Bank,1118,0,5,0
+0.5425,Positive,PNC Bank,1118,0,0,0
+-0.8511,Negative,PNC Bank,1118,0,2,0
+-0.6157,Negative,PNC Bank,1118,0,1,0
+0.477,Positive,PNC Bank,1118,1,0,0
+0.0202,Neutral,PNC Bank,1118,0,1,0
+0.9415,Positive,PNC Bank,1118,1,8,1
+-0.8636,Negative,PNC Bank,1118,3,1,0
+0.8442,Positive,PNC Bank,1118,5,0,0
+-0.7261,Negative,PNC Bank,1118,0,2,0
+-0.6486,Negative,PNC Bank,1118,2,0,0
+-0.922,Negative,PNC Bank,1118,3,1,0
+-0.7637,Negative,PNC Bank,1118,1,1,0
+-0.9018,Negative,PNC Bank,1118,0,0,1
+-0.8771,Negative,PNC Bank,1118,0,0,0
+0.4343,Positive,PNC Bank,1118,0,0,0
+-0.411,Negative,PNC Bank,1118,0,0,0
+-0.9808,Negative,PNC Bank,1118,0,4,0
+0.8705,Positive,PNC Bank,1118,0,0,0
+-0.7284,Negative,PNC Bank,1118,1,2,0
+0.4767,Positive,PNC Bank,1118,5,0,0
+0.1027,Positive,PNC Bank,1118,0,1,0
+-0.4007,Negative,PNC Bank,1118,0,1,0
+0.4019,Positive,PNC Bank,1118,0,0,0
+0.8936,Positive,PNC Bank,1118,2,0,2
+0.1952,Positive,PNC Bank,1118,2,6,0
+-0.9511,Negative,PNC Bank,1118,2,2,0
+-0.7506,Negative,PNC Bank,1118,4,3,0
+-0.7067,Negative,PNC Bank,1118,0,4,0
+0.3291,Positive,PNC Bank,1118,0,0,0
+-0.9278,Negative,PNC Bank,1118,0,2,0
+-0.5185,Negative,PNC Bank,1118,0,0,0
+-0.4588,Negative,PNC Bank,1118,0,1,0
+0.8029,Positive,PNC Bank,1118,2,0,0
+-0.7186,Negative,PNC Bank,1118,1,1,0
+-0.2732,Negative,PNC Bank,1118,0,2,0
+-0.7906,Negative,PNC Bank,1118,0,2,0
+-0.8491,Negative,PNC Bank,1118,2,2,0
+-0.8528,Negative,PNC Bank,1118,0,2,0
+-0.964,Negative,PNC Bank,1118,4,0,0
+-0.8068,Negative,PNC Bank,1118,0,0,0
+-0.7193,Negative,PNC Bank,1118,5,5,0
+-0.25,Negative,PNC Bank,1118,0,0,0
+-0.6242,Negative,PNC Bank,1118,1,2,3
+-0.9072,Negative,PNC Bank,1118,12,0,0
+-0.2662,Negative,PNC Bank,1118,1,0,0
+-0.7518,Negative,PNC Bank,1118,0,1,0
+-0.5606,Negative,PNC Bank,1118,2,0,1
+0.6474,Positive,PNC Bank,1118,1,0,0
+0.9789,Positive,PNC Bank,1118,2,0,0
+0.937,Positive,PNC Bank,1118,0,1,2
+-0.7482,Negative,PNC Bank,1118,0,0,0
+-0.1613,Negative,PNC Bank,1118,0,2,0
+0.6588,Positive,PNC Bank,1118,1,1,3
+0.1779,Positive,PNC Bank,1118,0,2,0
+0.2732,Positive,PNC Bank,1118,0,0,0
+0.9434,Positive,PNC Bank,1118,3,0,0
+-0.9628,Negative,PNC Bank,1118,3,2,1
+0.4404,Positive,PNC Bank,1118,0,0,0
+-0.607,Negative,PNC Bank,1118,3,3,1
+-0.8257,Negative,PNC Bank,1118,4,0,0
+-0.8809,Negative,PNC Bank,1118,1,1,0
+-0.2893,Negative,PNC Bank,1118,3,2,0
+-0.6741,Negative,PNC Bank,1118,4,1,0
+-0.4927,Negative,PNC Bank,1118,0,2,0
+0.9204,Positive,PNC Bank,1118,0,1,1
+-0.8687,Negative,PNC Bank,1118,1,1,0
+-0.2988,Negative,PNC Bank,1118,5,0,0
+-0.9359,Negative,PNC Bank,1118,0,0,0
+-0.6886,Negative,PNC Bank,1118,0,4,0
+0.6822,Positive,PNC Bank,1118,3,0,0
+-0.1878,Negative,PNC Bank,1118,1,0,0
+-0.5697,Negative,PNC Bank,1118,1,0,0
+-0.855,Negative,PNC Bank,1118,0,2,0
+-0.5023,Negative,PNC Bank,1118,6,2,0
+-0.9202,Negative,PNC Bank,1118,1,0,0
+-0.8795,Negative,PNC Bank,1118,0,1,0
+0.3603,Positive,PNC Bank,1118,0,0,0
+-0.8834,Negative,PNC Bank,1118,0,0,1
+0.6309,Positive,PNC Bank,1118,0,3,0
+-0.7124,Negative,PNC Bank,1118,0,0,0
+-0.6209,Negative,PNC Bank,1118,0,0,0
+-0.9711,Negative,PNC Bank,1118,1,0,0
+-0.9876,Negative,PNC Bank,1118,3,0,0
+-0.7579,Negative,PNC Bank,1118,2,0,0
+-0.5859,Negative,PNC Bank,1118,1,2,0
+-0.8126,Negative,PNC Bank,1118,1,2,0
+-0.1406,Negative,PNC Bank,1118,6,0,0
+-0.7971,Negative,PNC Bank,1118,2,0,0
+0.0772,Positive,PNC Bank,1118,0,0,0
+-0.9341,Negative,PNC Bank,1118,1,0,0
+-0.8851,Negative,PNC Bank,1118,3,0,0
+-0.8897,Negative,PNC Bank,1118,2,4,0
+0.0772,Positive,PNC Bank,1118,1,0,0
+-0.624,Negative,PNC Bank,1118,2,0,0
+0.2023,Positive,PNC Bank,1118,0,3,0
+-0.4738,Negative,PNC Bank,1118,1,3,0
+0.7926,Positive,PNC Bank,1118,4,1,0
+-0.7506,Negative,PNC Bank,1118,1,0,0
+-0.7377,Negative,PNC Bank,1118,0,3,2
+0.7043,Positive,PNC Bank,1118,3,2,0
+0.7378,Positive,PNC Bank,1118,0,0,0
+0.985,Positive,PNC Bank,1118,8,2,1
+-0.9602,Negative,PNC Bank,1118,1,1,0
+0.0772,Positive,PNC Bank,1118,0,0,0
+-0.34,Negative,PNC Bank,1118,1,0,0
+-0.0041,Neutral,PNC Bank,1118,2,1,4
+0.9118,Positive,PNC Bank,1118,0,0,0
+0.992,Positive,PNC Bank,1118,8,0,0
+0.8653,Positive,PNC Bank,1118,1,1,0
+-0.9083,Negative,PNC Bank,1118,1,0,2
+0.0772,Positive,PNC Bank,1118,1,0,0
+0.3818,Positive,PNC Bank,1118,0,1,2
+0.9563,Positive,PNC Bank,1118,4,1,0
+-0.9856,Negative,PNC Bank,1118,12,7,4
+-0.8849,Negative,PNC Bank,1118,0,0,0
+-0.7425,Negative,PNC Bank,1118,0,0,0
+0.8063,Positive,PNC Bank,1118,8,0,2
+-0.3089,Negative,PNC Bank,1118,0,0,0
+0.9171,Positive,PNC Bank,1118,0,0,0
+0.3802,Positive,PNC Bank,1118,2,2,0
+-0.9634,Negative,PNC Bank,1118,1,8,0
+0.7906,Positive,PNC Bank,1118,1,2,0
+0.98,Positive,PNC Bank,1118,1,1,0
+-0.6956,Negative,PNC Bank,1118,1,0,0
+-0.1442,Negative,PNC Bank,1118,0,0,0
+0.8832,Positive,PNC Bank,1118,1,0,0
+-0.6124,Negative,PNC Bank,1118,0,0,0
+0.9336,Positive,PNC Bank,1118,1,3,0
+-0.6124,Negative,PNC Bank,1118,2,0,3
+-0.774,Negative,PNC Bank,1118,1,0,0
+-0.4767,Negative,PNC Bank,1118,0,2,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.7096,Negative,PNC Bank,1118,1,0,0
+-0.8885,Negative,PNC Bank,1118,0,2,0
+-0.7003,Negative,PNC Bank,1118,2,0,0
+0.6813,Positive,PNC Bank,1118,2,0,0
+-0.8338,Negative,PNC Bank,1118,1,0,1
+-0.9598,Negative,PNC Bank,1118,0,0,0
+0.9926,Positive,PNC Bank,1118,1,0,5
+-0.995,Negative,PNC Bank,1118,2,2,0
+0.784,Positive,PNC Bank,1118,0,1,0
+-0.4595,Negative,PNC Bank,1118,2,0,1
+0.9602,Positive,PNC Bank,1118,2,2,0
+0.8862,Positive,PNC Bank,1118,0,2,0
+-0.6975,Negative,PNC Bank,1118,1,1,0
+0.6588,Positive,PNC Bank,1118,0,1,0
+0.9152,Positive,PNC Bank,1118,1,0,0
+-0.0516,Negative,PNC Bank,1118,3,0,0
+-0.8289,Negative,Asicminertech,1116,0,0,0
+0.7096,Positive,Asicminertech,1116,0,0,0
+0.8665,Positive,Asicminertech,1116,0,0,0
+0.4754,Positive,Asicminertech,1116,0,0,0
+0.935,Positive,Asicminertech,1116,0,0,0
+0.4588,Positive,Asicminertech,1116,0,0,0
+-0.9665,Negative,Asicminertech,1116,0,0,0
+-0.9636,Negative,Asicminertech,1116,0,0,0
+0.7104,Positive,Asicminertech,1116,0,0,0
+0.6988,Positive,Asicminertech,1116,0,0,0
+-0.2282,Negative,Asicminertech,1116,0,0,0
+-0.9486,Negative,Asicminertech,1116,0,0,0
+0.3578,Positive,Asicminertech,1116,0,0,0
+0.5562,Positive,Asicminertech,1116,0,0,0
+0.7337,Positive,Asicminertech,1116,0,0,0
+-0.838,Negative,Asicminertech,1116,0,0,0
+-0.8021,Negative,Asicminertech,1116,0,0,0
+-0.7712,Negative,Asicminertech,1116,0,0,0
+0.4417,Positive,Asicminertech,1116,0,0,0
+-0.1091,Negative,Asicminertech,1116,0,0,0
+-0.6776,Negative,Asicminertech,1116,0,0,0
+-0.4282,Negative,Asicminertech,1116,0,0,0
+0.6705,Positive,Asicminertech,1116,0,0,0
+-0.1027,Negative,Asicminertech,1116,0,0,0
+-0.8025,Negative,Asicminertech,1116,0,0,0
+-0.7411,Negative,Asicminertech,1116,0,0,0
+0.6274,Positive,Coin Cloud,1117,0,0,0
+0.6059,Positive,Coin Cloud,1117,0,0,0
+0.3182,Positive,Coin Cloud,1117,2,0,0
+0.3506,Positive,Coin Cloud,1117,0,0,0
+-0.128,Negative,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+0.9015,Positive,Coin Cloud,1117,1,0,0
+-0.7451,Negative,Coin Cloud,1117,0,0,0
+-0.3689,Negative,Coin Cloud,1117,0,0,0
+0.1779,Positive,Coin Cloud,1117,0,1,0
+0.6357,Positive,Coin Cloud,1117,0,0,0
+0.4404,Positive,Coin Cloud,1117,0,2,0
+0.1154,Positive,Coin Cloud,1117,0,2,0
+0.128,Positive,Coin Cloud,1117,0,0,0
+0.7964,Positive,Coin Cloud,1117,0,0,0
+-0.7202,Negative,Coin Cloud,1117,1,0,0
+0.931,Positive,Coin Cloud,1117,0,2,0
+0.8462,Positive,Coin Cloud,1117,0,0,0
+0.0772,Positive,Coin Cloud,1117,0,0,0
+0.7964,Positive,Coin Cloud,1117,0,2,0
+-0.2732,Negative,Coin Cloud,1117,0,0,0
+-0.8313,Negative,Coin Cloud,1117,0,0,0
+-0.296,Negative,Coin Cloud,1117,0,2,0
+0.4497,Positive,Coin Cloud,1117,0,0,0
+-0.9287,Negative,Coin Cloud,1117,0,2,0
+-0.196,Negative,Coin Cloud,1117,0,2,0
+-0.8991,Negative,Coin Cloud,1117,0,2,0
+0.9441,Positive,Coin Cloud,1117,0,4,0
+-0.6249,Negative,Coin Cloud,1117,0,2,0
+-0.3818,Negative,Coin Cloud,1117,0,0,0
+0.6299,Positive,Coin Cloud,1117,0,2,0
+-0.81,Negative,Coin Cloud,1117,0,0,0
+0.4019,Positive,Coin Cloud,1117,0,0,0
+0.5719,Positive,Coin Cloud,1117,0,0,0
+0.3508,Positive,Coin Cloud,1117,0,0,0
+-0.5616,Negative,Coin Cloud,1117,0,1,0
+0.5601,Positive,Coin Cloud,1117,0,2,0
+-0.7993,Negative,Coin Cloud,1117,0,0,0
+-0.9231,Negative,Coin Cloud,1117,0,0,0
+-0.8008,Negative,Coin Cloud,1117,0,0,0
+0.7762,Positive,Coin Cloud,1117,0,0,0
+-0.5994,Negative,Coin Cloud,1117,0,3,0
+0.4019,Positive,Coin Cloud,1117,1,0,0
+-0.1933,Negative,Coin Cloud,1117,0,0,0
+-0.3818,Negative,Coin Cloud,1117,0,0,0
+-0.2023,Negative,Coin Cloud,1117,0,0,0
+0.079,Positive,Coin Cloud,1117,0,0,0
+-0.6288,Negative,Coin Cloud,1117,0,1,0
+0.3197,Positive,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+-0.4753,Negative,Coin Cloud,1117,0,0,0
+-0.296,Negative,Coin Cloud,1117,0,0,0
+-0.1531,Negative,Coin Cloud,1117,0,0,0
+-0.0516,Negative,Coin Cloud,1117,0,0,0
+0.5659,Positive,Coin Cloud,1117,0,0,0
+-0.8409,Negative,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+-0.6534,Negative,Coin Cloud,1117,0,3,0
+-0.7717,Negative,Coin Cloud,1117,0,0,0
+-0.9081,Negative,Coin Cloud,1117,1,0,0
+0.0053,Neutral,Coin Cloud,1117,0,4,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+-0.8016,Negative,Coin Cloud,1117,0,0,0
+0.2942,Positive,Coin Cloud,1117,0,2,0
+-0.8588,Negative,Coin Cloud,1117,0,2,0
+0.7506,Positive,Coin Cloud,1117,0,0,0
+0.0516,Positive,Coin Cloud,1117,0,0,0
+0.25,Positive,Coin Cloud,1117,0,0,0
+-0.6249,Negative,Coin Cloud,1117,0,0,0
+-0.6374,Negative,Coin Cloud,1117,0,0,0
+-0.486,Negative,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+0.8126,Positive,Coin Cloud,1117,0,0,0
+-0.7717,Negative,Coin Cloud,1117,0,1,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+-0.0129,Neutral,Coin Cloud,1117,0,0,0
+0.891,Positive,Coin Cloud,1117,0,0,0
+-0.837,Negative,Coin Cloud,1117,0,0,0
+-0.886,Negative,Coin Cloud,1117,0,0,0
+-0.4215,Negative,Coin Cloud,1117,0,1,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+0.5267,Positive,Coin Cloud,1117,0,0,0
+0.2023,Positive,Coin Cloud,1117,0,0,0
+-0.43,Negative,Coin Cloud,1117,0,1,0
+-0.5106,Negative,Coin Cloud,1117,0,0,0
+-0.4404,Negative,Coin Cloud,1117,0,0,0
+0.3612,Positive,Coin Cloud,1117,0,0,0
+0.7841,Positive,Coin Cloud,1117,0,0,0
+0.5023,Positive,Coin Cloud,1117,0,0,0
+-0.4939,Negative,Coin Cloud,1117,1,0,0
+0.888,Positive,Coin Cloud,1117,0,4,0
+-0.8544,Negative,Coin Cloud,1117,0,2,0
+-0.6124,Negative,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+-0.4019,Negative,Coin Cloud,1117,0,0,0
+0.7179,Positive,Coin Cloud,1117,0,1,0
+-0.6405,Negative,Coin Cloud,1117,0,2,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+0.4877,Positive,Coin Cloud,1117,0,0,0
+-0.2732,Negative,Coin Cloud,1117,0,0,0
+0.9756,Positive,Coin Cloud,1117,0,1,0
+0.7264,Positive,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+0.6775,Positive,Coin Cloud,1117,0,0,0
+0.9824,Positive,The Payment HQ,115,0,0,0
+0.9199,Positive,The Payment HQ,115,0,1,0
+0.4939,Positive,WPC Merchant Services & Credit Card Processing,117,2,2,0
+0.2235,Positive,Coinhub Bitcoin ATM,1114,0,0,0
+-0.5106,Negative,Coinhub Bitcoin ATM,1114,0,0,0
+0.0,Neutral,ASDFTEST,116,0,0,0
+-0.1531,Negative,cryptobaseatm.com,1113,0,0,0
+-0.3433,Negative,cryptobaseatm.com,1113,0,2,0
+0.8834,Positive,cryptobaseatm.com,1113,0,0,0
+0.7851,Positive,cryptobaseatm.com,1113,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.8999,Positive,Evergreen Credit Union,110,0,0,0
+0.3612,Positive,Evergreen Credit Union,110,0,0,2
+0.9313,Positive,Evergreen Credit Union,110,0,0,2
+0.925,Positive,Evergreen Credit Union,110,0,1,0
+0.7424,Positive,Evergreen Credit Union,110,0,0,0
+0.9545,Positive,Evergreen Credit Union,110,0,0,0
+0.9796,Positive,Evergreen Credit Union,110,0,0,2
+0.2926,Positive,Evergreen Credit Union,110,0,1,0
+0.9325,Positive,Evergreen Credit Union,110,0,0,0
+0.9098,Positive,Evergreen Credit Union,110,0,0,1
+0.9466,Positive,Evergreen Credit Union,110,0,0,2
+0.7339,Positive,Evergreen Credit Union,110,0,0,1
+0.8572,Positive,Evergreen Credit Union,110,0,0,0
+0.9675,Positive,Evergreen Credit Union,110,0,0,1
+0.969,Positive,Evergreen Credit Union,110,0,0,3
+0.9524,Positive,Evergreen Credit Union,110,0,0,2
+0.9946,Positive,Evergreen Credit Union,110,0,5,2
+0.9849,Positive,Evergreen Credit Union,110,0,0,2
+0.902,Positive,Evergreen Credit Union,110,0,1,0
+0.9196,Positive,Evergreen Credit Union,110,0,0,0
+-0.8338,Negative,Evergreen Credit Union,110,0,0,0
+0.9389,Positive,Evergreen Credit Union,110,1,0,1
+0.9894,Positive,Evergreen Credit Union,110,0,2,1
+0.6486,Positive,Evergreen Credit Union,110,0,0,1
+0.9335,Positive,Evergreen Credit Union,110,0,0,1
+0.9,Positive,Evergreen Credit Union,110,0,1,3
+0.8627,Positive,Evergreen Credit Union,110,1,2,0
+0.8316,Positive,Evergreen Credit Union,110,0,0,2
+0.9342,Positive,Evergreen Credit Union,110,0,0,4
+0.9854,Positive,Evergreen Credit Union,110,0,0,1
+0.945,Positive,Evergreen Credit Union,110,0,0,0
+0.8825,Positive,Evergreen Credit Union,110,0,2,1
+0.9558,Positive,Evergreen Credit Union,110,0,1,2
+0.9455,Positive,Evergreen Credit Union,110,1,1,1
+0.9428,Positive,Evergreen Credit Union,110,3,0,2
+0.9252,Positive,Evergreen Credit Union,110,0,0,2
+0.6249,Positive,Evergreen Credit Union,110,0,0,2
+0.806,Positive,Evergreen Credit Union,110,0,0,0
+0.8118,Positive,Evergreen Credit Union,110,0,0,0
+0.8658,Positive,Evergreen Credit Union,110,0,2,1
+0.979,Positive,Evergreen Credit Union,110,0,0,2
+0.8388,Positive,Evergreen Credit Union,110,0,2,1
+0.8442,Positive,Evergreen Credit Union,110,0,0,2
+0.9186,Positive,Evergreen Credit Union,110,0,0,1
+0.9721,Positive,Evergreen Credit Union,110,0,0,1
+0.3987,Positive,Evergreen Credit Union,110,0,0,2
+0.9358,Positive,Evergreen Credit Union,110,0,0,0
+-0.0258,Neutral,Evergreen Credit Union,110,0,0,0
+0.9076,Positive,Evergreen Credit Union,110,0,0,1
+0.854,Positive,Evergreen Credit Union,110,0,0,0
+0.9208,Positive,Evergreen Credit Union,110,0,0,1
+0.7845,Positive,Evergreen Credit Union,110,2,4,0
+0.926,Positive,Evergreen Credit Union,110,0,0,0
+0.9882,Positive,Evergreen Credit Union,110,0,1,3
+0.8802,Positive,Evergreen Credit Union,110,0,0,1
+0.3274,Positive,Evergreen Credit Union,110,0,0,0
+0.9703,Positive,Evergreen Credit Union,110,0,4,0
+0.8777,Positive,Evergreen Credit Union,110,0,0,1
+0.8597,Positive,Evergreen Credit Union,110,0,0,1
+0.8834,Positive,Evergreen Credit Union,110,0,0,0
+0.8573,Positive,Evergreen Credit Union,110,0,0,3
+0.8617,Positive,Evergreen Credit Union,110,0,0,0
+0.7269,Positive,Evergreen Credit Union,110,1,0,1
+0.7964,Positive,Evergreen Credit Union,110,0,0,0
+0.9397,Positive,Evergreen Credit Union,110,0,1,0
+0.7897,Positive,Evergreen Credit Union,110,1,1,0
+0.68,Positive,Evergreen Credit Union,110,0,0,1
+0.9545,Positive,Evergreen Credit Union,110,0,0,1
+0.7946,Positive,Evergreen Credit Union,110,0,2,1
+0.5127,Positive,Evergreen Credit Union,110,4,0,1
+0.8545,Positive,Evergreen Credit Union,110,0,2,1
+0.8663,Positive,Evergreen Credit Union,110,1,0,1
+0.9392,Positive,Evergreen Credit Union,110,3,0,2
+0.9458,Positive,Evergreen Credit Union,110,0,0,2
+0.8475,Positive,Evergreen Credit Union,110,1,0,1
+0.8392,Positive,Evergreen Credit Union,110,0,1,0
+0.902,Positive,Evergreen Credit Union,110,0,0,0
+0.908,Positive,Evergreen Credit Union,110,0,2,1
+0.9079,Positive,Evergreen Credit Union,110,0,0,0
+0.8711,Positive,Evergreen Credit Union,110,0,0,0
+0.7333,Positive,Evergreen Credit Union,110,0,0,0
+0.974,Positive,Evergreen Credit Union,110,0,0,3
+0.6954,Positive,Evergreen Credit Union,110,0,0,1
+0.5686,Positive,Evergreen Credit Union,110,0,0,0
+0.9638,Positive,Evergreen Credit Union,110,0,1,1
+0.8297,Positive,Evergreen Credit Union,110,0,0,1
+0.86,Positive,Evergreen Credit Union,110,0,1,0
+0.836,Positive,Evergreen Credit Union,110,0,0,1
+0.9299,Positive,Evergreen Credit Union,110,0,0,1
+0.7328,Positive,Evergreen Credit Union,110,0,1,0
+0.8395,Positive,Evergreen Credit Union,110,0,2,0
+0.944,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,1,0,1
+0.9468,Positive,Evergreen Credit Union,110,0,0,1
+0.9861,Positive,Evergreen Credit Union,110,0,0,2
+0.6369,Positive,Evergreen Credit Union,110,0,0,0
+0.8793,Positive,Evergreen Credit Union,110,0,0,1
+0.765,Positive,Evergreen Credit Union,110,1,0,0
+0.8625,Positive,Evergreen Credit Union,110,0,0,0
+0.9059,Positive,Evergreen Credit Union,110,0,0,0
+0.905,Positive,Evergreen Credit Union,110,0,1,0
+0.4927,Positive,Evergreen Credit Union,110,0,0,0
+0.9149,Positive,Evergreen Credit Union,110,0,0,0
+0.8665,Positive,Evergreen Credit Union,110,0,2,2
+0.9484,Positive,Evergreen Credit Union,110,0,0,0
+0.883,Positive,Evergreen Credit Union,110,0,2,0
+-0.5719,Negative,Evergreen Credit Union,110,0,0,0
+0.9038,Positive,Evergreen Credit Union,110,0,0,0
+0.891,Positive,Evergreen Credit Union,110,0,1,0
+0.8011,Positive,Evergreen Credit Union,110,0,1,0
+0.9671,Positive,Evergreen Credit Union,110,0,1,0
+0.6695,Positive,Evergreen Credit Union,110,0,0,1
+0.0,Neutral,Evergreen Credit Union,110,0,1,0
+0.5267,Positive,Evergreen Credit Union,110,0,0,0
+0.9032,Positive,Evergreen Credit Union,110,0,0,0
+0.8905,Positive,Evergreen Credit Union,110,0,0,0
+0.4927,Positive,Evergreen Credit Union,110,0,2,0
+0.7425,Positive,Evergreen Credit Union,110,0,0,0
+0.5719,Positive,Evergreen Credit Union,110,0,0,2
+0.2447,Positive,Evergreen Credit Union,110,0,0,1
+0.7249,Positive,Evergreen Credit Union,110,0,0,0
+0.4215,Positive,Evergreen Credit Union,110,0,0,0
+0.7906,Positive,Evergreen Credit Union,110,0,0,0
+0.4926,Positive,Evergreen Credit Union,110,0,0,2
+0.8619,Positive,Evergreen Credit Union,110,0,0,0
+0.9145,Positive,Evergreen Credit Union,110,0,2,0
+0.7474,Positive,Evergreen Credit Union,110,0,0,0
+0.5542,Positive,Evergreen Credit Union,110,0,0,1
+0.9287,Positive,Evergreen Credit Union,110,0,0,0
+0.7717,Positive,Evergreen Credit Union,110,0,0,0
+0.9377,Positive,Evergreen Credit Union,110,0,0,0
+0.877,Positive,Evergreen Credit Union,110,0,0,0
+0.7178,Positive,Evergreen Credit Union,110,0,0,1
+0.8901,Positive,Evergreen Credit Union,110,0,0,2
+-0.1531,Negative,Evergreen Credit Union,110,0,0,0
+0.7356,Positive,Evergreen Credit Union,110,0,0,0
+0.8779,Positive,Evergreen Credit Union,110,0,1,0
+0.8016,Positive,Evergreen Credit Union,110,0,0,0
+0.5859,Positive,Evergreen Credit Union,110,0,1,0
+0.4199,Positive,Evergreen Credit Union,110,0,1,0
+0.4215,Positive,Evergreen Credit Union,110,1,0,0
+0.9201,Positive,Evergreen Credit Union,110,0,0,1
+0.8858,Positive,Evergreen Credit Union,110,0,0,0
+0.6705,Positive,Evergreen Credit Union,110,0,1,0
+0.7783,Positive,Evergreen Credit Union,110,0,0,1
+0.743,Positive,Evergreen Credit Union,110,0,0,0
+0.8016,Positive,Evergreen Credit Union,110,0,1,0
+0.5411,Positive,Evergreen Credit Union,110,0,0,0
+0.4404,Positive,Evergreen Credit Union,110,0,0,0
+0.8658,Positive,Evergreen Credit Union,110,0,0,1
+0.872,Positive,Evergreen Credit Union,110,0,2,0
+0.4927,Positive,Evergreen Credit Union,110,0,0,1
+0.8118,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.9253,Positive,Evergreen Credit Union,110,0,0,0
+0.8468,Positive,Evergreen Credit Union,110,0,0,0
+0.8062,Positive,Evergreen Credit Union,110,0,0,0
+0.4754,Positive,Evergreen Credit Union,110,0,0,0
+0.5719,Positive,Evergreen Credit Union,110,0,0,0
+0.6892,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.7808,Positive,Evergreen Credit Union,110,0,0,0
+0.765,Positive,Evergreen Credit Union,110,0,0,0
+0.7783,Positive,Evergreen Credit Union,110,0,0,1
+0.9348,Positive,Evergreen Credit Union,110,0,1,0
+0.7777,Positive,Evergreen Credit Union,110,0,0,1
+0.807,Positive,Evergreen Credit Union,110,0,0,0
+-0.7841,Negative,Evergreen Credit Union,110,0,0,0
+0.8439,Positive,Evergreen Credit Union,110,0,0,0
+0.4939,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.7322,Positive,Evergreen Credit Union,110,0,0,0
+0.8481,Positive,Evergreen Credit Union,110,0,0,0
+0.8852,Positive,Evergreen Credit Union,110,0,0,0
+0.6249,Positive,Evergreen Credit Union,110,1,0,0
+0.8439,Positive,Evergreen Credit Union,110,0,1,0
+0.4389,Positive,Evergreen Credit Union,110,0,1,0
+0.6114,Positive,Evergreen Credit Union,110,0,1,0
+0.9118,Positive,Evergreen Credit Union,110,0,0,1
+0.969,Positive,Evergreen Credit Union,110,0,2,0
+0.6369,Positive,Evergreen Credit Union,110,0,1,0
+0.8652,Positive,Evergreen Credit Union,110,0,0,0
+0.4688,Positive,Evergreen Credit Union,110,2,0,0
+0.9714,Positive,Evergreen Credit Union,110,0,0,0
+0.6997,Positive,Evergreen Credit Union,110,0,0,0
+0.8858,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,1,0,0
+0.9575,Positive,Evergreen Credit Union,110,2,1,0
+0.5719,Positive,Evergreen Credit Union,110,1,0,1
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.9018,Positive,Evergreen Credit Union,110,0,0,0
+0.8402,Positive,Evergreen Credit Union,110,1,0,0
+0.7901,Positive,Evergreen Credit Union,110,0,0,0
+0.8588,Positive,Evergreen Credit Union,110,0,2,0
+0.5719,Positive,Evergreen Credit Union,110,0,0,0
+0.9169,Positive,Evergreen Credit Union,110,0,0,1
+0.8718,Positive,Evergreen Credit Union,110,0,1,0
+0.9299,Positive,Evergreen Credit Union,110,0,0,0
+0.9785,Positive,Evergreen Credit Union,110,0,2,1
+0.926,Positive,Evergreen Credit Union,110,0,0,0
+0.8615,Positive,Evergreen Credit Union,110,0,0,1
+0.9757,Positive,Evergreen Credit Union,110,0,0,2
+0.902,Positive,Evergreen Credit Union,110,0,0,0
+0.9217,Positive,Evergreen Credit Union,110,2,0,0
+0.6249,Positive,Liberty First Credit Union,111,0,0,0
+-0.2263,Negative,Liberty First Credit Union,111,2,0,1
+0.9447,Positive,Liberty First Credit Union,111,0,0,0
+0.7184,Positive,Liberty First Credit Union,111,0,0,0
+0.912,Positive,Liberty First Credit Union,111,0,0,1
+0.9813,Positive,Liberty First Credit Union,111,0,1,1
+0.8439,Positive,Liberty First Credit Union,111,1,0,0
+0.9113,Positive,Liberty First Credit Union,111,0,0,1
+0.4926,Positive,Liberty First Credit Union,111,0,0,1
+0.8974,Positive,Liberty First Credit Union,111,0,0,0
+0.7845,Positive,Liberty First Credit Union,111,0,0,2
+0.9022,Positive,Liberty First Credit Union,111,0,0,1
+0.9732,Positive,Liberty First Credit Union,111,0,0,2
+0.9087,Positive,Liberty First Credit Union,111,0,0,0
+0.9766,Positive,Liberty First Credit Union,111,0,0,0
+0.8807,Positive,Liberty First Credit Union,111,1,0,3
+0.9677,Positive,Liberty First Credit Union,111,2,0,0
+0.9778,Positive,Liberty First Credit Union,111,0,0,2
+0.875,Positive,Liberty First Credit Union,111,2,0,1
+0.6369,Positive,Liberty First Credit Union,111,0,1,1
+0.9427,Positive,Liberty First Credit Union,111,0,0,0
+0.9531,Positive,Liberty First Credit Union,111,1,1,0
+-0.2144,Negative,Liberty First Credit Union,111,0,0,0
+0.9838,Positive,Liberty First Credit Union,111,0,0,1
+0.9704,Positive,Liberty First Credit Union,111,0,0,0
+0.9577,Positive,Liberty First Credit Union,111,0,0,0
+0.9468,Positive,Liberty First Credit Union,111,0,2,3
+0.936,Positive,Liberty First Credit Union,111,0,0,2
+0.4215,Positive,Liberty First Credit Union,111,0,0,1
+0.9877,Positive,Liberty First Credit Union,111,0,0,2
+0.9749,Positive,Liberty First Credit Union,111,2,0,1
+0.4215,Positive,Liberty First Credit Union,111,1,0,1
+0.9798,Positive,Liberty First Credit Union,111,1,0,1
+0.9701,Positive,Liberty First Credit Union,111,0,0,1
+0.9335,Positive,Liberty First Credit Union,111,1,0,0
+0.932,Positive,Liberty First Credit Union,111,0,0,0
+0.9656,Positive,Liberty First Credit Union,111,0,0,1
+0.9705,Positive,Liberty First Credit Union,111,2,0,1
+0.9062,Positive,Liberty First Credit Union,111,0,0,0
+0.9709,Positive,Liberty First Credit Union,111,1,0,1
+0.8734,Positive,Liberty First Credit Union,111,0,0,0
+0.9628,Positive,Liberty First Credit Union,111,1,3,0
+0.9038,Positive,Liberty First Credit Union,111,0,0,2
+0.9001,Positive,Liberty First Credit Union,111,0,2,1
+0.9611,Positive,Liberty First Credit Union,111,1,1,1
+0.8271,Positive,Liberty First Credit Union,111,1,0,1
+0.9665,Positive,Liberty First Credit Union,111,0,0,1
+0.8988,Positive,Liberty First Credit Union,111,1,0,1
+0.9814,Positive,Liberty First Credit Union,111,0,0,1
+0.8436,Positive,Liberty First Credit Union,111,0,0,2
+0.9694,Positive,Liberty First Credit Union,111,2,1,3
+0.6588,Positive,Liberty First Credit Union,111,0,0,2
+0.891,Positive,Liberty First Credit Union,111,1,0,0
+0.9871,Positive,Liberty First Credit Union,111,0,0,2
+0.5859,Positive,Liberty First Credit Union,111,0,0,0
+0.9628,Positive,Liberty First Credit Union,111,0,2,0
+0.0,Neutral,Liberty First Credit Union,111,0,2,0
+0.8655,Positive,Liberty First Credit Union,111,0,2,1
+0.8957,Positive,Liberty First Credit Union,111,1,0,2
+0.0,Neutral,Liberty First Credit Union,111,0,2,0
+0.9791,Positive,Liberty First Credit Union,111,3,0,1
+0.296,Positive,Liberty First Credit Union,111,1,0,0
+0.9183,Positive,Liberty First Credit Union,111,1,0,0
+0.9392,Positive,Liberty First Credit Union,111,0,0,0
+0.9458,Positive,Liberty First Credit Union,111,0,0,0
+0.7708,Positive,Liberty First Credit Union,111,0,0,0
+0.9576,Positive,Liberty First Credit Union,111,0,0,0
+0.743,Positive,Liberty First Credit Union,111,0,0,1
+0.9766,Positive,Liberty First Credit Union,111,0,0,0
+0.923,Positive,Liberty First Credit Union,111,1,0,0
+0.944,Positive,Liberty First Credit Union,111,0,1,0
+0.8553,Positive,Liberty First Credit Union,111,1,0,0
+0.7644,Positive,Liberty First Credit Union,111,0,0,0
+0.9588,Positive,Liberty First Credit Union,111,0,0,1
+0.8765,Positive,Liberty First Credit Union,111,0,0,0
+0.9653,Positive,Liberty First Credit Union,111,0,0,0
+0.8732,Positive,Liberty First Credit Union,111,0,0,3
+0.8832,Positive,Liberty First Credit Union,111,0,0,4
+0.8703,Positive,Liberty First Credit Union,111,0,0,0
+0.4404,Positive,Liberty First Credit Union,111,0,1,0
+0.9153,Positive,Liberty First Credit Union,111,0,0,0
+0.1779,Positive,Liberty First Credit Union,111,1,0,0
+0.8977,Positive,Liberty First Credit Union,111,0,0,0
+0.8768,Positive,Liberty First Credit Union,111,0,0,1
+0.8878,Positive,Liberty First Credit Union,111,0,0,0
+0.9593,Positive,Liberty First Credit Union,111,0,0,0
+0.9036,Positive,Liberty First Credit Union,111,0,0,0
+0.9751,Positive,Liberty First Credit Union,111,0,0,0
+0.9169,Positive,Liberty First Credit Union,111,1,0,2
+0.8458,Positive,Liberty First Credit Union,111,0,0,0
+0.937,Positive,Liberty First Credit Union,111,1,1,0
+0.6908,Positive,Liberty First Credit Union,111,1,0,0
+0.7845,Positive,Liberty First Credit Union,111,0,0,1
+0.8579,Positive,Liberty First Credit Union,111,0,1,0
+0.5709,Positive,Liberty First Credit Union,111,0,0,0
+0.7777,Positive,Liberty First Credit Union,111,1,0,0
+0.9617,Positive,Liberty First Credit Union,111,1,0,1
+0.34,Positive,Liberty First Credit Union,111,0,0,0
+0.7424,Positive,Liberty First Credit Union,111,0,0,3
+0.8476,Positive,Liberty First Credit Union,111,0,0,1
+0.9834,Positive,Liberty First Credit Union,111,0,2,0
+0.764,Positive,Liberty First Credit Union,111,0,0,0
+0.9715,Positive,Liberty First Credit Union,111,0,0,1
+0.9089,Positive,Liberty First Credit Union,111,0,1,0
+0.1779,Positive,Liberty First Credit Union,111,0,0,0
+0.836,Positive,Liberty First Credit Union,111,0,3,0
+0.4497,Positive,Liberty First Credit Union,111,0,0,0
+0.3818,Positive,Liberty First Credit Union,111,0,0,1
+0.8074,Positive,Liberty First Credit Union,111,2,0,1
+0.8746,Positive,Liberty First Credit Union,111,0,1,0
+0.5984,Positive,Liberty First Credit Union,111,0,0,0
+0.8204,Positive,Liberty First Credit Union,111,0,0,0
+0.8983,Positive,Liberty First Credit Union,111,1,0,0
+0.8718,Positive,Liberty First Credit Union,111,0,0,0
+0.0772,Positive,Liberty First Credit Union,111,2,0,0
+0.6712,Positive,Liberty First Credit Union,111,1,0,0
+0.8979,Positive,Liberty First Credit Union,111,0,0,0
+0.9035,Positive,Liberty First Credit Union,111,0,0,1
+-0.4545,Negative,Liberty First Credit Union,111,0,0,1
+0.9022,Positive,Liberty First Credit Union,111,0,0,1
+0.5719,Positive,Liberty First Credit Union,111,0,0,0
+0.923,Positive,Liberty First Credit Union,111,1,0,1
+0.6588,Positive,Liberty First Credit Union,111,0,1,0
+0.552,Positive,Liberty First Credit Union,111,0,0,0
+0.762,Positive,Liberty First Credit Union,111,1,0,0
+-0.3612,Negative,Liberty First Credit Union,111,0,0,0
+0.4767,Positive,Liberty First Credit Union,111,0,2,0
+-0.1043,Negative,Liberty First Credit Union,111,0,0,0
+0.891,Positive,Liberty First Credit Union,111,0,0,0
+0.9831,Positive,Liberty First Credit Union,111,3,0,0
+0.8819,Positive,Liberty First Credit Union,111,0,0,1
+0.762,Positive,Liberty First Credit Union,111,1,0,0
+0.9325,Positive,Liberty First Credit Union,111,0,0,1
+0.6801,Positive,Liberty First Credit Union,111,0,0,0
+0.9253,Positive,Liberty First Credit Union,111,1,0,0
+0.0,Neutral,Liberty First Credit Union,111,1,0,0
+0.4754,Positive,Liberty First Credit Union,111,0,0,1
+0.8999,Positive,Liberty First Credit Union,111,0,0,0
+0.8801,Positive,Liberty First Credit Union,111,0,0,0
+0.8707,Positive,Liberty First Credit Union,111,0,0,0
+0.9041,Positive,Liberty First Credit Union,111,0,0,0
+0.4754,Positive,Liberty First Credit Union,111,0,0,0
+0.9059,Positive,Liberty First Credit Union,111,1,0,0
+0.883,Positive,Liberty First Credit Union,111,0,0,0
+0.7536,Positive,Liberty First Credit Union,111,0,0,0
+0.6808,Positive,Liberty First Credit Union,111,0,0,0
+0.7003,Positive,Liberty First Credit Union,111,0,0,0
+0.7501,Positive,Liberty First Credit Union,111,0,0,0
+0.8211,Positive,Liberty First Credit Union,111,0,0,0
+0.624,Positive,Liberty First Credit Union,111,0,0,0
+-0.0258,Neutral,Liberty First Credit Union,111,0,0,0
+0.5719,Positive,Liberty First Credit Union,111,0,0,0
+0.7906,Positive,Liberty First Credit Union,111,0,1,0
+0.4754,Positive,Liberty First Credit Union,111,0,0,0
+0.5859,Positive,Liberty First Credit Union,111,0,0,0
+0.8313,Positive,Liberty First Credit Union,111,0,0,0
+0.2732,Positive,Liberty First Credit Union,111,0,0,0
+0.4404,Positive,Liberty First Credit Union,111,0,0,0
+0.9069,Positive,Liberty First Credit Union,111,0,0,1
+0.893,Positive,Liberty First Credit Union,111,0,0,1
+0.5244,Positive,Liberty First Credit Union,111,0,0,1
+0.6369,Positive,Liberty First Credit Union,111,1,0,0
+0.4215,Positive,Liberty First Credit Union,111,0,0,0
+0.3535,Positive,Liberty First Credit Union,111,1,0,0
+0.7906,Positive,Liberty First Credit Union,111,0,0,1
+0.7717,Positive,Liberty First Credit Union,111,0,0,0
+0.6249,Positive,Liberty First Credit Union,111,1,0,0
+0.6249,Positive,Liberty First Credit Union,111,0,0,0
+0.5399,Positive,Liberty First Credit Union,111,0,1,0
+0.5563,Positive,Liberty First Credit Union,111,0,0,0
+0.9524,Positive,Liberty First Credit Union,111,0,0,0
+0.6249,Positive,Liberty First Credit Union,111,0,1,0
+0.6597,Positive,Liberty First Credit Union,111,0,0,0
+0.7178,Positive,Liberty First Credit Union,111,0,0,0
+0.5093,Positive,Liberty First Credit Union,111,0,0,0
+0.5413,Positive,Liberty First Credit Union,111,0,0,0
+0.0,Neutral,Liberty First Credit Union,111,0,0,0
+0.0,Neutral,Liberty First Credit Union,111,0,0,0
+0.836,Positive,Liberty First Credit Union,111,0,0,0
+0.765,Positive,Liberty First Credit Union,111,0,2,0
+0.7269,Positive,Liberty First Credit Union,111,0,1,0
+0.5197,Positive,Liberty First Credit Union,111,0,0,0
+-0.296,Negative,Liberty First Credit Union,111,0,0,0
+0.1779,Positive,Liberty First Credit Union,111,0,0,0
+0.6249,Positive,Liberty First Credit Union,111,0,0,0
+0.8591,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.8923,Positive,Heritage Valley Federal Credit Union,114,0,1,1
+0.9643,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.8511,Positive,Heritage Valley Federal Credit Union,114,0,0,1
+0.8555,Positive,Heritage Valley Federal Credit Union,114,0,0,2
+0.9246,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.7856,Positive,Heritage Valley Federal Credit Union,114,1,0,0
+0.9516,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.8684,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.0772,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.8398,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.836,Positive,Kryptominerstech,118,0,0,0
+-0.9514,Negative,Asic Miners Rig,1115,0,0,0
+-0.4543,Negative,Asic Miners Rig,1115,0,0,0
+-0.9257,Negative,Asic Miners Rig,1115,0,0,0
+-0.8188,Negative,Asic Miners Rig,1115,1,0,0
+-0.9703,Negative,Asic Miners Rig,1115,0,0,0
+-0.3266,Negative,Asic Miners Rig,1115,1,0,0
+0.8832,Positive,NorthOne,1112,0,1,0
+0.8122,Positive,NorthOne,1112,0,0,0
+0.8442,Positive,NorthOne,1112,0,0,0
+-0.2617,Negative,NorthOne,1112,2,0,0
+0.8922,Positive,NorthOne,1112,1,1,0
+0.9712,Positive,NorthOne,1112,4,0,0
+0.8316,Positive,NorthOne,1112,0,0,0
+0.34,Positive,NorthOne,1112,2,0,0
+0.886,Positive,NorthOne,1112,1,1,0
+0.8479,Positive,NorthOne,1112,0,2,0
+-0.2674,Negative,NorthOne,1112,2,0,0
+-0.2462,Negative,NorthOne,1112,3,2,0
+-0.8797,Negative,NorthOne,1112,2,0,0
+-0.6117,Negative,NorthOne,1112,1,0,0
+-0.3551,Negative,NorthOne,1112,1,0,0
+0.8481,Positive,NorthOne,1112,0,2,0
+0.5106,Positive,NorthOne,1112,0,2,0
+0.4404,Positive,NorthOne,1112,0,0,0
+-0.3818,Negative,NorthOne,1112,3,0,0
+-0.6138,Negative,NorthOne,1112,5,0,0
+-0.9459,Negative,NorthOne,1112,3,0,0
+0.8296,Positive,NorthOne,1112,4,0,0
+-0.7964,Negative,NorthOne,1112,3,0,0
+-0.4588,Negative,NorthOne,1112,0,0,0
+0.9311,Positive,NorthOne,1112,2,0,0
+0.6249,Positive,NorthOne,1112,1,1,0
+-0.8658,Negative,NorthOne,1112,1,0,0
+0.9169,Positive,NorthOne,1112,1,0,0
+0.9034,Positive,NorthOne,1112,0,0,0
+0.9214,Positive,NorthOne,1112,1,1,0
+0.9581,Positive,NorthOne,1112,1,0,0
+0.0772,Positive,NorthOne,1112,3,0,0
+0.2516,Positive,NorthOne,1112,2,0,0
+0.4215,Positive,NorthOne,1112,0,0,0
+0.5859,Positive,NorthOne,1112,0,0,0
+-0.7278,Negative,NorthOne,1112,1,0,0
+0.9313,Positive,NorthOne,1112,2,0,0
+0.8513,Positive,NorthOne,1112,2,0,0
+-0.2023,Negative,NorthOne,1112,4,0,0
+-0.7369,Negative,NorthOne,1112,1,0,0
+0.8565,Positive,NorthOne,1112,1,0,0
+-0.8942,Negative,NorthOne,1112,4,1,0
+-0.6934,Negative,NorthOne,1112,3,0,0
+0.9324,Positive,NorthOne,1112,1,0,1
+0.9785,Positive,NorthOne,1112,1,2,0
+-0.8631,Negative,NorthOne,1112,2,0,0
+-0.9775,Negative,NorthOne,1112,4,0,0
+-0.6778,Negative,PNC Bank,1118,10,0,0
+-0.9074,Negative,PNC Bank,1118,0,1,0
+0.3038,Positive,PNC Bank,1118,2,0,0
+-0.8541,Negative,PNC Bank,1118,3,0,0
+-0.2732,Negative,PNC Bank,1118,0,4,0
+-0.965,Negative,PNC Bank,1118,2,0,0
+-0.8687,Negative,PNC Bank,1118,2,0,0
+-0.5423,Negative,PNC Bank,1118,2,2,0
+0.6808,Positive,PNC Bank,1118,3,0,0
+0.8731,Positive,PNC Bank,1118,1,0,0
+0.4517,Positive,PNC Bank,1118,0,2,0
+0.8797,Positive,PNC Bank,1118,1,0,0
+-0.7979,Negative,PNC Bank,1118,1,0,0
+-0.923,Negative,PNC Bank,1118,2,5,0
+0.5917,Positive,PNC Bank,1118,3,0,1
+0.1862,Positive,PNC Bank,1118,1,3,0
+0.871,Positive,PNC Bank,1118,0,1,0
+0.6369,Positive,PNC Bank,1118,6,4,1
+-0.296,Negative,PNC Bank,1118,0,0,0
+-0.8991,Negative,PNC Bank,1118,9,2,0
+0.8622,Positive,PNC Bank,1118,0,0,0
+-0.9271,Negative,PNC Bank,1118,7,0,1
+0.8379,Positive,PNC Bank,1118,1,0,0
+0.7906,Positive,PNC Bank,1118,4,0,0
+-0.8402,Negative,PNC Bank,1118,0,0,0
+-0.7597,Negative,PNC Bank,1118,1,2,0
+-0.8935,Negative,PNC Bank,1118,0,0,0
+-0.5352,Negative,PNC Bank,1118,1,0,0
+-0.1983,Negative,PNC Bank,1118,3,0,0
+-0.552,Negative,PNC Bank,1118,0,0,0
+-0.8058,Negative,PNC Bank,1118,4,0,0
+-0.5363,Negative,PNC Bank,1118,0,0,0
+-0.5106,Negative,PNC Bank,1118,0,0,0
+0.6322,Positive,PNC Bank,1118,2,0,0
+-0.5242,Negative,PNC Bank,1118,3,0,0
+-0.6788,Negative,PNC Bank,1118,0,0,0
+-0.8139,Negative,PNC Bank,1118,1,2,2
+-0.8034,Negative,PNC Bank,1118,1,0,1
+0.0,Neutral,PNC Bank,1118,0,0,0
+-0.8326,Negative,PNC Bank,1118,3,0,1
+-0.765,Negative,PNC Bank,1118,3,1,1
+0.6369,Positive,PNC Bank,1118,0,1,0
+-0.8877,Negative,PNC Bank,1118,2,3,0
+-0.2023,Negative,PNC Bank,1118,1,0,0
+0.0516,Positive,PNC Bank,1118,0,2,0
+-0.4767,Negative,PNC Bank,1118,4,2,0
+-0.4497,Negative,PNC Bank,1118,4,0,1
+-0.8748,Negative,PNC Bank,1118,0,0,0
+-0.8323,Negative,PNC Bank,1118,1,1,1
+-0.9429,Negative,PNC Bank,1118,1,0,2
+-0.5719,Negative,PNC Bank,1118,1,2,0
+-0.0853,Negative,PNC Bank,1118,1,0,0
+-0.7379,Negative,PNC Bank,1118,1,0,1
+-0.8083,Negative,PNC Bank,1118,2,2,0
+-0.3134,Negative,PNC Bank,1118,0,3,0
+-0.2271,Negative,PNC Bank,1118,0,0,0
+0.4019,Positive,PNC Bank,1118,4,0,0
+0.3049,Positive,PNC Bank,1118,3,1,0
+-0.1511,Negative,PNC Bank,1118,0,0,0
+0.0,Neutral,PNC Bank,1118,0,0,0
+-0.8367,Negative,PNC Bank,1118,0,0,0
+-0.7959,Negative,PNC Bank,1118,1,0,0
+-0.5859,Negative,PNC Bank,1118,2,0,1
+-0.9361,Negative,PNC Bank,1118,0,0,2
+0.7983,Positive,PNC Bank,1118,1,0,1
+-0.6179,Negative,PNC Bank,1118,2,1,0
+-0.1546,Negative,PNC Bank,1118,0,0,0
+-0.946,Negative,PNC Bank,1118,5,2,0
+-0.9099,Negative,PNC Bank,1118,2,0,0
+0.1027,Positive,PNC Bank,1118,1,0,2
+0.9283,Positive,PNC Bank,1118,2,2,0
+-0.802,Negative,PNC Bank,1118,1,0,0
+0.34,Positive,PNC Bank,1118,0,0,0
+0.762,Positive,PNC Bank,1118,1,1,3
+0.8528,Positive,PNC Bank,1118,1,0,0
+-0.7975,Negative,PNC Bank,1118,3,0,0
+-0.5267,Negative,PNC Bank,1118,0,1,0
+-0.6124,Negative,PNC Bank,1118,1,0,0
+-0.9537,Negative,PNC Bank,1118,2,2,0
+-0.9496,Negative,PNC Bank,1118,0,0,0
+-0.733,Negative,PNC Bank,1118,1,2,0
+-0.2263,Negative,PNC Bank,1118,0,0,0
+0.7695,Positive,PNC Bank,1118,1,0,0
+-0.1531,Negative,PNC Bank,1118,0,0,0
+0.5284,Positive,PNC Bank,1118,4,0,5
+-0.1779,Negative,PNC Bank,1118,1,0,4
+-0.7241,Negative,PNC Bank,1118,3,1,0
+-0.7058,Negative,PNC Bank,1118,2,0,0
+0.3804,Positive,PNC Bank,1118,5,2,0
+-0.879,Negative,PNC Bank,1118,0,0,1
+-0.1531,Negative,PNC Bank,1118,0,0,0
+0.6604,Positive,PNC Bank,1118,4,0,0
+0.1289,Positive,PNC Bank,1118,0,0,0
+-0.861,Negative,PNC Bank,1118,1,0,1
+-0.6852,Negative,PNC Bank,1118,2,2,0
+0.7416,Positive,PNC Bank,1118,2,0,3
+0.8057,Positive,PNC Bank,1118,0,1,0
+0.6566,Positive,PNC Bank,1118,0,1,0
+0.7878,Positive,PNC Bank,1118,2,0,0
+-0.6685,Negative,PNC Bank,1118,0,4,0
+-0.5267,Negative,PNC Bank,1118,0,0,0
+0.7881,Positive,PNC Bank,1118,0,5,0
+0.5962,Positive,PNC Bank,1118,1,0,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.5574,Negative,PNC Bank,1118,1,0,0
+-0.7579,Negative,PNC Bank,1118,3,0,0
+0.9184,Positive,PNC Bank,1118,1,0,2
+-0.8465,Negative,PNC Bank,1118,0,0,0
+-0.4798,Negative,PNC Bank,1118,2,0,0
+-0.6124,Negative,PNC Bank,1118,0,2,0
+0.8225,Positive,PNC Bank,1118,1,0,0
+-0.34,Negative,PNC Bank,1118,1,0,0
+-0.4215,Negative,PNC Bank,1118,4,0,1
+-0.8601,Negative,PNC Bank,1118,3,3,0
+-0.8313,Negative,PNC Bank,1118,0,0,0
+-0.5423,Negative,PNC Bank,1118,1,0,1
+-0.2354,Negative,PNC Bank,1118,2,0,2
+-0.1825,Negative,PNC Bank,1118,2,2,0
+-0.2924,Negative,PNC Bank,1118,2,0,0
+0.4404,Positive,PNC Bank,1118,1,0,0
+-0.9521,Negative,PNC Bank,1118,2,2,0
+-0.7339,Negative,PNC Bank,1118,1,0,1
+-0.7321,Negative,PNC Bank,1118,1,0,0
+-0.659,Negative,PNC Bank,1118,1,2,0
+0.8634,Positive,PNC Bank,1118,6,2,0
+0.5185,Positive,PNC Bank,1118,1,0,0
+0.0,Neutral,PNC Bank,1118,5,0,0
+-0.8746,Negative,PNC Bank,1118,0,0,0
+-0.8058,Negative,PNC Bank,1118,5,1,0
+-0.8114,Negative,PNC Bank,1118,1,0,0
+-0.829,Negative,PNC Bank,1118,1,2,0
+-0.7896,Negative,PNC Bank,1118,0,0,0
+-0.8268,Negative,PNC Bank,1118,4,0,0
+-0.5984,Negative,PNC Bank,1118,2,5,0
+-0.9435,Negative,PNC Bank,1118,12,2,0
+-0.296,Negative,PNC Bank,1118,1,0,0
+-0.3164,Negative,PNC Bank,1118,0,2,0
+0.6028,Positive,PNC Bank,1118,0,0,0
+-0.7599,Negative,PNC Bank,1118,2,0,0
+-0.4588,Negative,PNC Bank,1118,0,0,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.7547,Negative,PNC Bank,1118,2,0,0
+0.0557,Positive,PNC Bank,1118,2,0,2
+-0.9249,Negative,PNC Bank,1118,1,0,0
+0.0,Neutral,PNC Bank,1118,2,0,0
+-0.69,Negative,PNC Bank,1118,0,2,0
+-0.7111,Negative,PNC Bank,1118,6,2,0
+0.9758,Positive,PNC Bank,1118,0,1,0
+0.5526,Positive,PNC Bank,1118,1,0,0
+-0.7622,Negative,PNC Bank,1118,0,0,0
+-0.8677,Negative,PNC Bank,1118,2,0,0
+0.0,Neutral,PNC Bank,1118,0,0,0
+-0.1141,Negative,PNC Bank,1118,3,0,0
+-0.2755,Negative,PNC Bank,1118,0,0,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.3384,Negative,PNC Bank,1118,0,0,0
+-0.807,Negative,PNC Bank,1118,1,2,0
+0.9162,Positive,PNC Bank,1118,2,0,1
+0.9699,Positive,PNC Bank,1118,4,2,7
+-0.7003,Negative,PNC Bank,1118,1,2,0
+-0.8847,Negative,PNC Bank,1118,0,1,0
+0.9493,Positive,PNC Bank,1118,1,0,0
+-0.6146,Negative,PNC Bank,1118,5,2,0
+0.5994,Positive,PNC Bank,1118,2,0,1
+-0.8636,Negative,PNC Bank,1118,0,0,0
+0.6124,Positive,PNC Bank,1118,2,2,0
+-0.7179,Negative,PNC Bank,1118,3,0,0
+-0.8591,Negative,PNC Bank,1118,5,0,0
+-0.8663,Negative,PNC Bank,1118,1,0,1
+-0.5423,Negative,PNC Bank,1118,0,0,0
+-0.872,Negative,PNC Bank,1118,3,0,0
+-0.9667,Negative,PNC Bank,1118,2,3,0
+0.8133,Positive,PNC Bank,1118,3,1,0
+-0.6075,Negative,PNC Bank,1118,1,0,0
+0.9552,Positive,PNC Bank,1118,7,2,0
+-0.4404,Negative,PNC Bank,1118,1,0,0
+-0.91,Negative,PNC Bank,1118,6,0,0
+0.3912,Positive,PNC Bank,1118,3,6,0
+0.9824,Positive,PNC Bank,1118,0,0,0
+-0.636,Negative,PNC Bank,1118,1,1,0
+-0.8802,Negative,PNC Bank,1118,3,0,0
+0.9622,Positive,PNC Bank,1118,19,5,0
+0.9035,Positive,PNC Bank,1118,5,0,0
+-0.9938,Negative,PNC Bank,1118,8,4,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+0.9729,Positive,PNC Bank,1118,4,2,0
+0.8974,Positive,PNC Bank,1118,0,1,0
+0.0,Neutral,PNC Bank,1118,0,0,0
+-0.3506,Negative,PNC Bank,1118,2,0,0
+-0.5197,Negative,PNC Bank,1118,3,0,0
+0.5766,Positive,PNC Bank,1118,7,0,0
+-0.1761,Negative,PNC Bank,1118,0,0,0
+-0.4767,Negative,PNC Bank,1118,0,0,0
+-0.965,Negative,PNC Bank,1118,7,1,3
+-0.8884,Negative,PNC Bank,1118,11,8,1
+-0.9422,Negative,PNC Bank,1118,7,7,2
+-0.0772,Negative,PNC Bank,1118,1,1,0
+0.7063,Positive,PNC Bank,1118,1,1,0
+-0.1531,Negative,PNC Bank,1118,0,0,0
+0.34,Positive,PNC Bank,1118,2,0,0
+-0.8271,Negative,PNC Bank,1118,0,0,0
+0.4926,Positive,PNC Bank,1118,1,0,0
+-0.9479,Negative,PNC Bank,1118,1,7,1
+0.0,Neutral,PNC Bank,1118,1,1,0
+0.6073,Positive,PNC Bank,1118,0,1,0
+-0.78,Negative,PNC Bank,1118,1,2,0
+0.296,Positive,PNC Bank,1118,1,0,0
+-0.8564,Negative,PNC Bank,1118,0,2,2
+-0.7717,Negative,PNC Bank,1118,1,0,0
+0.3597,Positive,PNC Bank,1118,1,0,0
+0.8302,Positive,PNC Bank,1118,1,2,0
+-0.8173,Negative,PNC Bank,1118,5,4,0
+-0.1058,Negative,PNC Bank,1118,1,0,1
+-0.9689,Negative,PNC Bank,1118,0,4,0
+-0.7579,Negative,PNC Bank,1118,0,0,0
+-0.7407,Negative,PNC Bank,1118,3,0,0
+0.6345,Positive,PNC Bank,1118,6,0,1
+-0.7824,Negative,PNC Bank,1118,2,0,0
+0.4019,Positive,PNC Bank,1118,0,0,0
+-0.8004,Negative,PNC Bank,1118,2,0,0
+-0.7248,Negative,PNC Bank,1118,6,2,0
+0.8807,Positive,PNC Bank,1118,0,1,0
+-0.5719,Negative,PNC Bank,1118,2,0,0
+-0.9365,Negative,PNC Bank,1118,2,1,0
+-0.9291,Negative,PNC Bank,1118,1,0,0
+-0.9134,Negative,PNC Bank,1118,1,0,0
+0.6687,Positive,PNC Bank,1118,2,2,0
+-0.9605,Negative,PNC Bank,1118,0,0,0
+-0.4215,Negative,PNC Bank,1118,1,0,0
+0.5023,Positive,PNC Bank,1118,4,0,0
+-0.802,Negative,PNC Bank,1118,4,1,0
+-0.3637,Negative,PNC Bank,1118,2,0,0
+-0.5775,Negative,PNC Bank,1118,9,6,0
+-0.8176,Negative,PNC Bank,1118,3,0,0
+0.9311,Positive,PNC Bank,1118,1,0,6
+0.8283,Positive,PNC Bank,1118,1,0,1
+-0.7398,Negative,PNC Bank,1118,1,0,2
+-0.6991,Negative,PNC Bank,1118,1,1,1
+-0.5992,Negative,PNC Bank,1118,1,2,4
+-0.9196,Negative,PNC Bank,1118,3,0,0
+-0.3875,Negative,PNC Bank,1118,1,0,0
+-0.6199,Negative,PNC Bank,1118,3,1,0
+-0.8558,Negative,PNC Bank,1118,2,0,0
+-0.1531,Negative,PNC Bank,1118,1,0,0
+0.6418,Positive,PNC Bank,1118,6,7,0
+0.1779,Positive,PNC Bank,1118,0,0,1
+-0.5805,Negative,PNC Bank,1118,2,0,1
+-0.1315,Negative,PNC Bank,1118,0,2,2
+0.4019,Positive,PNC Bank,1118,2,0,0
+-0.952,Negative,PNC Bank,1118,7,1,0
+-0.9414,Negative,PNC Bank,1118,1,0,0
+-0.7405,Negative,PNC Bank,1118,1,2,0
+-0.9446,Negative,PNC Bank,1118,4,0,4
+-0.6449,Negative,PNC Bank,1118,0,0,0
+-0.2732,Negative,PNC Bank,1118,0,2,0
+0.1045,Positive,PNC Bank,1118,0,0,0
+0.0657,Positive,PNC Bank,1118,1,0,0
+0.9594,Positive,PNC Bank,1118,1,0,3
+-0.1027,Negative,PNC Bank,1118,1,0,1
+-0.8181,Negative,PNC Bank,1118,2,0,0
+0.685,Positive,PNC Bank,1118,3,2,2
+-0.9758,Negative,PNC Bank,1118,2,0,1
+-0.9243,Negative,PNC Bank,1118,0,4,0
+-0.8852,Negative,PNC Bank,1118,5,1,0
+-0.7514,Negative,PNC Bank,1118,3,0,1
+0.2691,Positive,PNC Bank,1118,1,0,2
+-0.8914,Negative,PNC Bank,1118,0,0,2
+-0.8313,Negative,PNC Bank,1118,1,0,0
+-0.9882,Negative,PNC Bank,1118,0,0,0
+-0.5967,Negative,PNC Bank,1118,0,2,0
+-0.3022,Negative,PNC Bank,1118,0,2,0
+0.7828,Positive,PNC Bank,1118,3,2,0
+-0.9734,Negative,PNC Bank,1118,1,3,0
+-0.8224,Negative,PNC Bank,1118,0,1,1
+-0.7866,Negative,PNC Bank,1118,3,6,0
+-0.2732,Negative,PNC Bank,1118,0,0,0
+-0.6571,Negative,PNC Bank,1118,0,2,1
+-0.6486,Negative,PNC Bank,1118,0,0,0
+-0.8983,Negative,PNC Bank,1118,3,2,0
+-0.9845,Negative,PNC Bank,1118,8,2,0
+0.7884,Positive,PNC Bank,1118,1,1,0
+0.4019,Positive,PNC Bank,1118,1,0,0
+-0.9192,Negative,PNC Bank,1118,2,0,0
+-0.7819,Negative,PNC Bank,1118,0,2,0
+-0.9098,Negative,PNC Bank,1118,1,0,0
+0.296,Positive,PNC Bank,1118,0,0,0
+-0.2144,Negative,PNC Bank,1118,4,0,0
+-0.968,Negative,PNC Bank,1118,1,2,0
+-0.7906,Negative,PNC Bank,1118,0,2,0
+-0.296,Negative,PNC Bank,1118,0,0,0
+0.0,Neutral,PNC Bank,1118,2,0,0
+-0.6249,Negative,PNC Bank,1118,1,0,0
+-0.4344,Negative,PNC Bank,1118,1,0,0
+-0.9168,Negative,PNC Bank,1118,2,0,0
+0.4914,Positive,PNC Bank,1118,1,1,0
+0.4215,Positive,PNC Bank,1118,6,1,1
+-0.7184,Negative,PNC Bank,1118,1,0,0
+-0.6249,Negative,PNC Bank,1118,2,0,0
+-0.8402,Negative,PNC Bank,1118,3,0,0
+-0.7836,Negative,PNC Bank,1118,3,0,0
+0.8525,Positive,PNC Bank,1118,0,0,0
+-0.434,Negative,PNC Bank,1118,3,0,0
+-0.9104,Negative,PNC Bank,1118,1,0,0
+-0.3071,Negative,PNC Bank,1118,2,0,0
+-0.2291,Negative,PNC Bank,1118,1,1,0
+-0.7834,Negative,PNC Bank,1118,3,2,0
+-0.7906,Negative,PNC Bank,1118,2,0,0
+0.2433,Positive,PNC Bank,1118,2,0,1
+0.0982,Positive,PNC Bank,1118,2,1,0
+0.807,Positive,PNC Bank,1118,1,0,0
+-0.9715,Negative,PNC Bank,1118,0,2,0
+0.1531,Positive,PNC Bank,1118,1,0,0
+0.3048,Positive,PNC Bank,1118,1,0,0
+0.1779,Positive,PNC Bank,1118,1,2,0
+-0.9891,Negative,PNC Bank,1118,13,2,2
+-0.659,Negative,PNC Bank,1118,0,0,0
+0.7326,Positive,PNC Bank,1118,0,0,1
+-0.7859,Negative,PNC Bank,1118,5,2,0
+-0.9176,Negative,PNC Bank,1118,3,6,0
+-0.6984,Negative,PNC Bank,1118,0,0,2
+0.9094,Positive,PNC Bank,1118,0,0,0
+0.1603,Positive,PNC Bank,1118,0,0,0
+-0.25,Negative,PNC Bank,1118,5,0,0
+-0.872,Negative,PNC Bank,1118,4,0,0
+0.5267,Positive,PNC Bank,1118,1,0,1
+0.1722,Positive,PNC Bank,1118,2,2,2
+0.5053,Positive,PNC Bank,1118,0,2,0
+-0.9355,Negative,PNC Bank,1118,1,0,0
+-0.5628,Negative,PNC Bank,1118,0,0,0
+0.5247,Positive,PNC Bank,1118,2,0,0
+-0.571,Negative,PNC Bank,1118,2,2,0
+-0.6249,Negative,PNC Bank,1118,2,0,0
+-0.6671,Negative,PNC Bank,1118,0,0,0
+-0.5824,Negative,PNC Bank,1118,3,2,0
+-0.7326,Negative,PNC Bank,1118,0,0,1
+-0.4989,Negative,PNC Bank,1118,0,0,1
+0.743,Positive,PNC Bank,1118,0,0,0
+-0.5255,Negative,PNC Bank,1118,0,0,0
+-0.6998,Negative,PNC Bank,1118,3,0,0
+-0.1779,Negative,PNC Bank,1118,0,2,0
+-0.29,Negative,PNC Bank,1118,3,1,0
+-0.8355,Negative,PNC Bank,1118,3,0,0
+-0.5423,Negative,PNC Bank,1118,2,1,0
+-0.6398,Negative,PNC Bank,1118,4,0,1
+-0.4767,Negative,PNC Bank,1118,1,0,0
+-0.9042,Negative,PNC Bank,1118,0,2,1
+0.765,Positive,PNC Bank,1118,1,0,0
+-0.0258,Neutral,PNC Bank,1118,3,0,1
+-0.997,Negative,PNC Bank,1118,2,0,0
+-0.9209,Negative,PNC Bank,1118,1,0,0
+0.0,Neutral,PNC Bank,1118,1,2,0
+-0.9396,Negative,PNC Bank,1118,4,0,0
+0.453,Positive,PNC Bank,1118,0,0,0
+-0.6675,Negative,PNC Bank,1118,4,2,0
+-0.3102,Negative,PNC Bank,1118,2,1,0
+-0.9697,Negative,PNC Bank,1118,0,2,0
+0.3413,Positive,PNC Bank,1118,2,0,0
+0.6249,Positive,PNC Bank,1118,1,0,4
+-0.7837,Negative,PNC Bank,1118,5,4,0
+0.9245,Positive,PNC Bank,1118,0,0,0
+0.4877,Positive,PNC Bank,1118,0,0,0
+0.193,Positive,PNC Bank,1118,1,0,2
+-0.7003,Negative,PNC Bank,1118,1,2,0
+-0.5267,Negative,PNC Bank,1118,1,0,0
+-0.2006,Negative,PNC Bank,1118,0,2,0
+-0.0129,Neutral,PNC Bank,1118,1,1,2
+-0.8541,Negative,PNC Bank,1118,0,0,0
+0.634,Positive,PNC Bank,1118,0,3,0
+0.5878,Positive,PNC Bank,1118,2,0,3
+-0.7167,Negative,PNC Bank,1118,1,0,0
+0.8593,Positive,PNC Bank,1118,8,2,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.8632,Negative,PNC Bank,1118,0,0,0
+-0.5597,Negative,PNC Bank,1118,2,0,0
+0.1928,Positive,PNC Bank,1118,4,0,0
+-0.706,Negative,PNC Bank,1118,3,4,0
+-0.8306,Negative,PNC Bank,1118,2,0,0
+-0.714,Negative,PNC Bank,1118,0,0,0
+-0.8797,Negative,PNC Bank,1118,6,2,0
+0.825,Positive,PNC Bank,1118,1,0,2
+-0.9729,Negative,PNC Bank,1118,3,0,0
+-0.9709,Negative,PNC Bank,1118,3,1,0
+-0.1531,Negative,PNC Bank,1118,0,0,0
+-0.4404,Negative,PNC Bank,1118,0,0,0
+-0.3102,Negative,PNC Bank,1118,1,0,0
+0.8097,Positive,PNC Bank,1118,4,0,2
+-0.5951,Negative,PNC Bank,1118,1,0,0
+0.8853,Positive,PNC Bank,1118,1,3,0
+-0.9295,Negative,PNC Bank,1118,1,0,0
+-0.1027,Negative,PNC Bank,1118,0,0,1
+-0.3479,Negative,PNC Bank,1118,1,6,3
+-0.4404,Negative,PNC Bank,1118,3,0,2
+-0.6808,Negative,PNC Bank,1118,4,0,0
+0.5423,Positive,PNC Bank,1118,0,0,0
+-0.8122,Negative,PNC Bank,1118,1,1,0
+-0.1513,Negative,PNC Bank,1118,0,0,0
+-0.4927,Negative,PNC Bank,1118,1,0,1
+-0.5859,Negative,PNC Bank,1118,3,0,0
+-0.2732,Negative,PNC Bank,1118,1,0,0
+0.1451,Positive,PNC Bank,1118,3,0,0
+-0.8307,Negative,PNC Bank,1118,0,2,1
+-0.3533,Negative,PNC Bank,1118,0,0,0
+-0.9469,Negative,PNC Bank,1118,0,0,0
+-0.8277,Negative,PNC Bank,1118,4,0,0
+-0.8461,Negative,PNC Bank,1118,4,0,0
+-0.1672,Negative,PNC Bank,1118,0,0,4
+0.0018,Neutral,PNC Bank,1118,1,0,1
+-0.9382,Negative,PNC Bank,1118,2,0,1
+-0.7331,Negative,PNC Bank,1118,3,0,0
+-0.8331,Negative,PNC Bank,1118,2,0,0
+-0.8858,Negative,PNC Bank,1118,0,0,8
+-0.9218,Negative,PNC Bank,1118,0,0,0
+-0.8004,Negative,PNC Bank,1118,2,0,0
+-0.9882,Negative,PNC Bank,1118,0,0,0
+-0.0987,Negative,PNC Bank,1118,1,0,4
+-0.9373,Negative,PNC Bank,1118,2,0,0
+0.2235,Positive,PNC Bank,1118,0,0,0
+-0.7096,Negative,PNC Bank,1118,2,0,0
+0.5256,Positive,PNC Bank,1118,0,0,0
+0.0299,Neutral,PNC Bank,1118,2,0,0
+0.5216,Positive,PNC Bank,1118,0,0,0
+0.2406,Positive,PNC Bank,1118,3,1,1
+-0.8857,Negative,PNC Bank,1118,2,0,0
+0.2732,Positive,PNC Bank,1118,0,0,0
+-0.9718,Negative,PNC Bank,1118,1,2,1
+-0.992,Negative,PNC Bank,1118,8,2,0
+-0.9599,Negative,PNC Bank,1118,3,0,0
+-0.7276,Negative,PNC Bank,1118,1,0,0
+-0.0772,Negative,PNC Bank,1118,1,1,2
+0.8687,Positive,PNC Bank,1118,4,0,0
+0.4003,Positive,PNC Bank,1118,0,1,3
+-0.1901,Negative,PNC Bank,1118,2,1,0
+0.9216,Positive,PNC Bank,1118,1,0,0
+0.893,Positive,PNC Bank,1118,2,0,0
+0.93,Positive,PNC Bank,1118,1,2,0
+0.719,Positive,PNC Bank,1118,0,0,1
+-0.6487,Negative,PNC Bank,1118,0,0,0
+-0.6083,Negative,PNC Bank,1118,1,0,0
+0.818,Positive,PNC Bank,1118,4,3,0
+0.5859,Positive,PNC Bank,1118,0,0,0
+-0.8979,Negative,PNC Bank,1118,0,1,0
+-0.9714,Negative,PNC Bank,1118,6,11,0
+-0.7777,Negative,PNC Bank,1118,0,0,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+0.6358,Positive,PNC Bank,1118,0,2,3
+-0.4767,Negative,PNC Bank,1118,0,2,0
+-0.9656,Negative,PNC Bank,1118,8,0,2
+-0.7632,Negative,PNC Bank,1118,0,0,0
+-0.7695,Negative,PNC Bank,1118,4,3,0
+0.8611,Positive,PNC Bank,1118,2,2,0
+-0.925,Negative,PNC Bank,1118,2,0,0
+-0.5744,Negative,PNC Bank,1118,1,0,0
+-0.049,Neutral,PNC Bank,1118,0,0,2
+-0.4939,Negative,PNC Bank,1118,0,0,0
+0.2732,Positive,PNC Bank,1118,0,0,0
+-0.1896,Negative,PNC Bank,1118,0,0,0
+0.8382,Positive,PNC Bank,1118,4,1,0
+-0.9933,Negative,PNC Bank,1118,20,1,0
+-0.7579,Negative,PNC Bank,1118,0,2,0
+-0.9587,Negative,PNC Bank,1118,6,1,0
+-0.9032,Negative,PNC Bank,1118,0,1,0
+-0.977,Negative,PNC Bank,1118,5,0,0
+0.5994,Positive,PNC Bank,1118,0,0,0
+-0.7925,Negative,PNC Bank,1118,0,0,0
+-0.6495,Negative,PNC Bank,1118,6,0,0
+-0.9171,Negative,PNC Bank,1118,3,0,0
+0.4124,Positive,PNC Bank,1118,8,0,0
+-0.9875,Negative,PNC Bank,1118,1,3,0
+-0.7386,Negative,PNC Bank,1118,1,2,0
+-0.7036,Negative,PNC Bank,1118,3,0,0
+-0.1027,Negative,PNC Bank,1118,1,1,0
+-0.588,Negative,PNC Bank,1118,2,0,0
+-0.6987,Negative,PNC Bank,1118,1,2,0
+-0.8906,Negative,PNC Bank,1118,1,3,1
+0.0701,Positive,PNC Bank,1118,0,0,0
+-0.2726,Negative,PNC Bank,1118,0,0,0
+-0.9442,Negative,PNC Bank,1118,2,1,0
+-0.9245,Negative,PNC Bank,1118,4,0,0
+-0.9318,Negative,PNC Bank,1118,5,0,0
+-0.8507,Negative,PNC Bank,1118,1,0,0
+-0.9411,Negative,PNC Bank,1118,0,2,0
+-0.8844,Negative,PNC Bank,1118,2,3,1
+0.8771,Positive,PNC Bank,1118,1,0,1
+-0.296,Negative,PNC Bank,1118,0,0,0
+-0.9643,Negative,PNC Bank,1118,5,0,0
+0.6369,Positive,PNC Bank,1118,2,2,1
+-0.8588,Negative,PNC Bank,1118,0,1,0
+-0.5106,Negative,PNC Bank,1118,0,0,0
+-0.4939,Negative,PNC Bank,1118,1,0,0
+0.2263,Positive,PNC Bank,1118,2,4,0
+0.676,Positive,PNC Bank,1118,0,0,0
+-0.8106,Negative,PNC Bank,1118,1,0,0
+-0.8519,Negative,PNC Bank,1118,0,0,0
+-0.2481,Negative,PNC Bank,1118,2,0,0
+-0.3182,Negative,PNC Bank,1118,2,0,0
+-0.77,Negative,PNC Bank,1118,0,0,0
+-0.7506,Negative,PNC Bank,1118,1,0,1
+-0.8346,Negative,PNC Bank,1118,0,1,0
+-0.2481,Negative,PNC Bank,1118,2,0,0
+-0.9485,Negative,PNC Bank,1118,1,0,0
+-0.8439,Negative,PNC Bank,1118,2,0,0
+-0.5948,Negative,PNC Bank,1118,1,1,0
+-0.5801,Negative,PNC Bank,1118,2,2,0
+-0.9777,Negative,PNC Bank,1118,2,1,0
+-0.3111,Negative,PNC Bank,1118,0,0,0
+-0.9146,Negative,PNC Bank,1118,2,3,0
+-0.6705,Negative,PNC Bank,1118,2,0,0
+-0.9231,Negative,PNC Bank,1118,5,0,0
+-0.7222,Negative,PNC Bank,1118,0,0,0
+-0.9375,Negative,PNC Bank,1118,8,0,0
+0.8439,Positive,PNC Bank,1118,1,0,2
+-0.5411,Negative,PNC Bank,1118,1,0,0
+-0.1717,Negative,PNC Bank,1118,1,0,0
+0.2247,Positive,PNC Bank,1118,1,2,0
+0.4429,Positive,PNC Bank,1118,1,8,0
+0.1779,Positive,PNC Bank,1118,0,0,0
+0.5423,Positive,PNC Bank,1118,1,0,0
+-0.8716,Negative,PNC Bank,1118,1,2,0
+-0.6597,Negative,PNC Bank,1118,0,0,1
+-0.9666,Negative,PNC Bank,1118,1,0,0
+-0.9186,Negative,PNC Bank,1118,4,1,0
+-0.2118,Negative,PNC Bank,1118,4,0,0
+0.8473,Positive,PNC Bank,1118,4,2,0
+-0.7184,Negative,PNC Bank,1118,0,0,0
+-0.8807,Negative,PNC Bank,1118,1,0,0
+-0.8588,Negative,PNC Bank,1118,0,1,0
+-0.7184,Negative,PNC Bank,1118,1,0,0
+-0.7326,Negative,PNC Bank,1118,2,0,1
+0.6308,Positive,PNC Bank,1118,3,0,0
+-0.9734,Negative,PNC Bank,1118,1,1,2
+-0.7003,Negative,PNC Bank,1118,3,0,1
+0.3851,Positive,PNC Bank,1118,0,2,0
+0.0,Neutral,PNC Bank,1118,3,0,0
+0.5719,Positive,PNC Bank,1118,0,1,0
+-0.9843,Negative,PNC Bank,1118,2,0,2
+-0.8338,Negative,PNC Bank,1118,0,0,0
+0.5267,Positive,PNC Bank,1118,2,0,3
+-0.4694,Negative,PNC Bank,1118,2,0,0
+-0.8297,Negative,PNC Bank,1118,0,0,0
+-0.8999,Negative,PNC Bank,1118,2,0,0
+-0.7488,Negative,PNC Bank,1118,2,0,0
+-0.0127,Neutral,PNC Bank,1118,1,0,0
+0.3612,Positive,PNC Bank,1118,0,0,0
+-0.8269,Negative,PNC Bank,1118,2,1,1
+0.5828,Positive,PNC Bank,1118,3,1,1
+-0.2876,Negative,PNC Bank,1118,2,0,0
+-0.6597,Negative,PNC Bank,1118,0,0,0
+-0.7265,Negative,PNC Bank,1118,1,0,0
+0.3612,Positive,PNC Bank,1118,1,0,0
+-0.5121,Negative,PNC Bank,1118,2,1,0
+-0.7269,Negative,PNC Bank,1118,0,2,0
+-0.9516,Negative,PNC Bank,1118,6,1,0
+-0.956,Negative,PNC Bank,1118,4,1,0
+-0.7984,Negative,PNC Bank,1118,2,3,0
+0.8168,Positive,PNC Bank,1118,0,0,0
+-0.8221,Negative,PNC Bank,1118,1,3,5
+-0.8225,Negative,PNC Bank,1118,1,0,0
+0.0,Neutral,PNC Bank,1118,3,0,0
+-0.6596,Negative,PNC Bank,1118,2,0,0
+0.4866,Positive,PNC Bank,1118,1,3,2
+-0.3586,Negative,PNC Bank,1118,1,2,0
+0.6744,Positive,PNC Bank,1118,3,0,0
+-0.8691,Negative,PNC Bank,1118,2,0,0
+-0.8375,Negative,PNC Bank,1118,2,0,0
+0.8619,Positive,PNC Bank,1118,4,2,0
+-0.9597,Negative,PNC Bank,1118,13,0,0
+-0.3612,Negative,PNC Bank,1118,0,0,0
+0.9305,Positive,PNC Bank,1118,1,1,0
+-0.9018,Negative,PNC Bank,1118,3,2,0
+-0.3094,Negative,PNC Bank,1118,0,0,0
+0.8059,Positive,PNC Bank,1118,3,0,0
+-0.4876,Negative,PNC Bank,1118,3,0,0
+-0.9649,Negative,PNC Bank,1118,1,0,0
+-0.3595,Negative,PNC Bank,1118,0,0,0
+0.9474,Positive,PNC Bank,1118,0,0,1
+-0.359,Negative,PNC Bank,1118,0,4,0
+-0.8666,Negative,PNC Bank,1118,2,1,0
+0.6895,Positive,PNC Bank,1118,2,0,0
+-0.6779,Negative,PNC Bank,1118,0,2,1
+-0.5267,Negative,PNC Bank,1118,1,0,0
+0.7048,Positive,PNC Bank,1118,1,2,0
+-0.9337,Negative,PNC Bank,1118,2,0,0
+-0.1027,Negative,PNC Bank,1118,2,1,2
+0.8625,Positive,PNC Bank,1118,0,0,0
+-0.6249,Negative,PNC Bank,1118,0,6,0
+0.0927,Positive,PNC Bank,1118,2,1,1
+-0.8408,Negative,PNC Bank,1118,3,4,0
+0.7469,Positive,PNC Bank,1118,0,0,0
+0.0772,Positive,PNC Bank,1118,2,0,0
+-0.743,Negative,PNC Bank,1118,1,0,0
+-0.7777,Negative,PNC Bank,1118,2,5,0
+0.0,Neutral,PNC Bank,1118,0,0,0
+0.3279,Positive,PNC Bank,1118,1,0,0
+0.1343,Positive,PNC Bank,1118,0,2,2
+-0.8775,Negative,PNC Bank,1118,1,0,0
+-0.4854,Negative,PNC Bank,1118,5,0,0
+-0.2023,Negative,PNC Bank,1118,1,0,0
+-0.8829,Negative,PNC Bank,1118,0,0,0
+-0.8071,Negative,PNC Bank,1118,1,4,0
+-0.7517,Negative,PNC Bank,1118,4,0,3
+-0.7096,Negative,PNC Bank,1118,0,2,0
+0.0,Neutral,PNC Bank,1118,2,0,0
+0.5682,Positive,PNC Bank,1118,1,1,1
+-0.9514,Negative,PNC Bank,1118,6,2,0
+-0.4767,Negative,PNC Bank,1118,0,1,0
+-0.8316,Negative,PNC Bank,1118,0,0,0
+0.4927,Positive,PNC Bank,1118,2,0,0
+-0.9399,Negative,PNC Bank,1118,2,0,0
+-0.4404,Negative,PNC Bank,1118,3,0,0
+-0.272,Negative,PNC Bank,1118,2,0,1
+-0.4798,Negative,PNC Bank,1118,3,0,0
+-0.4588,Negative,PNC Bank,1118,1,2,6
+-0.7452,Negative,PNC Bank,1118,1,2,0
+-0.6467,Negative,PNC Bank,1118,1,0,0
+-0.9707,Negative,PNC Bank,1118,3,2,0
+0.2278,Positive,PNC Bank,1118,0,0,0
+-0.6927,Negative,PNC Bank,1118,0,0,0
+-0.5255,Negative,PNC Bank,1118,1,1,0
+-0.6826,Negative,PNC Bank,1118,7,3,1
+-0.9748,Negative,PNC Bank,1118,1,2,5
+0.2263,Positive,PNC Bank,1118,1,2,0
+0.9022,Positive,PNC Bank,1118,0,0,0
+-0.6249,Negative,PNC Bank,1118,0,2,0
+-0.9526,Negative,PNC Bank,1118,2,0,1
+0.0923,Positive,PNC Bank,1118,2,4,0
+-0.0632,Negative,PNC Bank,1118,5,5,0
+-0.6597,Negative,PNC Bank,1118,2,2,0
+0.9735,Positive,PNC Bank,1118,2,1,2
+0.9362,Positive,PNC Bank,1118,3,0,3
+-0.9201,Negative,PNC Bank,1118,0,2,0
+-0.6898,Negative,PNC Bank,1118,6,0,0
+-0.5346,Negative,PNC Bank,1118,4,2,0
+-0.9349,Negative,PNC Bank,1118,2,3,0
+-0.6893,Negative,PNC Bank,1118,4,0,0
+-0.9115,Negative,PNC Bank,1118,0,0,0
+-0.4753,Negative,PNC Bank,1118,1,0,0
+-0.9081,Negative,PNC Bank,1118,4,0,0
+0.9819,Positive,PNC Bank,1118,3,2,0
+-0.8732,Negative,PNC Bank,1118,5,0,0
+-0.4576,Negative,PNC Bank,1118,1,0,0
+-0.296,Negative,PNC Bank,1118,0,0,0
+-0.7891,Negative,PNC Bank,1118,0,2,0
+-0.8097,Negative,PNC Bank,1118,4,0,0
+0.8176,Positive,PNC Bank,1118,1,1,0
+-0.8147,Negative,PNC Bank,1118,2,1,0
+-0.9513,Negative,PNC Bank,1118,0,0,0
+-0.5778,Negative,PNC Bank,1118,0,3,0
+0.0,Neutral,PNC Bank,1118,0,0,0
+0.6288,Positive,PNC Bank,1118,2,7,0
+0.1255,Positive,PNC Bank,1118,1,0,1
+0.3818,Positive,PNC Bank,1118,0,0,1
+-0.8848,Negative,PNC Bank,1118,7,0,0
+-0.6249,Negative,PNC Bank,1118,1,0,0
+-0.9431,Negative,PNC Bank,1118,1,1,0
+-0.8104,Negative,PNC Bank,1118,0,0,0
+-0.9787,Negative,PNC Bank,1118,3,1,0
+0.9919,Positive,PNC Bank,1118,5,5,0
+0.5127,Positive,PNC Bank,1118,0,2,0
+-0.5881,Negative,PNC Bank,1118,2,0,0
+-0.7824,Negative,PNC Bank,1118,0,0,0
+-0.7506,Negative,PNC Bank,1118,0,2,0
+-0.6652,Negative,PNC Bank,1118,0,1,0
+-0.8376,Negative,PNC Bank,1118,2,2,0
+-0.9235,Negative,PNC Bank,1118,0,2,0
+0.9809,Positive,PNC Bank,1118,4,3,0
+0.0516,Positive,PNC Bank,1118,0,0,0
+0.6908,Positive,PNC Bank,1118,2,4,0
+-0.6808,Negative,PNC Bank,1118,1,1,0
+-0.1027,Negative,PNC Bank,1118,0,0,0
+0.4939,Positive,PNC Bank,1118,0,3,0
+0.8057,Positive,PNC Bank,1118,2,8,0
+-0.5229,Negative,PNC Bank,1118,3,0,1
+-0.9287,Negative,PNC Bank,1118,2,0,2
+0.6331,Positive,PNC Bank,1118,6,1,1
+0.4732,Positive,PNC Bank,1118,0,1,0
+-0.9923,Negative,PNC Bank,1118,2,2,0
+-0.8675,Negative,PNC Bank,1118,5,1,1
+-0.8478,Negative,PNC Bank,1118,5,2,0
+-0.2481,Negative,PNC Bank,1118,1,4,0
+-0.9945,Negative,PNC Bank,1118,12,7,1
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.9616,Negative,PNC Bank,1118,1,0,0
+-0.7661,Negative,PNC Bank,1118,4,0,0
+-0.8159,Negative,PNC Bank,1118,1,0,0
+-0.9888,Negative,PNC Bank,1118,6,0,0
+-0.25,Negative,PNC Bank,1118,0,0,0
+-0.5423,Negative,PNC Bank,1118,0,0,0
+0.7969,Positive,PNC Bank,1118,2,3,1
+-0.7096,Negative,PNC Bank,1118,0,2,1
+0.8811,Positive,PNC Bank,1118,3,0,0
+0.7096,Positive,PNC Bank,1118,1,2,0
+0.5926,Positive,PNC Bank,1118,2,0,0
+-0.9302,Negative,PNC Bank,1118,5,6,0
+-0.8225,Negative,PNC Bank,1118,0,3,0
+-0.6327,Negative,PNC Bank,1118,5,2,0
+0.9377,Positive,PNC Bank,1118,4,0,0
+-0.7237,Negative,PNC Bank,1118,1,1,0
+0.0726,Positive,PNC Bank,1118,0,0,0
+-0.7081,Negative,PNC Bank,1118,0,0,0
+-0.9039,Negative,PNC Bank,1118,3,3,0
+-0.6283,Negative,PNC Bank,1118,2,2,1
+-0.9564,Negative,PNC Bank,1118,1,1,0
+-0.5707,Negative,PNC Bank,1118,7,0,0
+-0.8789,Negative,PNC Bank,1118,0,5,0
+0.5425,Positive,PNC Bank,1118,0,0,0
+-0.8511,Negative,PNC Bank,1118,0,2,0
+-0.6157,Negative,PNC Bank,1118,0,1,0
+0.477,Positive,PNC Bank,1118,1,0,0
+0.0202,Neutral,PNC Bank,1118,0,1,0
+0.9415,Positive,PNC Bank,1118,1,8,1
+-0.8636,Negative,PNC Bank,1118,3,1,0
+0.8442,Positive,PNC Bank,1118,5,0,0
+-0.7261,Negative,PNC Bank,1118,0,2,0
+-0.6486,Negative,PNC Bank,1118,2,0,0
+-0.922,Negative,PNC Bank,1118,3,1,0
+-0.7637,Negative,PNC Bank,1118,1,1,0
+-0.9018,Negative,PNC Bank,1118,0,0,1
+-0.8771,Negative,PNC Bank,1118,0,0,0
+0.4343,Positive,PNC Bank,1118,0,0,0
+-0.411,Negative,PNC Bank,1118,0,0,0
+-0.9808,Negative,PNC Bank,1118,0,4,0
+0.8705,Positive,PNC Bank,1118,0,0,0
+-0.7284,Negative,PNC Bank,1118,1,2,0
+0.4767,Positive,PNC Bank,1118,5,0,0
+0.1027,Positive,PNC Bank,1118,0,1,0
+-0.4007,Negative,PNC Bank,1118,0,1,0
+0.4019,Positive,PNC Bank,1118,0,0,0
+0.8936,Positive,PNC Bank,1118,2,0,2
+0.1952,Positive,PNC Bank,1118,2,6,0
+-0.9511,Negative,PNC Bank,1118,2,2,0
+-0.7506,Negative,PNC Bank,1118,4,3,0
+-0.7067,Negative,PNC Bank,1118,0,4,0
+0.3291,Positive,PNC Bank,1118,0,0,0
+-0.9278,Negative,PNC Bank,1118,0,2,0
+-0.5185,Negative,PNC Bank,1118,0,0,0
+-0.4588,Negative,PNC Bank,1118,0,1,0
+0.8029,Positive,PNC Bank,1118,2,0,0
+-0.7186,Negative,PNC Bank,1118,1,1,0
+-0.2732,Negative,PNC Bank,1118,0,2,0
+-0.7906,Negative,PNC Bank,1118,0,2,0
+-0.8491,Negative,PNC Bank,1118,2,2,0
+-0.8528,Negative,PNC Bank,1118,0,2,0
+-0.964,Negative,PNC Bank,1118,4,0,0
+-0.8068,Negative,PNC Bank,1118,0,0,0
+-0.7193,Negative,PNC Bank,1118,5,5,0
+-0.25,Negative,PNC Bank,1118,0,0,0
+-0.6242,Negative,PNC Bank,1118,1,2,3
+-0.9072,Negative,PNC Bank,1118,12,0,0
+-0.2662,Negative,PNC Bank,1118,1,0,0
+-0.7518,Negative,PNC Bank,1118,0,1,0
+-0.5606,Negative,PNC Bank,1118,2,0,1
+0.6474,Positive,PNC Bank,1118,1,0,0
+0.9789,Positive,PNC Bank,1118,2,0,0
+0.937,Positive,PNC Bank,1118,0,1,2
+-0.7482,Negative,PNC Bank,1118,0,0,0
+-0.1613,Negative,PNC Bank,1118,0,2,0
+0.6588,Positive,PNC Bank,1118,1,1,3
+0.1779,Positive,PNC Bank,1118,0,2,0
+0.2732,Positive,PNC Bank,1118,0,0,0
+0.9434,Positive,PNC Bank,1118,3,0,0
+-0.9628,Negative,PNC Bank,1118,3,2,1
+0.4404,Positive,PNC Bank,1118,0,0,0
+-0.607,Negative,PNC Bank,1118,3,3,1
+-0.8257,Negative,PNC Bank,1118,4,0,0
+-0.8809,Negative,PNC Bank,1118,1,1,0
+-0.2893,Negative,PNC Bank,1118,3,2,0
+-0.6741,Negative,PNC Bank,1118,4,1,0
+-0.4927,Negative,PNC Bank,1118,0,2,0
+0.9204,Positive,PNC Bank,1118,0,1,1
+-0.8687,Negative,PNC Bank,1118,1,1,0
+-0.2988,Negative,PNC Bank,1118,5,0,0
+-0.9359,Negative,PNC Bank,1118,0,0,0
+-0.6886,Negative,PNC Bank,1118,0,4,0
+0.6822,Positive,PNC Bank,1118,3,0,0
+-0.1878,Negative,PNC Bank,1118,1,0,0
+-0.5697,Negative,PNC Bank,1118,1,0,0
+-0.855,Negative,PNC Bank,1118,0,2,0
+-0.5023,Negative,PNC Bank,1118,6,2,0
+-0.9202,Negative,PNC Bank,1118,1,0,0
+-0.8795,Negative,PNC Bank,1118,0,1,0
+0.3603,Positive,PNC Bank,1118,0,0,0
+-0.8834,Negative,PNC Bank,1118,0,0,1
+0.6309,Positive,PNC Bank,1118,0,3,0
+-0.7124,Negative,PNC Bank,1118,0,0,0
+-0.6209,Negative,PNC Bank,1118,0,0,0
+-0.9711,Negative,PNC Bank,1118,1,0,0
+-0.9876,Negative,PNC Bank,1118,3,0,0
+-0.7579,Negative,PNC Bank,1118,2,0,0
+-0.5859,Negative,PNC Bank,1118,1,2,0
+-0.8126,Negative,PNC Bank,1118,1,2,0
+-0.1406,Negative,PNC Bank,1118,6,0,0
+-0.7971,Negative,PNC Bank,1118,2,0,0
+0.0772,Positive,PNC Bank,1118,0,0,0
+-0.9341,Negative,PNC Bank,1118,1,0,0
+-0.8851,Negative,PNC Bank,1118,3,0,0
+-0.8897,Negative,PNC Bank,1118,2,4,0
+0.0772,Positive,PNC Bank,1118,1,0,0
+-0.624,Negative,PNC Bank,1118,2,0,0
+0.2023,Positive,PNC Bank,1118,0,3,0
+-0.4738,Negative,PNC Bank,1118,1,3,0
+0.7926,Positive,PNC Bank,1118,4,1,0
+-0.7506,Negative,PNC Bank,1118,1,0,0
+-0.7377,Negative,PNC Bank,1118,0,3,2
+0.7043,Positive,PNC Bank,1118,3,2,0
+0.7378,Positive,PNC Bank,1118,0,0,0
+0.985,Positive,PNC Bank,1118,8,2,1
+-0.9602,Negative,PNC Bank,1118,1,1,0
+0.0772,Positive,PNC Bank,1118,0,0,0
+-0.34,Negative,PNC Bank,1118,1,0,0
+-0.0041,Neutral,PNC Bank,1118,2,1,4
+0.9118,Positive,PNC Bank,1118,0,0,0
+0.992,Positive,PNC Bank,1118,8,0,0
+0.8653,Positive,PNC Bank,1118,1,1,0
+-0.9083,Negative,PNC Bank,1118,1,0,2
+0.0772,Positive,PNC Bank,1118,1,0,0
+0.3818,Positive,PNC Bank,1118,0,1,2
+0.9563,Positive,PNC Bank,1118,4,1,0
+-0.9856,Negative,PNC Bank,1118,12,7,4
+-0.8849,Negative,PNC Bank,1118,0,0,0
+-0.7425,Negative,PNC Bank,1118,0,0,0
+0.8063,Positive,PNC Bank,1118,8,0,2
+-0.3089,Negative,PNC Bank,1118,0,0,0
+0.9171,Positive,PNC Bank,1118,0,0,0
+0.3802,Positive,PNC Bank,1118,2,2,0
+-0.9634,Negative,PNC Bank,1118,1,8,0
+0.7906,Positive,PNC Bank,1118,1,2,0
+0.98,Positive,PNC Bank,1118,1,1,0
+-0.6956,Negative,PNC Bank,1118,1,0,0
+-0.1442,Negative,PNC Bank,1118,0,0,0
+0.8832,Positive,PNC Bank,1118,1,0,0
+-0.6124,Negative,PNC Bank,1118,0,0,0
+0.9336,Positive,PNC Bank,1118,1,3,0
+-0.6124,Negative,PNC Bank,1118,2,0,3
+-0.774,Negative,PNC Bank,1118,1,0,0
+-0.4767,Negative,PNC Bank,1118,0,2,0
+0.0,Neutral,PNC Bank,1118,1,0,0
+-0.7096,Negative,PNC Bank,1118,1,0,0
+-0.8885,Negative,PNC Bank,1118,0,2,0
+-0.7003,Negative,PNC Bank,1118,2,0,0
+0.6813,Positive,PNC Bank,1118,2,0,0
+-0.8338,Negative,PNC Bank,1118,1,0,1
+-0.9598,Negative,PNC Bank,1118,0,0,0
+0.9926,Positive,PNC Bank,1118,1,0,5
+-0.995,Negative,PNC Bank,1118,2,2,0
+0.784,Positive,PNC Bank,1118,0,1,0
+-0.4595,Negative,PNC Bank,1118,2,0,1
+0.9602,Positive,PNC Bank,1118,2,2,0
+0.8862,Positive,PNC Bank,1118,0,2,0
+-0.6975,Negative,PNC Bank,1118,1,1,0
+0.6588,Positive,PNC Bank,1118,0,1,0
+0.9152,Positive,PNC Bank,1118,1,0,0
+-0.0516,Negative,PNC Bank,1118,3,0,0
+-0.8289,Negative,Asicminertech,1116,0,0,0
+0.7096,Positive,Asicminertech,1116,0,0,0
+0.8665,Positive,Asicminertech,1116,0,0,0
+0.4754,Positive,Asicminertech,1116,0,0,0
+0.935,Positive,Asicminertech,1116,0,0,0
+0.4588,Positive,Asicminertech,1116,0,0,0
+-0.9665,Negative,Asicminertech,1116,0,0,0
+-0.9636,Negative,Asicminertech,1116,0,0,0
+0.7104,Positive,Asicminertech,1116,0,0,0
+0.6988,Positive,Asicminertech,1116,0,0,0
+-0.2282,Negative,Asicminertech,1116,0,0,0
+-0.9486,Negative,Asicminertech,1116,0,0,0
+0.3578,Positive,Asicminertech,1116,0,0,0
+0.5562,Positive,Asicminertech,1116,0,0,0
+0.7337,Positive,Asicminertech,1116,0,0,0
+-0.838,Negative,Asicminertech,1116,0,0,0
+-0.8021,Negative,Asicminertech,1116,0,0,0
+-0.7712,Negative,Asicminertech,1116,0,0,0
+0.4417,Positive,Asicminertech,1116,0,0,0
+-0.1091,Negative,Asicminertech,1116,0,0,0
+-0.6776,Negative,Asicminertech,1116,0,0,0
+-0.4282,Negative,Asicminertech,1116,0,0,0
+0.6705,Positive,Asicminertech,1116,0,0,0
+-0.1027,Negative,Asicminertech,1116,0,0,0
+-0.8025,Negative,Asicminertech,1116,0,0,0
+-0.7411,Negative,Asicminertech,1116,0,0,0
+0.6274,Positive,Coin Cloud,1117,0,0,0
+0.6059,Positive,Coin Cloud,1117,0,0,0
+0.3182,Positive,Coin Cloud,1117,2,0,0
+0.3506,Positive,Coin Cloud,1117,0,0,0
+-0.128,Negative,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+0.9015,Positive,Coin Cloud,1117,1,0,0
+-0.7451,Negative,Coin Cloud,1117,0,0,0
+-0.3689,Negative,Coin Cloud,1117,0,0,0
+0.1779,Positive,Coin Cloud,1117,0,1,0
+0.6357,Positive,Coin Cloud,1117,0,0,0
+0.4404,Positive,Coin Cloud,1117,0,2,0
+0.1154,Positive,Coin Cloud,1117,0,2,0
+0.128,Positive,Coin Cloud,1117,0,0,0
+0.7964,Positive,Coin Cloud,1117,0,0,0
+-0.7202,Negative,Coin Cloud,1117,1,0,0
+0.931,Positive,Coin Cloud,1117,0,2,0
+0.8462,Positive,Coin Cloud,1117,0,0,0
+0.0772,Positive,Coin Cloud,1117,0,0,0
+0.7964,Positive,Coin Cloud,1117,0,2,0
+-0.2732,Negative,Coin Cloud,1117,0,0,0
+-0.8313,Negative,Coin Cloud,1117,0,0,0
+-0.296,Negative,Coin Cloud,1117,0,2,0
+0.4497,Positive,Coin Cloud,1117,0,0,0
+-0.9287,Negative,Coin Cloud,1117,0,2,0
+-0.196,Negative,Coin Cloud,1117,0,2,0
+-0.8991,Negative,Coin Cloud,1117,0,2,0
+0.9441,Positive,Coin Cloud,1117,0,4,0
+-0.6249,Negative,Coin Cloud,1117,0,2,0
+-0.3818,Negative,Coin Cloud,1117,0,0,0
+0.6299,Positive,Coin Cloud,1117,0,2,0
+-0.81,Negative,Coin Cloud,1117,0,0,0
+0.4019,Positive,Coin Cloud,1117,0,0,0
+0.5719,Positive,Coin Cloud,1117,0,0,0
+0.3508,Positive,Coin Cloud,1117,0,0,0
+-0.5616,Negative,Coin Cloud,1117,0,1,0
+0.5601,Positive,Coin Cloud,1117,0,2,0
+-0.7993,Negative,Coin Cloud,1117,0,0,0
+-0.9231,Negative,Coin Cloud,1117,0,0,0
+-0.8008,Negative,Coin Cloud,1117,0,0,0
+0.7762,Positive,Coin Cloud,1117,0,0,0
+-0.5994,Negative,Coin Cloud,1117,0,3,0
+0.4019,Positive,Coin Cloud,1117,1,0,0
+-0.1933,Negative,Coin Cloud,1117,0,0,0
+-0.3818,Negative,Coin Cloud,1117,0,0,0
+-0.2023,Negative,Coin Cloud,1117,0,0,0
+0.079,Positive,Coin Cloud,1117,0,0,0
+-0.6288,Negative,Coin Cloud,1117,0,1,0
+0.3197,Positive,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+-0.4753,Negative,Coin Cloud,1117,0,0,0
+-0.296,Negative,Coin Cloud,1117,0,0,0
+-0.1531,Negative,Coin Cloud,1117,0,0,0
+-0.0516,Negative,Coin Cloud,1117,0,0,0
+0.5659,Positive,Coin Cloud,1117,0,0,0
+-0.8409,Negative,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+-0.6534,Negative,Coin Cloud,1117,0,3,0
+-0.7717,Negative,Coin Cloud,1117,0,0,0
+-0.9081,Negative,Coin Cloud,1117,1,0,0
+0.0053,Neutral,Coin Cloud,1117,0,4,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+-0.8016,Negative,Coin Cloud,1117,0,0,0
+0.2942,Positive,Coin Cloud,1117,0,2,0
+-0.8588,Negative,Coin Cloud,1117,0,2,0
+0.7506,Positive,Coin Cloud,1117,0,0,0
+0.0516,Positive,Coin Cloud,1117,0,0,0
+0.25,Positive,Coin Cloud,1117,0,0,0
+-0.6249,Negative,Coin Cloud,1117,0,0,0
+-0.6374,Negative,Coin Cloud,1117,0,0,0
+-0.486,Negative,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+0.8126,Positive,Coin Cloud,1117,0,0,0
+-0.7717,Negative,Coin Cloud,1117,0,1,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+-0.0129,Neutral,Coin Cloud,1117,0,0,0
+0.891,Positive,Coin Cloud,1117,0,0,0
+-0.837,Negative,Coin Cloud,1117,0,0,0
+-0.886,Negative,Coin Cloud,1117,0,0,0
+-0.4215,Negative,Coin Cloud,1117,0,1,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+0.5267,Positive,Coin Cloud,1117,0,0,0
+0.2023,Positive,Coin Cloud,1117,0,0,0
+-0.43,Negative,Coin Cloud,1117,0,1,0
+-0.5106,Negative,Coin Cloud,1117,0,0,0
+-0.4404,Negative,Coin Cloud,1117,0,0,0
+0.3612,Positive,Coin Cloud,1117,0,0,0
+0.7841,Positive,Coin Cloud,1117,0,0,0
+0.5023,Positive,Coin Cloud,1117,0,0,0
+-0.4939,Negative,Coin Cloud,1117,1,0,0
+0.888,Positive,Coin Cloud,1117,0,4,0
+-0.8544,Negative,Coin Cloud,1117,0,2,0
+-0.6124,Negative,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+-0.4019,Negative,Coin Cloud,1117,0,0,0
+0.7179,Positive,Coin Cloud,1117,0,1,0
+-0.6405,Negative,Coin Cloud,1117,0,2,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+0.4877,Positive,Coin Cloud,1117,0,0,0
+-0.2732,Negative,Coin Cloud,1117,0,0,0
+0.9756,Positive,Coin Cloud,1117,0,1,0
+0.7264,Positive,Coin Cloud,1117,0,0,0
+0.0,Neutral,Coin Cloud,1117,0,0,0
+0.6775,Positive,Coin Cloud,1117,0,0,0
+0.9824,Positive,The Payment HQ,115,0,0,0
+0.9199,Positive,The Payment HQ,115,0,1,0
+0.4939,Positive,WPC Merchant Services & Credit Card Processing,117,2,2,0
+0.2235,Positive,Coinhub Bitcoin ATM,1114,0,0,0
+-0.5106,Negative,Coinhub Bitcoin ATM,1114,0,0,0
+0.0,Neutral,ASDFTEST,116,0,0,0
+-0.1531,Negative,cryptobaseatm.com,1113,0,0,0
+-0.3433,Negative,cryptobaseatm.com,1113,0,2,0
+0.8834,Positive,cryptobaseatm.com,1113,0,0,0
+0.7851,Positive,cryptobaseatm.com,1113,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.8999,Positive,Evergreen Credit Union,110,0,0,0
+0.3612,Positive,Evergreen Credit Union,110,0,0,2
+0.9313,Positive,Evergreen Credit Union,110,0,0,2
+0.925,Positive,Evergreen Credit Union,110,0,1,0
+0.7424,Positive,Evergreen Credit Union,110,0,0,0
+0.9545,Positive,Evergreen Credit Union,110,0,0,0
+0.9796,Positive,Evergreen Credit Union,110,0,0,2
+0.2926,Positive,Evergreen Credit Union,110,0,1,0
+0.9325,Positive,Evergreen Credit Union,110,0,0,0
+0.9098,Positive,Evergreen Credit Union,110,0,0,1
+0.9466,Positive,Evergreen Credit Union,110,0,0,2
+0.7339,Positive,Evergreen Credit Union,110,0,0,1
+0.8572,Positive,Evergreen Credit Union,110,0,0,0
+0.9675,Positive,Evergreen Credit Union,110,0,0,1
+0.969,Positive,Evergreen Credit Union,110,0,0,3
+0.9524,Positive,Evergreen Credit Union,110,0,0,2
+0.9946,Positive,Evergreen Credit Union,110,0,5,2
+0.9849,Positive,Evergreen Credit Union,110,0,0,2
+0.902,Positive,Evergreen Credit Union,110,0,1,0
+0.9196,Positive,Evergreen Credit Union,110,0,0,0
+-0.8338,Negative,Evergreen Credit Union,110,0,0,0
+0.9389,Positive,Evergreen Credit Union,110,1,0,1
+0.9894,Positive,Evergreen Credit Union,110,0,2,1
+0.6486,Positive,Evergreen Credit Union,110,0,0,1
+0.9335,Positive,Evergreen Credit Union,110,0,0,1
+0.9,Positive,Evergreen Credit Union,110,0,1,3
+0.8627,Positive,Evergreen Credit Union,110,1,2,0
+0.8316,Positive,Evergreen Credit Union,110,0,0,2
+0.9342,Positive,Evergreen Credit Union,110,0,0,4
+0.9854,Positive,Evergreen Credit Union,110,0,0,1
+0.945,Positive,Evergreen Credit Union,110,0,0,0
+0.8825,Positive,Evergreen Credit Union,110,0,2,1
+0.9558,Positive,Evergreen Credit Union,110,0,1,2
+0.9455,Positive,Evergreen Credit Union,110,1,1,1
+0.9428,Positive,Evergreen Credit Union,110,3,0,2
+0.9252,Positive,Evergreen Credit Union,110,0,0,2
+0.6249,Positive,Evergreen Credit Union,110,0,0,2
+0.806,Positive,Evergreen Credit Union,110,0,0,0
+0.8118,Positive,Evergreen Credit Union,110,0,0,0
+0.8658,Positive,Evergreen Credit Union,110,0,2,1
+0.979,Positive,Evergreen Credit Union,110,0,0,2
+0.8388,Positive,Evergreen Credit Union,110,0,2,1
+0.8442,Positive,Evergreen Credit Union,110,0,0,2
+0.9186,Positive,Evergreen Credit Union,110,0,0,1
+0.9721,Positive,Evergreen Credit Union,110,0,0,1
+0.3987,Positive,Evergreen Credit Union,110,0,0,2
+0.9358,Positive,Evergreen Credit Union,110,0,0,0
+-0.0258,Neutral,Evergreen Credit Union,110,0,0,0
+0.9076,Positive,Evergreen Credit Union,110,0,0,1
+0.854,Positive,Evergreen Credit Union,110,0,0,0
+0.9208,Positive,Evergreen Credit Union,110,0,0,1
+0.7845,Positive,Evergreen Credit Union,110,2,4,0
+0.926,Positive,Evergreen Credit Union,110,0,0,0
+0.9882,Positive,Evergreen Credit Union,110,0,1,3
+0.8802,Positive,Evergreen Credit Union,110,0,0,1
+0.3274,Positive,Evergreen Credit Union,110,0,0,0
+0.9703,Positive,Evergreen Credit Union,110,0,4,0
+0.8777,Positive,Evergreen Credit Union,110,0,0,1
+0.8597,Positive,Evergreen Credit Union,110,0,0,1
+0.8834,Positive,Evergreen Credit Union,110,0,0,0
+0.8573,Positive,Evergreen Credit Union,110,0,0,3
+0.8617,Positive,Evergreen Credit Union,110,0,0,0
+0.7269,Positive,Evergreen Credit Union,110,1,0,1
+0.7964,Positive,Evergreen Credit Union,110,0,0,0
+0.9397,Positive,Evergreen Credit Union,110,0,1,0
+0.7897,Positive,Evergreen Credit Union,110,1,1,0
+0.68,Positive,Evergreen Credit Union,110,0,0,1
+0.9545,Positive,Evergreen Credit Union,110,0,0,1
+0.7946,Positive,Evergreen Credit Union,110,0,2,1
+0.5127,Positive,Evergreen Credit Union,110,4,0,1
+0.8545,Positive,Evergreen Credit Union,110,0,2,1
+0.8663,Positive,Evergreen Credit Union,110,1,0,1
+0.9392,Positive,Evergreen Credit Union,110,3,0,2
+0.9458,Positive,Evergreen Credit Union,110,0,0,2
+0.8475,Positive,Evergreen Credit Union,110,1,0,1
+0.8392,Positive,Evergreen Credit Union,110,0,1,0
+0.902,Positive,Evergreen Credit Union,110,0,0,0
+0.908,Positive,Evergreen Credit Union,110,0,2,1
+0.9079,Positive,Evergreen Credit Union,110,0,0,0
+0.8711,Positive,Evergreen Credit Union,110,0,0,0
+0.7333,Positive,Evergreen Credit Union,110,0,0,0
+0.974,Positive,Evergreen Credit Union,110,0,0,3
+0.6954,Positive,Evergreen Credit Union,110,0,0,1
+0.5686,Positive,Evergreen Credit Union,110,0,0,0
+0.9638,Positive,Evergreen Credit Union,110,0,1,1
+0.8297,Positive,Evergreen Credit Union,110,0,0,1
+0.86,Positive,Evergreen Credit Union,110,0,1,0
+0.836,Positive,Evergreen Credit Union,110,0,0,1
+0.9299,Positive,Evergreen Credit Union,110,0,0,1
+0.7328,Positive,Evergreen Credit Union,110,0,1,0
+0.8395,Positive,Evergreen Credit Union,110,0,2,0
+0.944,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,1,0,1
+0.9468,Positive,Evergreen Credit Union,110,0,0,1
+0.9861,Positive,Evergreen Credit Union,110,0,0,2
+0.6369,Positive,Evergreen Credit Union,110,0,0,0
+0.8793,Positive,Evergreen Credit Union,110,0,0,1
+0.765,Positive,Evergreen Credit Union,110,1,0,0
+0.8625,Positive,Evergreen Credit Union,110,0,0,0
+0.9059,Positive,Evergreen Credit Union,110,0,0,0
+0.905,Positive,Evergreen Credit Union,110,0,1,0
+0.4927,Positive,Evergreen Credit Union,110,0,0,0
+0.9149,Positive,Evergreen Credit Union,110,0,0,0
+0.8665,Positive,Evergreen Credit Union,110,0,2,2
+0.9484,Positive,Evergreen Credit Union,110,0,0,0
+0.883,Positive,Evergreen Credit Union,110,0,2,0
+-0.5719,Negative,Evergreen Credit Union,110,0,0,0
+0.9038,Positive,Evergreen Credit Union,110,0,0,0
+0.891,Positive,Evergreen Credit Union,110,0,1,0
+0.8011,Positive,Evergreen Credit Union,110,0,1,0
+0.9671,Positive,Evergreen Credit Union,110,0,1,0
+0.6695,Positive,Evergreen Credit Union,110,0,0,1
+0.0,Neutral,Evergreen Credit Union,110,0,1,0
+0.5267,Positive,Evergreen Credit Union,110,0,0,0
+0.9032,Positive,Evergreen Credit Union,110,0,0,0
+0.8905,Positive,Evergreen Credit Union,110,0,0,0
+0.4927,Positive,Evergreen Credit Union,110,0,2,0
+0.7425,Positive,Evergreen Credit Union,110,0,0,0
+0.5719,Positive,Evergreen Credit Union,110,0,0,2
+0.2447,Positive,Evergreen Credit Union,110,0,0,1
+0.7249,Positive,Evergreen Credit Union,110,0,0,0
+0.4215,Positive,Evergreen Credit Union,110,0,0,0
+0.7906,Positive,Evergreen Credit Union,110,0,0,0
+0.4926,Positive,Evergreen Credit Union,110,0,0,2
+0.8619,Positive,Evergreen Credit Union,110,0,0,0
+0.9145,Positive,Evergreen Credit Union,110,0,2,0
+0.7474,Positive,Evergreen Credit Union,110,0,0,0
+0.5542,Positive,Evergreen Credit Union,110,0,0,1
+0.9287,Positive,Evergreen Credit Union,110,0,0,0
+0.7717,Positive,Evergreen Credit Union,110,0,0,0
+0.9377,Positive,Evergreen Credit Union,110,0,0,0
+0.877,Positive,Evergreen Credit Union,110,0,0,0
+0.7178,Positive,Evergreen Credit Union,110,0,0,1
+0.8901,Positive,Evergreen Credit Union,110,0,0,2
+-0.1531,Negative,Evergreen Credit Union,110,0,0,0
+0.7356,Positive,Evergreen Credit Union,110,0,0,0
+0.8779,Positive,Evergreen Credit Union,110,0,1,0
+0.8016,Positive,Evergreen Credit Union,110,0,0,0
+0.5859,Positive,Evergreen Credit Union,110,0,1,0
+0.4199,Positive,Evergreen Credit Union,110,0,1,0
+0.4215,Positive,Evergreen Credit Union,110,1,0,0
+0.9201,Positive,Evergreen Credit Union,110,0,0,1
+0.8858,Positive,Evergreen Credit Union,110,0,0,0
+0.6705,Positive,Evergreen Credit Union,110,0,1,0
+0.7783,Positive,Evergreen Credit Union,110,0,0,1
+0.743,Positive,Evergreen Credit Union,110,0,0,0
+0.8016,Positive,Evergreen Credit Union,110,0,1,0
+0.5411,Positive,Evergreen Credit Union,110,0,0,0
+0.4404,Positive,Evergreen Credit Union,110,0,0,0
+0.8658,Positive,Evergreen Credit Union,110,0,0,1
+0.872,Positive,Evergreen Credit Union,110,0,2,0
+0.4927,Positive,Evergreen Credit Union,110,0,0,1
+0.8118,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.9253,Positive,Evergreen Credit Union,110,0,0,0
+0.8468,Positive,Evergreen Credit Union,110,0,0,0
+0.8062,Positive,Evergreen Credit Union,110,0,0,0
+0.4754,Positive,Evergreen Credit Union,110,0,0,0
+0.5719,Positive,Evergreen Credit Union,110,0,0,0
+0.6892,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.7808,Positive,Evergreen Credit Union,110,0,0,0
+0.765,Positive,Evergreen Credit Union,110,0,0,0
+0.7783,Positive,Evergreen Credit Union,110,0,0,1
+0.9348,Positive,Evergreen Credit Union,110,0,1,0
+0.7777,Positive,Evergreen Credit Union,110,0,0,1
+0.807,Positive,Evergreen Credit Union,110,0,0,0
+-0.7841,Negative,Evergreen Credit Union,110,0,0,0
+0.8439,Positive,Evergreen Credit Union,110,0,0,0
+0.4939,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.7322,Positive,Evergreen Credit Union,110,0,0,0
+0.8481,Positive,Evergreen Credit Union,110,0,0,0
+0.8852,Positive,Evergreen Credit Union,110,0,0,0
+0.6249,Positive,Evergreen Credit Union,110,1,0,0
+0.8439,Positive,Evergreen Credit Union,110,0,1,0
+0.4389,Positive,Evergreen Credit Union,110,0,1,0
+0.6114,Positive,Evergreen Credit Union,110,0,1,0
+0.9118,Positive,Evergreen Credit Union,110,0,0,1
+0.969,Positive,Evergreen Credit Union,110,0,2,0
+0.6369,Positive,Evergreen Credit Union,110,0,1,0
+0.8652,Positive,Evergreen Credit Union,110,0,0,0
+0.4688,Positive,Evergreen Credit Union,110,2,0,0
+0.9714,Positive,Evergreen Credit Union,110,0,0,0
+0.6997,Positive,Evergreen Credit Union,110,0,0,0
+0.8858,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,1,0,0
+0.9575,Positive,Evergreen Credit Union,110,2,1,0
+0.5719,Positive,Evergreen Credit Union,110,1,0,1
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.9018,Positive,Evergreen Credit Union,110,0,0,0
+0.8402,Positive,Evergreen Credit Union,110,1,0,0
+0.7901,Positive,Evergreen Credit Union,110,0,0,0
+0.8588,Positive,Evergreen Credit Union,110,0,2,0
+0.5719,Positive,Evergreen Credit Union,110,0,0,0
+0.9169,Positive,Evergreen Credit Union,110,0,0,1
+0.8718,Positive,Evergreen Credit Union,110,0,1,0
+0.9299,Positive,Evergreen Credit Union,110,0,0,0
+0.9785,Positive,Evergreen Credit Union,110,0,2,1
+0.926,Positive,Evergreen Credit Union,110,0,0,0
+0.8615,Positive,Evergreen Credit Union,110,0,0,1
+0.9757,Positive,Evergreen Credit Union,110,0,0,2
+0.902,Positive,Evergreen Credit Union,110,0,0,0
+0.9217,Positive,Evergreen Credit Union,110,2,0,0
+0.6249,Positive,Liberty First Credit Union,111,0,0,0
+-0.2263,Negative,Liberty First Credit Union,111,2,0,1
+0.9447,Positive,Liberty First Credit Union,111,0,0,0
+0.7184,Positive,Liberty First Credit Union,111,0,0,0
+0.912,Positive,Liberty First Credit Union,111,0,0,1
+0.9813,Positive,Liberty First Credit Union,111,0,1,1
+0.8439,Positive,Liberty First Credit Union,111,1,0,0
+0.9113,Positive,Liberty First Credit Union,111,0,0,1
+0.4926,Positive,Liberty First Credit Union,111,0,0,1
+0.8974,Positive,Liberty First Credit Union,111,0,0,0
+0.7845,Positive,Liberty First Credit Union,111,0,0,2
+0.9022,Positive,Liberty First Credit Union,111,0,0,1
+0.9732,Positive,Liberty First Credit Union,111,0,0,2
+0.9087,Positive,Liberty First Credit Union,111,0,0,0
+0.9766,Positive,Liberty First Credit Union,111,0,0,0
+0.8807,Positive,Liberty First Credit Union,111,1,0,3
+0.9677,Positive,Liberty First Credit Union,111,2,0,0
+0.9778,Positive,Liberty First Credit Union,111,0,0,2
+0.875,Positive,Liberty First Credit Union,111,2,0,1
+0.6369,Positive,Liberty First Credit Union,111,0,1,1
+0.9427,Positive,Liberty First Credit Union,111,0,0,0
+0.9531,Positive,Liberty First Credit Union,111,1,1,0
+-0.2144,Negative,Liberty First Credit Union,111,0,0,0
+0.9838,Positive,Liberty First Credit Union,111,0,0,1
+0.9704,Positive,Liberty First Credit Union,111,0,0,0
+0.9577,Positive,Liberty First Credit Union,111,0,0,0
+0.9468,Positive,Liberty First Credit Union,111,0,2,3
+0.936,Positive,Liberty First Credit Union,111,0,0,2
+0.4215,Positive,Liberty First Credit Union,111,0,0,1
+0.9877,Positive,Liberty First Credit Union,111,0,0,2
+0.9749,Positive,Liberty First Credit Union,111,2,0,1
+0.4215,Positive,Liberty First Credit Union,111,1,0,1
+0.9798,Positive,Liberty First Credit Union,111,1,0,1
+0.9701,Positive,Liberty First Credit Union,111,0,0,1
+0.9335,Positive,Liberty First Credit Union,111,1,0,0
+0.932,Positive,Liberty First Credit Union,111,0,0,0
+0.9656,Positive,Liberty First Credit Union,111,0,0,1
+0.9705,Positive,Liberty First Credit Union,111,2,0,1
+0.9062,Positive,Liberty First Credit Union,111,0,0,0
+0.9709,Positive,Liberty First Credit Union,111,1,0,1
+0.8734,Positive,Liberty First Credit Union,111,0,0,0
+0.9628,Positive,Liberty First Credit Union,111,1,3,0
+0.9038,Positive,Liberty First Credit Union,111,0,0,2
+0.9001,Positive,Liberty First Credit Union,111,0,2,1
+0.9611,Positive,Liberty First Credit Union,111,1,1,1
+0.8271,Positive,Liberty First Credit Union,111,1,0,1
+0.9665,Positive,Liberty First Credit Union,111,0,0,1
+0.8988,Positive,Liberty First Credit Union,111,1,0,1
+0.9814,Positive,Liberty First Credit Union,111,0,0,1
+0.8436,Positive,Liberty First Credit Union,111,0,0,2
+0.9694,Positive,Liberty First Credit Union,111,2,1,3
+0.6588,Positive,Liberty First Credit Union,111,0,0,2
+0.891,Positive,Liberty First Credit Union,111,1,0,0
+0.9871,Positive,Liberty First Credit Union,111,0,0,2
+0.5859,Positive,Liberty First Credit Union,111,0,0,0
+0.9628,Positive,Liberty First Credit Union,111,0,2,0
+0.0,Neutral,Liberty First Credit Union,111,0,2,0
+0.8655,Positive,Liberty First Credit Union,111,0,2,1
+0.8957,Positive,Liberty First Credit Union,111,1,0,2
+0.0,Neutral,Liberty First Credit Union,111,0,2,0
+0.9791,Positive,Liberty First Credit Union,111,3,0,1
+0.296,Positive,Liberty First Credit Union,111,1,0,0
+0.9183,Positive,Liberty First Credit Union,111,1,0,0
+0.9392,Positive,Liberty First Credit Union,111,0,0,0
+0.9458,Positive,Liberty First Credit Union,111,0,0,0
+0.7708,Positive,Liberty First Credit Union,111,0,0,0
+0.9576,Positive,Liberty First Credit Union,111,0,0,0
+0.743,Positive,Liberty First Credit Union,111,0,0,1
+0.9766,Positive,Liberty First Credit Union,111,0,0,0
+0.923,Positive,Liberty First Credit Union,111,1,0,0
+0.944,Positive,Liberty First Credit Union,111,0,1,0
+0.8553,Positive,Liberty First Credit Union,111,1,0,0
+0.7644,Positive,Liberty First Credit Union,111,0,0,0
+0.9588,Positive,Liberty First Credit Union,111,0,0,1
+0.8765,Positive,Liberty First Credit Union,111,0,0,0
+0.9653,Positive,Liberty First Credit Union,111,0,0,0
+0.8732,Positive,Liberty First Credit Union,111,0,0,3
+0.8832,Positive,Liberty First Credit Union,111,0,0,4
+0.8703,Positive,Liberty First Credit Union,111,0,0,0
+0.4404,Positive,Liberty First Credit Union,111,0,1,0
+0.9153,Positive,Liberty First Credit Union,111,0,0,0
+0.1779,Positive,Liberty First Credit Union,111,1,0,0
+0.8977,Positive,Liberty First Credit Union,111,0,0,0
+0.8768,Positive,Liberty First Credit Union,111,0,0,1
+0.8878,Positive,Liberty First Credit Union,111,0,0,0
+0.9593,Positive,Liberty First Credit Union,111,0,0,0
+0.9036,Positive,Liberty First Credit Union,111,0,0,0
+0.9751,Positive,Liberty First Credit Union,111,0,0,0
+0.9169,Positive,Liberty First Credit Union,111,1,0,2
+0.8458,Positive,Liberty First Credit Union,111,0,0,0
+0.937,Positive,Liberty First Credit Union,111,1,1,0
+0.6908,Positive,Liberty First Credit Union,111,1,0,0
+0.7845,Positive,Liberty First Credit Union,111,0,0,1
+0.8579,Positive,Liberty First Credit Union,111,0,1,0
+0.5709,Positive,Liberty First Credit Union,111,0,0,0
+0.7777,Positive,Liberty First Credit Union,111,1,0,0
+0.9617,Positive,Liberty First Credit Union,111,1,0,1
+0.34,Positive,Liberty First Credit Union,111,0,0,0
+0.7424,Positive,Liberty First Credit Union,111,0,0,3
+0.8476,Positive,Liberty First Credit Union,111,0,0,1
+0.9834,Positive,Liberty First Credit Union,111,0,2,0
+0.764,Positive,Liberty First Credit Union,111,0,0,0
+0.9715,Positive,Liberty First Credit Union,111,0,0,1
+0.9089,Positive,Liberty First Credit Union,111,0,1,0
+0.1779,Positive,Liberty First Credit Union,111,0,0,0
+0.836,Positive,Liberty First Credit Union,111,0,3,0
+0.4497,Positive,Liberty First Credit Union,111,0,0,0
+0.3818,Positive,Liberty First Credit Union,111,0,0,1
+0.8074,Positive,Liberty First Credit Union,111,2,0,1
+0.8746,Positive,Liberty First Credit Union,111,0,1,0
+0.5984,Positive,Liberty First Credit Union,111,0,0,0
+0.8204,Positive,Liberty First Credit Union,111,0,0,0
+0.8983,Positive,Liberty First Credit Union,111,1,0,0
+0.8718,Positive,Liberty First Credit Union,111,0,0,0
+0.0772,Positive,Liberty First Credit Union,111,2,0,0
+0.6712,Positive,Liberty First Credit Union,111,1,0,0
+0.8979,Positive,Liberty First Credit Union,111,0,0,0
+0.9035,Positive,Liberty First Credit Union,111,0,0,1
+-0.4545,Negative,Liberty First Credit Union,111,0,0,1
+0.9022,Positive,Liberty First Credit Union,111,0,0,1
+0.5719,Positive,Liberty First Credit Union,111,0,0,0
+0.923,Positive,Liberty First Credit Union,111,1,0,1
+0.6588,Positive,Liberty First Credit Union,111,0,1,0
+0.552,Positive,Liberty First Credit Union,111,0,0,0
+0.762,Positive,Liberty First Credit Union,111,1,0,0
+-0.3612,Negative,Liberty First Credit Union,111,0,0,0
+0.4767,Positive,Liberty First Credit Union,111,0,2,0
+-0.1043,Negative,Liberty First Credit Union,111,0,0,0
+0.891,Positive,Liberty First Credit Union,111,0,0,0
+0.9831,Positive,Liberty First Credit Union,111,3,0,0
+0.8819,Positive,Liberty First Credit Union,111,0,0,1
+0.762,Positive,Liberty First Credit Union,111,1,0,0
+0.9325,Positive,Liberty First Credit Union,111,0,0,1
+0.6801,Positive,Liberty First Credit Union,111,0,0,0
+0.9253,Positive,Liberty First Credit Union,111,1,0,0
+0.0,Neutral,Liberty First Credit Union,111,1,0,0
+0.4754,Positive,Liberty First Credit Union,111,0,0,1
+0.8999,Positive,Liberty First Credit Union,111,0,0,0
+0.8801,Positive,Liberty First Credit Union,111,0,0,0
+0.8707,Positive,Liberty First Credit Union,111,0,0,0
+0.9041,Positive,Liberty First Credit Union,111,0,0,0
+0.4754,Positive,Liberty First Credit Union,111,0,0,0
+0.9059,Positive,Liberty First Credit Union,111,1,0,0
+0.883,Positive,Liberty First Credit Union,111,0,0,0
+0.7536,Positive,Liberty First Credit Union,111,0,0,0
+0.6808,Positive,Liberty First Credit Union,111,0,0,0
+0.7003,Positive,Liberty First Credit Union,111,0,0,0
+0.7501,Positive,Liberty First Credit Union,111,0,0,0
+0.8211,Positive,Liberty First Credit Union,111,0,0,0
+0.624,Positive,Liberty First Credit Union,111,0,0,0
+-0.0258,Neutral,Liberty First Credit Union,111,0,0,0
+0.5719,Positive,Liberty First Credit Union,111,0,0,0
+0.7906,Positive,Liberty First Credit Union,111,0,1,0
+0.4754,Positive,Liberty First Credit Union,111,0,0,0
+0.5859,Positive,Liberty First Credit Union,111,0,0,0
+0.8313,Positive,Liberty First Credit Union,111,0,0,0
+0.2732,Positive,Liberty First Credit Union,111,0,0,0
+0.4404,Positive,Liberty First Credit Union,111,0,0,0
+0.9069,Positive,Liberty First Credit Union,111,0,0,1
+0.893,Positive,Liberty First Credit Union,111,0,0,1
+0.5244,Positive,Liberty First Credit Union,111,0,0,1
+0.6369,Positive,Liberty First Credit Union,111,1,0,0
+0.4215,Positive,Liberty First Credit Union,111,0,0,0
+0.3535,Positive,Liberty First Credit Union,111,1,0,0
+0.7906,Positive,Liberty First Credit Union,111,0,0,1
+0.7717,Positive,Liberty First Credit Union,111,0,0,0
+0.6249,Positive,Liberty First Credit Union,111,1,0,0
+0.6249,Positive,Liberty First Credit Union,111,0,0,0
+0.5399,Positive,Liberty First Credit Union,111,0,1,0
+0.5563,Positive,Liberty First Credit Union,111,0,0,0
+0.9524,Positive,Liberty First Credit Union,111,0,0,0
+0.6249,Positive,Liberty First Credit Union,111,0,1,0
+0.6597,Positive,Liberty First Credit Union,111,0,0,0
+0.7178,Positive,Liberty First Credit Union,111,0,0,0
+0.5093,Positive,Liberty First Credit Union,111,0,0,0
+0.5413,Positive,Liberty First Credit Union,111,0,0,0
+0.0,Neutral,Liberty First Credit Union,111,0,0,0
+0.0,Neutral,Liberty First Credit Union,111,0,0,0
+0.836,Positive,Liberty First Credit Union,111,0,0,0
+0.765,Positive,Liberty First Credit Union,111,0,2,0
+0.7269,Positive,Liberty First Credit Union,111,0,1,0
+0.5197,Positive,Liberty First Credit Union,111,0,0,0
+-0.296,Negative,Liberty First Credit Union,111,0,0,0
+0.1779,Positive,Liberty First Credit Union,111,0,0,0
+0.6249,Positive,Liberty First Credit Union,111,0,0,0
+0.8591,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.8923,Positive,Heritage Valley Federal Credit Union,114,0,1,1
+0.9643,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.8511,Positive,Heritage Valley Federal Credit Union,114,0,0,1
+0.8555,Positive,Heritage Valley Federal Credit Union,114,0,0,2
+0.9246,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.7856,Positive,Heritage Valley Federal Credit Union,114,1,0,0
+0.9516,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.8684,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.0772,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.8398,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.836,Positive,Kryptominerstech,118,0,0,0
+-0.9514,Negative,Asic Miners Rig,1115,0,0,0
+-0.4543,Negative,Asic Miners Rig,1115,0,0,0
+-0.9257,Negative,Asic Miners Rig,1115,0,0,0
+-0.8188,Negative,Asic Miners Rig,1115,1,0,0
+-0.9703,Negative,Asic Miners Rig,1115,0,0,0
+-0.3266,Negative,Asic Miners Rig,1115,1,0,0
+0.8832,Positive,NorthOne,1112,0,1,0
+0.8122,Positive,NorthOne,1112,0,0,0
+0.8442,Positive,NorthOne,1112,0,0,0
+-0.2617,Negative,NorthOne,1112,2,0,0
+0.8922,Positive,NorthOne,1112,1,1,0
+0.9712,Positive,NorthOne,1112,4,0,0
+0.8316,Positive,NorthOne,1112,0,0,0
+0.34,Positive,NorthOne,1112,2,0,0
+0.886,Positive,NorthOne,1112,1,1,0
+0.8479,Positive,NorthOne,1112,0,2,0
+-0.2674,Negative,NorthOne,1112,2,0,0
+-0.2462,Negative,NorthOne,1112,3,2,0
+-0.8797,Negative,NorthOne,1112,2,0,0
+-0.6117,Negative,NorthOne,1112,1,0,0
+-0.3551,Negative,NorthOne,1112,1,0,0
+0.8481,Positive,NorthOne,1112,0,2,0
+0.5106,Positive,NorthOne,1112,0,2,0
+0.4404,Positive,NorthOne,1112,0,0,0
+-0.3818,Negative,NorthOne,1112,3,0,0
+-0.6138,Negative,NorthOne,1112,5,0,0
+-0.9459,Negative,NorthOne,1112,3,0,0
+0.8296,Positive,NorthOne,1112,4,0,0
+-0.7964,Negative,NorthOne,1112,3,0,0
+-0.4588,Negative,NorthOne,1112,0,0,0
+0.9311,Positive,NorthOne,1112,2,0,0
+0.6249,Positive,NorthOne,1112,1,1,0
+-0.8658,Negative,NorthOne,1112,1,0,0
+0.9169,Positive,NorthOne,1112,1,0,0
+0.9034,Positive,NorthOne,1112,0,0,0
+0.9214,Positive,NorthOne,1112,1,1,0
+0.9581,Positive,NorthOne,1112,1,0,0
+0.0772,Positive,NorthOne,1112,3,0,0
+0.2516,Positive,NorthOne,1112,2,0,0
+0.4215,Positive,NorthOne,1112,0,0,0
+0.5859,Positive,NorthOne,1112,0,0,0
+-0.7278,Negative,NorthOne,1112,1,0,0
+0.9313,Positive,NorthOne,1112,2,0,0
+0.8513,Positive,NorthOne,1112,2,0,0
+-0.2023,Negative,NorthOne,1112,4,0,0
+-0.7369,Negative,NorthOne,1112,1,0,0
+0.8565,Positive,NorthOne,1112,1,0,0
+-0.8942,Negative,NorthOne,1112,4,1,0
+-0.6934,Negative,NorthOne,1112,3,0,0
+0.9324,Positive,NorthOne,1112,1,0,1
+0.9785,Positive,NorthOne,1112,1,2,0
+-0.8631,Negative,NorthOne,1112,2,0,0
+-0.9775,Negative,NorthOne,1112,4,0,0
+-0.9713,Negative,NorthOne,1112,3,0,1
+-0.5271,Negative,NorthOne,1112,4,0,0
+0.9702,Positive,NorthOne,1112,1,1,0
+0.965,Positive,NorthOne,1112,4,0,0
+0.949,Positive,NorthOne,1112,0,4,0
+-0.893,Negative,NorthOne,1112,2,0,0
+0.968,Positive,NorthOne,1112,6,4,0
+0.8833,Positive,NorthOne,1112,7,4,0
+0.1779,Positive,NorthOne,1112,2,0,0
+-0.7133,Negative,NorthOne,1112,12,0,0
+-0.8537,Negative,NorthOne,1112,5,5,0
+0.2852,Positive,NorthOne,1112,2,0,0
+0.0258,Neutral,NorthOne,1112,1,2,0
+-0.925,Negative,NorthOne,1112,6,0,0
+-0.8126,Negative,NorthOne,1112,3,1,0
+-0.9324,Negative,NorthOne,1112,2,0,0
+0.8999,Positive,NorthOne,1112,1,0,0
+-0.5583,Negative,NorthOne,1112,1,0,0
+-0.6887,Negative,NorthOne,1112,1,0,0
+0.7003,Positive,NorthOne,1112,0,0,0
+0.1825,Positive,NorthOne,1112,0,2,0
+0.2732,Positive,NorthOne,1112,0,0,0
+0.2878,Positive,NorthOne,1112,0,0,0
+-0.6128,Negative,NorthOne,1112,3,1,0
+-0.4118,Negative,NorthOne,1112,0,2,0
+0.5076,Positive,NorthOne,1112,4,0,0
+0.9117,Positive,NorthOne,1112,0,1,0
+0.8762,Positive,NorthOne,1112,0,0,0
+-0.9904,Negative,NorthOne,1112,3,4,0
+0.7839,Positive,NorthOne,1112,2,4,0
+-0.4946,Negative,NorthOne,1112,2,0,0
+0.7402,Positive,NorthOne,1112,0,0,0
+-0.9944,Negative,NorthOne,1112,5,0,0
+0.7351,Positive,NorthOne,1112,0,2,0
+-0.296,Negative,NorthOne,1112,1,0,0
+0.0,Neutral,NorthOne,1112,0,0,0
+0.8074,Positive,NorthOne,1112,1,0,0
+0.9287,Positive,NorthOne,1112,0,0,0
+0.3054,Positive,NorthOne,1112,0,0,0
+-0.5859,Negative,NorthOne,1112,0,0,0
+0.7249,Positive,NorthOne,1112,0,0,0
+-0.7536,Negative,NorthOne,1112,4,0,0
+-0.7881,Negative,NorthOne,1112,6,0,0
+-0.6433,Negative,NorthOne,1112,3,0,0
+0.8685,Positive,NorthOne,1112,0,0,0
+0.7906,Positive,NorthOne,1112,0,0,0
+0.0,Neutral,NorthOne,1112,1,0,0
+0.4003,Positive,NorthOne,1112,2,0,2
+0.7713,Positive,NorthOne,1112,0,2,0
+0.6369,Positive,NorthOne,1112,0,0,0
+-0.8205,Negative,NorthOne,1112,3,0,0
+0.4927,Positive,NorthOne,1112,1,0,0
+0.5719,Positive,NorthOne,1112,0,0,0
+0.0,Neutral,NorthOne,1112,1,0,0
+0.296,Positive,NorthOne,1112,0,0,0
+0.0,Neutral,NorthOne,1112,0,0,0
+-0.5661,Negative,NorthOne,1112,1,4,0
+0.5267,Positive,NorthOne,1112,0,0,0
+0.6369,Positive,NorthOne,1112,0,0,0
+0.5719,Positive,NorthOne,1112,0,0,0
+0.0,Neutral,Cash Express,119,0,0,0
+0.0,Neutral,Cash Express,119,1,0,0
+0.886,Positive,Cash Express,119,0,0,0
+0.0,Neutral,Cash Express,119,0,0,0
+-0.051,Negative,Cash Express,119,2,0,0
+0.9815,Positive,Meriwest Credit Union,1110,0,0,4
+0.8126,Positive,Meriwest Credit Union,1110,1,1,0
+-0.5848,Negative,Meriwest Credit Union,1110,0,2,0
+0.4404,Positive,Meriwest Credit Union,1110,0,0,0
+0.8439,Positive,Swadesh,113,0,0,0
+0.8979,Positive,Swadesh,113,0,0,0
+-0.1027,Negative,Swadesh,113,0,0,0
+0.0,Neutral,Swadesh,113,0,0,0
+0.5913,Positive,Swadesh,113,0,0,0
+0.8151,Positive,Swadesh,113,1,1,0
+0.4215,Positive,Swadesh,113,0,0,0
+0.6369,Positive,Swadesh,113,0,0,0
+0.7351,Positive,Swadesh,113,0,0,0
+0.7178,Positive,Swadesh,113,0,0,0

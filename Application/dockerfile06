@@ -1,0 +1,17 @@
+# Use the Python image
+FROM python:3.8
+
+# Install required packages
+RUN pip install pandas dash plotly nltk
+
+# Copy your Dash app script and other necessary files
+COPY 06-dashboard.py /app/
+
+# Set the working directory
+WORKDIR /app
+
+# Expose the necessary port for Dash
+EXPOSE 8050
+
+# Run the Dash app
+CMD ["python", "06-dashboard.py"]

@@ -6,6 +6,11 @@
 
 import requests 
 from bs4 import BeautifulSoup 
+import pandas as pd
+import os
+
+# Define the base directory based on where the script is located
+base_dir = os.path.dirname(os.path.abspath(__file__))
 
 atm_url = 'https://www.trustpilot.com/categories/atm'
 
@@ -69,8 +74,14 @@ atm_df = atm_df.dropna(subset=['total_reviews'])
 # In[33]:
 
 
-atm_df.to_csv('atm.csv', index=False)
-atm_df
+# Export DataFrame to CSV without the index column
+output_dir = os.path.join(base_dir, 'output')
+os.makedirs(output_dir, exist_ok=True)
+output_file_path = os.path.join(output_dir, 'atm.csv')
+atm_df.to_csv(output_file_path, index=False)
+
+# Print a message indicating success
+print("Data processing completed and CSV exported.")
 
 
 # In[34]:
@@ -116,4 +127,3 @@ atm_df
 
 #uncomment this command to add df to sql table
 #execute_values(conn, atm_df, 'best_atm')
-

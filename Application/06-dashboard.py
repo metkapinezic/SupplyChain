@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import dash
 from dash import dcc
@@ -5,9 +6,20 @@ from dash import html
 import plotly.express as px
 from dash.dependencies import Input, Output
 
+# Define the base directory based on where the script is located
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+if 'DOCKER_ENV' in os.environ:
+    # Running in Docker container
+    csv_dir = '/app/output'
+else:
+    # Running locally
+    csv_dir = os.path.join(base_dir, 'output')
+
 # CSV data into DataFrames
-df_words = pd.read_csv('word_analysis.csv')
-df_reviews = pd.read_csv('reviews_sentiments.csv')
+df_words = pd.read_csv(os.path.join(csv_dir, 'word_analysis.csv'))
+df_reviews = pd.read_csv(os.path.join(csv_dir, 'reviews_sentiments.csv'))
+
 
 # get company names for dropdown options
 company_options = [{'label': company, 'value': company} for company in df_words['CompanyName'].unique()]

@@ -1,6 +1,11 @@
 from elasticsearch import Elasticsearch
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import pandas as pd
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from collections import Counter
+import os
 
 # Connection to the cluster
 es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
@@ -16,6 +21,9 @@ search_query = {
     },
     "size": 100  # Number of documents per page
 }
+
+# Define the base directory based on where the script is located
+base_dir = os.path.dirname(os.path.abspath(__file__))
 
 #OUTPUT ALL REVIEWS WITH SENTIMENT
 
@@ -76,7 +84,8 @@ data_all = {
 df_all = pd.DataFrame(data_all)
 
 # Output DataFrame to a CSV file
-df_all.to_csv("reviews_sentiments.csv", index=False)
+output_csv_path = os.path.join(base_dir, "output", "reviews_sentiments.csv")
+df_all.to_csv(output_csv_path, index=False)
 
 # COUNT MOST USED WORDS 
 
@@ -107,9 +116,9 @@ word_counts = Counter(filtered_words)
 most_common_words = word_counts.most_common(20)
 
 # Print the most common words
-print("Most common words in reviews:")
-for word, count in most_common_words:
-    print(f"{word}: {count}")
+#print("Most common words in reviews:")
+#for word, count in most_common_words:
+#    print(f"{word}: {count}")
 
 #CREATE WORD BUCKETS AND OUTPUT WORD ANALYSIS
 
@@ -147,7 +156,8 @@ for index, row in df_all.iterrows():
 df_new = pd.DataFrame(new_data)
 
 # Display the new DataFrame
-print(df_new)
+#print(df_new)
 
 # Output DataFrame to a CSV file
-df_new.to_csv("word_analysis.csv", index=False)
+word_analysis_csv_path = os.path.join(base_dir, "output", "word_analysis.csv")
+df_new.to_csv(word_analysis_csv_path, index=False)

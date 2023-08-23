@@ -1,0 +1,16 @@
+# Use the Python image
+FROM python:3.8
+
+# Install the necessary dependencies
+RUN pip install elasticsearch nltk pandas vaderSentiment
+RUN pip install -r requirements.txt
+
+# Copy your Python script and other necessary files
+COPY 05-sentiment.py /app/
+COPY requirements.txt /app/
+
+# Set the working directory
+WORKDIR /app
+
+# Run the Python script
+CMD ["python", "05-sentiment.py"]

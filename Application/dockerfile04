@@ -1,0 +1,14 @@
+# Use the Python image
+FROM python:3.8
+
+# Install the necessary dependencies
+RUN pip install elasticsearch
+
+# Copy your Python script and other necessary files
+COPY 04-esconnect.py /app/
+
+# Set the working directory
+WORKDIR /app
+
+# Run the Python script
+CMD ["python", "04-esconnect.py"]
