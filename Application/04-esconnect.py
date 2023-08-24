@@ -3,17 +3,18 @@ import csv
 import warnings
 import os
 
-# Define the path to the directory where certificates are located inside the Docker container
-certs_path = "/usr/share/elasticsearch/config/certs"
-
-# Connection to the cluster
-es = Elasticsearch(
-    hosts="https://elastic:datascientest@elasticsearch-es01-1:9200",
-    ca_certs=os.path.join(certs_path, 'ca/ca.crt')
-)
+warnings.filterwarnings("ignore")
 
 # Determine if running in Docker container or locally
 running_in_docker = os.environ.get("DOCKER_ENV", False)
+
+# Connection to the cluster
+if running_in_docker:
+    es = Elasticsearch(hosts="https://elastic:datascientest@application-es01-1:9200",
+                       ca_certs="/usr/share/elasticsearch/config/certs/ca/ca.crt")
+else:
+    es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
+                       ca_certs="./ca/ca.crt")
 
 # Define the input file path based on the environment
 if running_in_docker:

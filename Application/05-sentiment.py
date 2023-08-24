@@ -9,7 +9,7 @@ import os
 
 # Connection to the cluster
 es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
-                   ca_certs="./elasticsearch/ca/ca.crt")
+                   ca_certs="./ca/ca.crt")
 
 # Initialize the VADER sentiment analyzer
 analyzer = SentimentIntensityAnalyzer()
