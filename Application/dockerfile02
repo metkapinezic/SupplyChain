@@ -1,10 +1,11 @@
 FROM python:3.8
 
-COPY 02-subpage.py /app/
-
 RUN pip install requests
 RUN pip install beautifulsoup4
 RUN pip install pandas
+
+COPY 02-subpage.py /app/
+COPY ./output/ /app/
 
 WORKDIR /app
 

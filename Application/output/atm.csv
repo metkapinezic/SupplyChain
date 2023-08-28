@@ -1,7 +1,7 @@
 company_id,company_name,trustscore,total_reviews,domain
 110,Evergreen Credit Union,4.9,229,ATM·Credit Union·Financial Institution
-111,Liberty First Credit Union,4.8,205,Car Finance and Loan Company·Credit Union·ATM·Financial Institution·Mortgage Lender
-112,Crypto Dispensers ,2.3,128,Investment Service·Non-Bank Financial Service·Cryptocurrency Service·ATM
+111,Liberty First Credit Union,4.8,207,Mortgage Lender·Credit Union·Car Finance and Loan Company·Financial Institution·ATM
+112,Crypto Dispensers ,2.2,130,ATM·Non-Bank Financial Service·Cryptocurrency Service·Investment Service
 113,Swadesh,4.4,11,Money Transfer Service·Financial Institution·ATM·Bank
 114,Heritage Valley Federal Credit Union,4.1,11,ATM·Bank·Federal Credit Union·Financial Institution·Mortgage Lender·Credit Union
 115,The Payment HQ,3.8,2,Business to Business Service·Payment Service·Finance Broker·Payroll Service·ATM
@@ -9,11 +9,11 @@ company_id,company_name,trustscore,total_reviews,domain
 117,WPC Merchant Services & Credit Card Processing,3.7,1,ATM·Business to Business Service
 118,Kryptominerstech,3.7,1,Gold Mining Company·Business Center·Cryptocurrency Service·ATM·Money Order Service·Money Transfer Service
 119,Cash Express,3.5,14,ATM·Check Cashing Service·Alternative Financial Service·Loan Agency·Non-Bank Financial Service
-1110,Meriwest Credit Union,3.5,8,Credit Counseling Service·Car Finance and Loan Company·Investment Service·ATM·Debt Relief Service·Credit Union·Financial Institution·Mortgage Lender
-1112,cryptobaseatm.com,3.0,4,Cryptocurrency Service·ATM
-1113,NorthOne,2.9,122,Financial Institution·ATM·Bookkeeping Service·Money Transfer Service·Bank·Non-Bank Financial Service
+1110,Meriwest Credit Union,3.5,8,Credit Union·Car Finance and Loan Company·Credit Counseling Service·Debt Relief Service·Financial Institution·Mortgage Lender·Investment Service·ATM
+1112,NorthOne,3.0,121,Non-Bank Financial Service·Bank·Financial Institution·Money Transfer Service·Bookkeeping Service·ATM
+1113,cryptobaseatm.com,3.0,4,Cryptocurrency Service·ATM
 1114,Coinhub Bitcoin ATM,2.9,2,Cryptocurrency Service·ATM·Currency Exchange Service
 1115,Asic Miners Rig,2.3,6,Money Order Service·Money Transfer Service·ATM·Cryptocurrency Service·Business Center·Mining Company
-1116,Asicminertech,2.1,27,Cryptocurrency Service·Produce Wholesaler·Coin Dealer·ATM·Wholesaler·Mining Company
-1117,Coin Cloud,1.9,111,Cryptocurrency Service·Non-Bank Financial Service·ATM
-1118,PNC Bank,1.3,895,ATM·Bank
+1116,Coin Cloud,1.8,112,ATM·Cryptocurrency Service·Non-Bank Financial Service
+1117,Asicminertech,1.7,22,Wholesaler·Mining Company·Cryptocurrency Service·ATM·Coin Dealer·Produce Wholesaler
+1118,PNC Bank,1.3,901,ATM·Bank

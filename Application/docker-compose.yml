@@ -237,6 +237,8 @@ services:
       dockerfile: dockerfile01
     volumes:
       - ./output:/app/output
+    networks:
+      - mynetwork
 
   webscrapping02:
     build:
@@ -244,6 +246,8 @@ services:
       dockerfile: dockerfile02
     volumes:
       - ./output:/app/output
+    networks:
+      - mynetwork
 
   transformation:
     build:
@@ -254,6 +258,8 @@ services:
       - webscrapping02
     volumes:
       - ./output:/app/output
+    networks:
+      - mynetwork
 
   import_to_elasticsearch:
     build:
@@ -267,8 +273,11 @@ services:
       - es03
       - kibana
     volumes:
-      - certs:/usr/share/elasticsearch/config/certs
+      - .ca:/usr/share/elasticsearch/config/certs
       - ./output:/app/output
+      - ./.env:/app/
+    networks:
+      - mynetwork
 
   sentiment_anaysis:
     build:
@@ -278,6 +287,8 @@ services:
       - import_to_elasticsearch
     volumes:
       - ./output:/app/output
+    networks:
+      - mynetwork
 
   dashboard:
     build:
@@ -289,6 +300,8 @@ services:
       - "8050:8050"
     volumes:
       - ./output:/app/output
+    networks:
+      - mynetwork
 
 volumes:
   certs:
@@ -313,3 +326,6 @@ volumes:
     driver: local
   dashboard:
       driver: local
+
+networks:
+  mynetwork:
