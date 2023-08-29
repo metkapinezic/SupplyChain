@@ -1,7 +1,7 @@
 version: '4.22.1'
 services:
   setup:
-    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.1.2
     user: "0"
     command: >
       bash -c '
@@ -13,79 +13,37 @@ services:
           exit 1;
         fi;
         echo "Waiting for Elasticsearch availability";
-        until curl -s http://es01:9200 | grep -q "You Know, for Search"; do sleep 30; done;
+        until curl -s http://es01:9200 | grep -q "cluster_name"; do sleep 30; done;
+        echo "Setting kibana_system password";
+        until curl -s -X POST -H "Content-Type: application/json" http://es01:9200/_security/user/kibana_system/_password -d "{\"password\":\"${KIBANA_PASSWORD}\"}" | grep -q "^{}"; do sleep 10; done;
         echo "All done!";
       '
     healthcheck:
-      test: [ "CMD-SHELL", "[ -f config/certs/es01/es01.crt ]" ]
-      interval: 1s
-      timeout: 5s
+      test: ["CMD", "curl", "-s", "http://es01:9200"]
+      interval: 10s
       retries: 120
     networks:
       - mynetwork
 
   es01:
-    depends_on:
-      setup:
-        condition: service_healthy
-    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
-    ports:
-      - ${ES_PORT}:9200
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.1.2
     environment:
       - node.name=es01
-      - cluster.name=${CLUSTER_NAME}
-      - cluster.initial_master_nodes=es01,es02,es03
-      - discovery.seed_hosts=es02,es03
-      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
-      - bootstrap.memory_lock=true
-      - xpack.monitoring.collection.enabled=true
-      - xpack.security.enabled=true
-      - xpack.license.self_generated.type=${LICENSE}
-      - "ES_JAVA_OPTS=-Xms256m -Xmx256m"
-    mem_limit: ${MEM_LIMIT}
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
-      nofile:
-        soft: 65536
-        hard: 65536
-    healthcheck:
-      test:
-        [
-          "CMD-SHELL",
-          "curl -s http://localhost:9200 | grep -q 'You Know, for Search'"
-        ]
-      interval: 10s
-      timeout: 10s
-      retries: 120
+      - cluster.name=docker-cluster
+      - discovery.type=single-node
+      - xpack.security.enabled=false
     networks:
       - mynetwork
 
-  # es02 and es03 services are similar, omitting for brevity
-
   kibana:
-    depends_on:
-      es01:
-        condition: service_healthy
-    image: docker.elastic.co/kibana/kibana:${STACK_VERSION}
+    image: docker.elastic.co/kibana/kibana:8.1.2
     ports:
-      - ${KIBANA_PORT}:5601
+      - "5601:5601"
     environment:
       - SERVERNAME=kibana
-      - ELASTICSEARCH_HOSTS=http://es01:9200  # Change to use HTTP instead of HTTPS
+      - ELASTICSEARCH_HOSTS=http://es01:9200
       - ELASTICSEARCH_USERNAME=kibana_system
       - ELASTICSEARCH_PASSWORD=${KIBANA_PASSWORD}
-    mem_limit: ${MEM_LIMIT}
-    healthcheck:
-      test:
-        [
-          "CMD-SHELL",
-          "curl -s -I http://localhost:5601 | grep -q 'HTTP/1.1 302 Found'"
-        ]
-      interval: 10s
-      timeout: 10s
-      retries: 120
     networks:
       - mynetwork
   
@@ -131,11 +89,15 @@ services:
       dockerfile: dockerfile04
     depends_on:
       - transformation
-
+      - setup
+    environment:
+      - ELASTICSEARCH_HOST=es01
+      - ELASTICSEARCH_PORT=9200
+      - ELASTICSEARCH_USERNAME=kibana_system
+      - ELASTICSEARCH_PASSWORD=<your_password>
+      - DOCKER_ENV=True
     volumes:
       - .:/app
-    environment:
-      - DOCKER_ENV=True
     networks:
       - mynetwork
 
@@ -144,11 +106,15 @@ services:
       context: .
       dockerfile: dockerfile05
     depends_on:
-      - import_to_elasticsearch
+      - setup
+    environment:
+      - ELASTICSEARCH_HOST=es01
+      - ELASTICSEARCH_PORT=9200
+      - ELASTICSEARCH_USERNAME=kibana_system
+      - ELASTICSEARCH_PASSWORD=<your_password>
+      - DOCKER_ENV=True
     volumes:
       - ./output:/app/output
-    environment:
-      - DOCKER_ENV=True
     networks:
       - mynetwork
 
@@ -178,3 +144,4 @@ volumes:
 
 networks:
   mynetwork:
+    driver: bridge
