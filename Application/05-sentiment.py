@@ -7,12 +7,15 @@ from nltk.tokenize import word_tokenize
 from collections import Counter
 import os
 
+# Determine if running in Docker container or locally
+running_in_docker = os.environ.get("DOCKER_ENV", False)
+
 # Connection to the cluster
-#if running_in_docker:
-    #es = Elasticsearch(hosts="https://elastic:datascientest@application-es01-1:9200",
-                       #ca_certs="/usr/share/elasticsearch/config/certs/ca/ca.crt")
-#else:
-es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
+if running_in_docker:
+   es = Elasticsearch(hosts="https://elastic:datascientest@application-es01-1:9200",
+                       ca_certs="./ca/ca.crt")
+else:
+   es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
                        ca_certs="./ca/ca.crt")
 
 # Initialize the VADER sentiment analyzer
@@ -29,7 +32,7 @@ search_query = {
 # Define the base directory based on where the script is located
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-#OUTPUT ALL REVIEWS WITH SENTIMENT
+# OUTPUT ALL REVIEWS WITH SENTIMENT
 
 # Lists to store data
 review_ids = []
@@ -39,15 +42,25 @@ review_texts = []
 compound_scores = []
 sentiment_labels = []
 
-# Paginated search
-page = 1
+# Initialize the Scroll API
+scroll_query = search_query
+scroll_query["scroll"] = "5m"  # Set the scroll time, adjust as needed
+
+# Paginated search using the Scroll API
+scroll_id = None
 while True:
-    response = es.search(index="bestatm_reviews", body=search_query, from_=(page - 1) * 100)
+    if scroll_id is None:
+        response = es.search(index="bestatm_reviews", scroll="5m", body={"query": {"match_all": {}}, "size": 100})
+    else:
+        response = es.scroll(scroll_id=scroll_id, scroll="5m")
     
-    if not response["hits"]["hits"]:
+    scroll_id = response.get("_scroll_id")
+    hits = response["hits"]["hits"]
+    
+    if not hits:
         break
     
-    for hit in response["hits"]["hits"]:
+    for hit in hits:
         source = hit.get("_source", {})
         review_id = source.get("review_id", "")
         company_id = source.get("company_id", "")
@@ -72,7 +85,8 @@ while True:
             compound_scores.append(compound_score)
             sentiment_labels.append(sentiment_label)
 
-    page += 1
+# Clear the scroll context when done
+es.clear_scroll(scroll_id=scroll_id)
 
 # Create dictionary
 data_all = {

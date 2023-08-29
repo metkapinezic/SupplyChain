@@ -9,4 +9,4 @@ COPY . /app/
 
 WORKDIR /app
 
-CMD ["docker cp elasticsearch-es01-1:usr/share/application/config/certs/ca/ ./", "python", "04-esconnect.py"]
+CMD ["python", "04-esconnect.py"]
