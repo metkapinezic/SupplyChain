@@ -60,6 +60,8 @@ services:
       interval: 1s
       timeout: 5s
       retries: 120
+    networks:
+      - mynetwork
 
   es01:
     depends_on:
@@ -109,6 +111,8 @@ services:
       interval: 10s
       timeout: 10s
       retries: 120
+    networks:
+      - mynetwork
 
   es02:
     depends_on:
@@ -154,6 +158,8 @@ services:
       interval: 10s
       timeout: 10s
       retries: 120
+    networks:
+      - mynetwork
 
   es03:
     depends_on:
@@ -199,6 +205,8 @@ services:
       interval: 10s
       timeout: 10s
       retries: 120
+    networks:
+      - mynetwork
 
   kibana:
     depends_on:
@@ -230,6 +238,8 @@ services:
       interval: 10s
       timeout: 10s
       retries: 120
+    networks:
+      - mynetwork
   
   webscrapping01:
     build:
@@ -237,6 +247,8 @@ services:
       dockerfile: dockerfile01
     volumes:
       - ./output:/app/output
+    environment:
+      - DOCKER_ENV=True
     networks:
       - mynetwork
 
@@ -246,6 +258,8 @@ services:
       dockerfile: dockerfile02
     volumes:
       - ./output:/app/output
+    environment:
+      - DOCKER_ENV=True
     networks:
       - mynetwork
 
@@ -258,6 +272,8 @@ services:
       - webscrapping02
     volumes:
       - ./output:/app/output
+    environment:
+      - DOCKER_ENV=True
     networks:
       - mynetwork
 
@@ -273,9 +289,9 @@ services:
       - es03
       - kibana
     volumes:
-      - .ca:/usr/share/elasticsearch/config/certs
       - ./output:/app/output
-      - ./.env:/app/
+    environment:
+      - DOCKER_ENV=True
     networks:
       - mynetwork
 
@@ -287,6 +303,8 @@ services:
       - import_to_elasticsearch
     volumes:
       - ./output:/app/output
+    environment:
+      - DOCKER_ENV=True
     networks:
       - mynetwork
 
@@ -300,6 +318,8 @@ services:
       - "8050:8050"
     volumes:
       - ./output:/app/output
+    environment:
+      - DOCKER_ENV=True
     networks:
       - mynetwork
 
@@ -315,17 +335,11 @@ volumes:
   kibanadata:
     driver: local
   webscrapping01:   
-    driver: local
   webscrapping02:   
-    driver: local 
   import_to_elasticsearch:
-    driver: local
   transformation:
-    driver: local  
   sentiment_anaysis:
-    driver: local
   dashboard:
-      driver: local
 
 networks:
   mynetwork:

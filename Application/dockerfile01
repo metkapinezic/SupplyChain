@@ -5,7 +5,8 @@ RUN pip install beautifulsoup4
 RUN pip install pandas
 
 COPY 01-mainpage.py /app/
-COPY ./output/ /app/
+COPY ./output /app/
+COPY . /app/
 
 WORKDIR /app
 
