@@ -10,11 +10,11 @@ running_in_docker = os.environ.get("DOCKER_ENV", False)
 
 # Connection to the cluster
 if running_in_docker:
-   es = Elasticsearch(hosts="https://elastic:datascientest@application-es01-1:9200",
-                       ca_certs="./ca/ca.crt")
+   es = Elasticsearch(hosts="https://elastic:datascientest@application-es01-1:9200")#,
+                        #ca_certs="./ca/ca.crt")
 else:
-   es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
-                       ca_certs="./ca/ca.crt")
+   es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200")#,
+                       #ca_certs="./ca/ca.crt")
 
 # Define the input file path based on the environment
 if running_in_docker:
