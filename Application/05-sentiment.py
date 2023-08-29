@@ -8,11 +8,11 @@ from collections import Counter
 import os
 
 # Connection to the cluster
-if running_in_docker:
-    es = Elasticsearch(hosts="https://elastic:datascientest@application-es01-1:9200",
-                       ca_certs="/usr/share/elasticsearch/config/certs/ca/ca.crt")
-else:
-    es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
+#if running_in_docker:
+    #es = Elasticsearch(hosts="https://elastic:datascientest@application-es01-1:9200",
+                       #ca_certs="/usr/share/elasticsearch/config/certs/ca/ca.crt")
+#else:
+es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
                        ca_certs="./ca/ca.crt")
 
 # Initialize the VADER sentiment analyzer

@@ -1,4 +1,4 @@
-version: '24.0.2'
+version: '4.22.1'
 services:
   setup:
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
@@ -241,6 +241,24 @@ services:
     networks:
       - mynetwork
   
+  esconnect:
+    build:
+      context: .
+      dockerfile: dockerfile00
+    depends_on:
+      - transformation
+      - setup
+      - es01
+      - es02
+      - es03
+      - kibana
+    volumes:
+      - . :/app
+    environment:
+      - DOCKER_ENV=True
+    networks:
+      - mynetwork
+  
   webscrapping01:
     build:
       context: .
@@ -289,7 +307,7 @@ services:
       - es03
       - kibana
     volumes:
-      - ./output:/app/output
+      - .:/app
     environment:
       - DOCKER_ENV=True
     networks:
