@@ -22,6 +22,10 @@ if running_in_docker:
 else:
    input_file = "./output/app_reviews.csv"  # Local path
 
+print("Running in Docker:", running_in_docker)
+print("Input file:", input_file)
+print("Elasticsearch connection:", es.ping())
+
 # Read and insert data
 with open(input_file, encoding='utf-8') as f:
     reader = csv.DictReader(f)

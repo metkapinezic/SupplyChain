@@ -59,7 +59,10 @@ def get_company_urls(soup_response):
 
 #function to get the link of the next page button and scrap content on next page
 def get_next_page_url(soup_response):
-    return soup_response.select("a[name='pagination-button-next']")[0].attrs.get("href")
+    try:
+        return soup_response.select("a[name='pagination-button-next']")[0].attrs.get("href")
+    except IndexError:
+        return None
 
 
 # In[64]:
