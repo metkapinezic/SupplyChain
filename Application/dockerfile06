@@ -4,6 +4,7 @@ RUN pip install pandas dash plotly nltk
 
 COPY 06-dashboard.py /app/
 COPY ./output/ /app/
+COPY . /app/
 
 WORKDIR /app
 

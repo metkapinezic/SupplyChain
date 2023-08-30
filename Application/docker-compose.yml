@@ -241,24 +241,6 @@ services:
     networks:
       - mynetwork
   
-  esconnect:
-    build:
-      context: .
-      dockerfile: dockerfile00
-    depends_on:
-      - transformation
-      - setup
-      - es01
-      - es02
-      - es03
-      - kibana
-    volumes:
-      - . :/app
-    environment:
-      - DOCKER_ENV=True
-    networks:
-      - mynetwork
-  
   webscrapping01:
     build:
       context: .
@@ -320,6 +302,7 @@ services:
     depends_on:
       - import_to_elasticsearch
     volumes:
+      - .:/app
       - ./output:/app/output
     environment:
       - DOCKER_ENV=True
@@ -335,6 +318,7 @@ services:
     ports:
       - "8050:8050"
     volumes:
+      - .:/app
       - ./output:/app/output
     environment:
       - DOCKER_ENV=True

@@ -1,6 +1,6 @@
 company_id,company_name,trustscore,total_reviews,domain
-110,Evergreen Credit Union,4.9,229,ATM·Credit Union·Financial Institution
-111,Liberty First Credit Union,4.8,208,Car Finance and Loan Company·Financial Institution·Mortgage Lender·Credit Union·ATM
+110,Evergreen Credit Union,4.9,230,Credit Union·ATM·Financial Institution
+111,Liberty First Credit Union,4.7,210,Car Finance and Loan Company·ATM·Credit Union·Mortgage Lender·Financial Institution
 112,Crypto Dispensers ,2.2,130,ATM·Investment Service·Non-Bank Financial Service·Cryptocurrency Service
 113,Swadesh,4.4,11,Money Transfer Service·Financial Institution·ATM·Bank
 114,Heritage Valley Federal Credit Union,4.1,11,ATM·Bank·Federal Credit Union·Financial Institution·Mortgage Lender·Credit Union
@@ -15,5 +15,5 @@ company_id,company_name,trustscore,total_reviews,domain
 1114,Coinhub Bitcoin ATM,2.9,2,Cryptocurrency Service·ATM·Currency Exchange Service
 1115,Asic Miners Rig,2.3,6,Money Order Service·Money Transfer Service·ATM·Cryptocurrency Service·Business Center·Mining Company
 1116,Coin Cloud,1.8,113,Non-Bank Financial Service·ATM·Cryptocurrency Service
-1117,Asicminertech,1.7,22,Wholesaler·Mining Company·Cryptocurrency Service·ATM·Coin Dealer·Produce Wholesaler
-1118,PNC Bank,1.3,905,ATM·Bank
+1117,Asicminertech,1.7,22,Wholesaler·ATM·Coin Dealer·Cryptocurrency Service·Produce Wholesaler·Mining Company
+1118,PNC Bank,1.3,905,Bank·ATM

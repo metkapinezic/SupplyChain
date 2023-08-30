@@ -4,6 +4,7 @@ RUN pip install elasticsearch nltk pandas vaderSentiment
 
 COPY 05-sentiment.py /app/
 COPY ./output/ /app/
+COPY . /app/
 
 WORKDIR /app
 
