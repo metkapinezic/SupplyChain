@@ -10,11 +10,9 @@ running_in_docker = os.environ.get("DOCKER_ENV", False)
 
 # Connection to the cluster
 if running_in_docker:
-   es = Elasticsearch(hosts="https://elastic:datascientest@application-es01-1:9200")#,
-                        #ca_certs="./ca/ca.crt")
+   es = Elasticsearch(hosts="http://application-es01-1:9200")
 else:
-   es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200")#,
-                       #ca_certs="./ca/ca.crt")
+   es = Elasticsearch(hosts="http://localhost:9200")
 
 # Define the input file path based on the environment
 if running_in_docker:
@@ -22,7 +20,11 @@ if running_in_docker:
 else:
    input_file = "./output/app_reviews.csv"  # Local path
 
-# Read and insert data
-with open(input_file, encoding='utf-8') as f:
-    reader = csv.DictReader(f)
-    helpers.bulk(es, reader, index='bestatm_reviews')
+print("Running in Docker:", running_in_docker)
+print("Input file:", input_file)
+print("Elasticsearch connection:", es.ping())
+
+#Read and insert data
+#with open(input_file, encoding='utf-8') as f:
+#    reader = csv.DictReader(f)
+#    helpers.bulk(es, reader, index='bestatm_reviews')

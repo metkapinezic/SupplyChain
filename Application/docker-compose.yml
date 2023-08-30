@@ -1,49 +1,63 @@
 version: '4.22.1'
 services:
   setup:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.1.2
+    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
     user: "0"
     command: >
       bash -c '
         if [ x${ELASTIC_PASSWORD} == x ]; then
           echo "Set the ELASTIC_PASSWORD environment variable in the .env file";
           exit 1;
-        elif [ x${KIBANA_PASSWORD} == x ]; then
-          echo "Set the KIBANA_PASSWORD environment variable in the .env file";
-          exit 1;
         fi;
         echo "Waiting for Elasticsearch availability";
-        until curl -s http://es01:9200 | grep -q "cluster_name"; do sleep 30; done;
+        until curl -s https://es01:9200 | grep -q "cluster_name"; do sleep 30; done;
         echo "Setting kibana_system password";
-        until curl -s -X POST -H "Content-Type: application/json" http://es01:9200/_security/user/kibana_system/_password -d "{\"password\":\"${KIBANA_PASSWORD}\"}" | grep -q "^{}"; do sleep 10; done;
+        until curl -s -X POST -u elastic:${ELASTIC_PASSWORD} -H "Content-Type: application/json" https://es01:9200/_security/user/kibana_system/_password -d "{\"password\":\"${ELASTIC_PASSWORD}\"}" | grep -q "^{}"; do sleep 10; done;
         echo "All done!";
       '
     healthcheck:
-      test: ["CMD", "curl", "-s", "http://es01:9200"]
+      test: [ "CMD-SHELL", "curl -s https://es01:9200 | grep -q 'cluster_name'" ]
       interval: 10s
       retries: 120
     networks:
       - mynetwork
 
   es01:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.1.2
+    depends_on:
+      setup:
+        condition: service_healthy
+    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    ports:
+      - ${ES_PORT}:9200
     environment:
       - node.name=es01
       - cluster.name=docker-cluster
-      - discovery.type=single-node
-      - xpack.security.enabled=false
-    networks:
-      - mynetwork
-
-  kibana:
-    image: docker.elastic.co/kibana/kibana:8.1.2
-    ports:
-      - "5601:5601"
-    environment:
-      - SERVERNAME=kibana
-      - ELASTICSEARCH_HOSTS=http://es01:9200
-      - ELASTICSEARCH_USERNAME=kibana_system
-      - ELASTICSEARCH_PASSWORD=${KIBANA_PASSWORD}
+      - cluster.initial_master_nodes=es01
+      - ELASTIC_PASSWORD=datascientest
+      - bootstrap.memory_lock=true
+      - xpack.monitoring.collection.enabled=true
+      - xpack.security.enabled=true
+      - xpack.security.http.ssl.enabled=false
+      - xpack.security.transport.ssl.enabled=false
+      - xpack.license.self_generated.type=${LICENSE}
+      - "ES_JAVA_OPTS=-Xms256m -Xmx256m"
+    mem_limit: ${MEM_LIMIT}
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -s https://es01:9200 | grep -q 'cluster_name'"
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 120
     networks:
       - mynetwork
   
@@ -89,15 +103,23 @@ services:
       dockerfile: dockerfile04
     depends_on:
       - transformation
-      - setup
+      - es01
     environment:
-      - ELASTICSEARCH_HOST=es01
-      - ELASTICSEARCH_PORT=9200
-      - ELASTICSEARCH_USERNAME=kibana_system
-      - ELASTICSEARCH_PASSWORD=<your_password>
+      - node.name=es01
+      - cluster.name=docker-cluster
+      - cluster.initial_master_nodes=es01
+      - ELASTIC_PASSWORD=datascientest
+      - bootstrap.memory_lock=true
+      - xpack.monitoring.collection.enabled=true
+      - xpack.security.enabled=true
+      - xpack.security.http.ssl.enabled=false
+      - xpack.security.transport.ssl.enabled=false
+      - xpack.license.self_generated.type=${LICENSE}
+      - "ES_JAVA_OPTS=-Xms256m -Xmx256m"
       - DOCKER_ENV=True
     volumes:
       - .:/app
+      - ./output:/app/output
     networks:
       - mynetwork
 
@@ -108,10 +130,17 @@ services:
     depends_on:
       - setup
     environment:
-      - ELASTICSEARCH_HOST=es01
-      - ELASTICSEARCH_PORT=9200
-      - ELASTICSEARCH_USERNAME=kibana_system
-      - ELASTICSEARCH_PASSWORD=<your_password>
+      - node.name=es01
+      - cluster.name=docker-cluster
+      - cluster.initial_master_nodes=es01
+      - ELASTIC_PASSWORD=datascientest
+      - bootstrap.memory_lock=true
+      - xpack.monitoring.collection.enabled=true
+      - xpack.security.enabled=true
+      - xpack.security.http.ssl.enabled=false
+      - xpack.security.transport.ssl.enabled=false
+      - xpack.license.self_generated.type=${LICENSE}
+      - "ES_JAVA_OPTS=-Xms256m -Xmx256m"
       - DOCKER_ENV=True
     volumes:
       - ./output:/app/output
