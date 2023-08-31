@@ -37,3 +37,8 @@
     - horizontal bar chart showing the count of reviews per company distributed by the sentiment label
     - bar chart showing the distribution of sentiment labels per topic (word buckets) of the reviews 
   
+Cron job: 
+edit crontab with crontab -e
+type in the file:
+0 0 * sep mon ~/SupplyChain/CMD.sh
+then exit the crontab
