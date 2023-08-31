@@ -1,0 +1,568 @@
+SentimentScores,SentimentLabel,CompanyName,CompanyID,bank account,customer service,credits
+0.8754,Positive,Evergreen Credit Union,110,0,0,0
+0.8999,Positive,Evergreen Credit Union,110,0,0,0
+0.925,Positive,Evergreen Credit Union,110,0,1,0
+0.9313,Positive,Evergreen Credit Union,110,0,0,2
+0.9796,Positive,Evergreen Credit Union,110,0,0,2
+0.9545,Positive,Evergreen Credit Union,110,0,0,0
+0.2926,Positive,Evergreen Credit Union,110,0,1,0
+0.9098,Positive,Evergreen Credit Union,110,0,0,1
+0.9466,Positive,Evergreen Credit Union,110,0,0,2
+0.8572,Positive,Evergreen Credit Union,110,0,0,0
+0.7339,Positive,Evergreen Credit Union,110,0,0,1
+0.9675,Positive,Evergreen Credit Union,110,0,0,1
+0.969,Positive,Evergreen Credit Union,110,0,0,3
+0.902,Positive,Evergreen Credit Union,110,0,1,0
+0.9196,Positive,Evergreen Credit Union,110,0,0,0
+-0.8338,Negative,Evergreen Credit Union,110,0,0,0
+0.6486,Positive,Evergreen Credit Union,110,0,0,1
+0.9,Positive,Evergreen Credit Union,110,0,1,3
+0.9335,Positive,Evergreen Credit Union,110,0,0,1
+0.9854,Positive,Evergreen Credit Union,110,0,0,1
+0.945,Positive,Evergreen Credit Union,110,0,0,0
+0.9252,Positive,Evergreen Credit Union,110,0,0,2
+0.8658,Positive,Evergreen Credit Union,110,0,2,1
+0.8388,Positive,Evergreen Credit Union,110,0,2,1
+0.979,Positive,Evergreen Credit Union,110,0,0,2
+0.9358,Positive,Evergreen Credit Union,110,0,0,0
+0.9208,Positive,Evergreen Credit Union,110,0,0,1
+0.9186,Positive,Evergreen Credit Union,110,0,0,1
+0.9882,Positive,Evergreen Credit Union,110,0,1,3
+0.854,Positive,Evergreen Credit Union,110,0,0,0
+0.926,Positive,Evergreen Credit Union,110,0,0,0
+0.8777,Positive,Evergreen Credit Union,110,0,0,1
+0.8802,Positive,Evergreen Credit Union,110,0,0,1
+0.8573,Positive,Evergreen Credit Union,110,0,0,3
+0.7964,Positive,Evergreen Credit Union,110,0,0,0
+0.7897,Positive,Evergreen Credit Union,110,1,1,0
+0.8475,Positive,Evergreen Credit Union,110,1,0,1
+0.8834,Positive,Evergreen Credit Union,110,0,0,0
+0.7333,Positive,Evergreen Credit Union,110,0,0,0
+0.8711,Positive,Evergreen Credit Union,110,0,0,0
+0.5686,Positive,Evergreen Credit Union,110,0,0,0
+0.8297,Positive,Evergreen Credit Union,110,0,0,1
+0.836,Positive,Evergreen Credit Union,110,0,0,1
+0.8395,Positive,Evergreen Credit Union,110,0,2,0
+0.944,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,1,0,1
+0.9861,Positive,Evergreen Credit Union,110,0,0,2
+0.765,Positive,Evergreen Credit Union,110,1,0,0
+0.8665,Positive,Evergreen Credit Union,110,0,2,2
+0.9149,Positive,Evergreen Credit Union,110,0,0,0
+0.9038,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,1,0
+0.7425,Positive,Evergreen Credit Union,110,0,0,0
+0.4927,Positive,Evergreen Credit Union,110,0,2,0
+0.9032,Positive,Evergreen Credit Union,110,0,0,0
+0.5719,Positive,Evergreen Credit Union,110,0,0,2
+0.4215,Positive,Evergreen Credit Union,110,0,0,0
+0.7906,Positive,Evergreen Credit Union,110,0,0,0
+0.9145,Positive,Evergreen Credit Union,110,0,2,0
+0.5542,Positive,Evergreen Credit Union,110,0,0,1
+0.7717,Positive,Evergreen Credit Union,110,0,0,0
+0.9377,Positive,Evergreen Credit Union,110,0,0,0
+0.877,Positive,Evergreen Credit Union,110,0,0,0
+0.8901,Positive,Evergreen Credit Union,110,0,0,2
+-0.1531,Negative,Evergreen Credit Union,110,0,0,0
+0.8016,Positive,Evergreen Credit Union,110,0,0,0
+0.4199,Positive,Evergreen Credit Union,110,0,1,0
+0.5859,Positive,Evergreen Credit Union,110,0,1,0
+0.4215,Positive,Evergreen Credit Union,110,1,0,0
+0.8858,Positive,Evergreen Credit Union,110,0,0,0
+0.6705,Positive,Evergreen Credit Union,110,0,1,0
+0.7783,Positive,Evergreen Credit Union,110,0,0,1
+0.8016,Positive,Evergreen Credit Union,110,0,1,0
+0.4404,Positive,Evergreen Credit Union,110,0,0,0
+0.4927,Positive,Evergreen Credit Union,110,0,0,1
+0.8468,Positive,Evergreen Credit Union,110,0,0,0
+0.4754,Positive,Evergreen Credit Union,110,0,0,0
+0.7808,Positive,Evergreen Credit Union,110,0,0,0
+0.765,Positive,Evergreen Credit Union,110,0,0,0
+0.7783,Positive,Evergreen Credit Union,110,0,0,1
+0.9348,Positive,Evergreen Credit Union,110,0,1,0
+0.7777,Positive,Evergreen Credit Union,110,0,0,1
+0.8439,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.8481,Positive,Evergreen Credit Union,110,0,0,0
+0.6249,Positive,Evergreen Credit Union,110,1,0,0
+0.8439,Positive,Evergreen Credit Union,110,0,1,0
+0.8011,Positive,Evergreen Credit Union,110,0,1,0
+0.9118,Positive,Evergreen Credit Union,110,0,0,1
+0.6369,Positive,Evergreen Credit Union,110,0,1,0
+0.4688,Positive,Evergreen Credit Union,110,2,0,0
+0.9714,Positive,Evergreen Credit Union,110,0,0,0
+0.6997,Positive,Evergreen Credit Union,110,0,0,0
+0.8858,Positive,Evergreen Credit Union,110,0,0,0
+0.8402,Positive,Evergreen Credit Union,110,1,0,0
+0.926,Positive,Evergreen Credit Union,110,0,0,0
+0.9757,Positive,Evergreen Credit Union,110,0,0,2
+0.9217,Positive,Evergreen Credit Union,110,2,0,0
+0.0,Neutral,ASDFTEST,116,0,0,0
+-0.9514,Negative,Asic Miners Rig,1115,0,0,0
+-0.4543,Negative,Asic Miners Rig,1115,0,0,0
+-0.9257,Negative,Asic Miners Rig,1115,0,0,0
+0.8832,Positive,NorthOne,1112,0,1,0
+-0.2617,Negative,NorthOne,1112,2,0,0
+0.34,Positive,NorthOne,1112,2,0,0
+0.886,Positive,NorthOne,1112,1,1,0
+-0.2674,Negative,NorthOne,1112,2,0,0
+-0.8797,Negative,NorthOne,1112,2,0,0
+0.5106,Positive,NorthOne,1112,0,2,0
+0.4404,Positive,NorthOne,1112,0,0,0
+-0.3818,Negative,NorthOne,1112,3,0,0
+-0.9459,Negative,NorthOne,1112,3,0,0
+0.8296,Positive,NorthOne,1112,4,0,0
+0.8481,Positive,NorthOne,1112,0,2,0
+-0.8658,Negative,NorthOne,1112,1,0,0
+0.9034,Positive,NorthOne,1112,0,0,0
+0.9581,Positive,NorthOne,1112,1,0,0
+0.0772,Positive,NorthOne,1112,3,0,0
+0.2516,Positive,NorthOne,1112,2,0,0
+0.4215,Positive,NorthOne,1112,0,0,0
+0.9313,Positive,NorthOne,1112,2,0,0
+-0.6934,Negative,NorthOne,1112,3,0,0
+0.9324,Positive,NorthOne,1112,1,0,1
+-0.8631,Negative,NorthOne,1112,2,0,0
+-0.9713,Negative,NorthOne,1112,3,0,1
+0.9702,Positive,NorthOne,1112,1,1,0
+0.965,Positive,NorthOne,1112,4,0,0
+0.949,Positive,NorthOne,1112,0,4,0
+-0.893,Negative,NorthOne,1112,2,0,0
+-0.8537,Negative,NorthOne,1112,5,5,0
+0.968,Positive,NorthOne,1112,6,4,0
+0.2852,Positive,NorthOne,1112,2,0,0
+-0.7133,Negative,NorthOne,1112,12,0,0
+-0.9324,Negative,NorthOne,1112,2,0,0
+0.8999,Positive,NorthOne,1112,1,0,0
+-0.5583,Negative,NorthOne,1112,1,0,0
+-0.6887,Negative,NorthOne,1112,1,0,0
+0.2732,Positive,NorthOne,1112,0,0,0
+0.1825,Positive,NorthOne,1112,0,2,0
+0.2878,Positive,NorthOne,1112,0,0,0
+0.8762,Positive,NorthOne,1112,0,0,0
+-0.4946,Negative,NorthOne,1112,2,0,0
+-0.9944,Negative,NorthOne,1112,5,0,0
+0.7351,Positive,NorthOne,1112,0,2,0
+0.8074,Positive,NorthOne,1112,1,0,0
+0.9287,Positive,NorthOne,1112,0,0,0
+-0.5859,Negative,NorthOne,1112,0,0,0
+0.7249,Positive,NorthOne,1112,0,0,0
+-0.7536,Negative,NorthOne,1112,4,0,0
+-0.7881,Negative,NorthOne,1112,6,0,0
+0.0,Neutral,NorthOne,1112,1,0,0
+0.4003,Positive,NorthOne,1112,2,0,2
+0.7713,Positive,NorthOne,1112,0,2,0
+-0.8205,Negative,NorthOne,1112,3,0,0
+0.4927,Positive,NorthOne,1112,1,0,0
+0.0,Neutral,NorthOne,1112,1,0,0
+-0.5661,Negative,NorthOne,1112,1,4,0
+0.9199,Positive,The Payment HQ,115,0,1,0
+-0.8289,Negative,Asicminertech,1117,0,0,0
+-0.9665,Negative,Asicminertech,1117,0,0,0
+0.6988,Positive,Asicminertech,1117,0,0,0
+-0.2282,Negative,Asicminertech,1117,0,0,0
+-0.9486,Negative,Asicminertech,1117,0,0,0
+0.3578,Positive,Asicminertech,1117,0,0,0
+0.5562,Positive,Asicminertech,1117,0,0,0
+0.7337,Positive,Asicminertech,1117,0,0,0
+-0.8021,Negative,Asicminertech,1117,0,0,0
+-0.7712,Negative,Asicminertech,1117,0,0,0
+-0.1091,Negative,Asicminertech,1117,0,0,0
+-0.4282,Negative,Asicminertech,1117,0,0,0
+-0.8025,Negative,Asicminertech,1117,0,0,0
+-0.6382,Negative,Liberty First Credit Union,111,0,0,0
+0.8588,Positive,Liberty First Credit Union,111,0,0,1
+0.9364,Positive,Liberty First Credit Union,111,0,0,1
+0.6249,Positive,Liberty First Credit Union,111,0,0,0
+0.9813,Positive,Liberty First Credit Union,111,0,1,1
+0.9732,Positive,Liberty First Credit Union,111,0,0,2
+0.6369,Positive,Liberty First Credit Union,111,0,1,1
+0.8974,Positive,Liberty First Credit Union,111,0,0,0
+0.9468,Positive,Liberty First Credit Union,111,0,2,3
+0.8439,Positive,Liberty First Credit Union,111,1,0,0
+0.9877,Positive,Liberty First Credit Union,111,0,0,2
+0.9749,Positive,Liberty First Credit Union,111,2,0,1
+0.9577,Positive,Liberty First Credit Union,111,0,0,0
+0.9705,Positive,Liberty First Credit Union,111,2,0,1
+0.8734,Positive,Liberty First Credit Union,111,0,0,0
+0.9709,Positive,Liberty First Credit Union,111,1,0,1
+0.9038,Positive,Liberty First Credit Union,111,0,0,2
+0.9665,Positive,Liberty First Credit Union,111,0,0,1
+0.8988,Positive,Liberty First Credit Union,111,1,0,1
+0.9694,Positive,Liberty First Credit Union,111,2,1,3
+0.8436,Positive,Liberty First Credit Union,111,0,0,2
+0.8271,Positive,Liberty First Credit Union,111,1,0,1
+0.8957,Positive,Liberty First Credit Union,111,1,0,2
+0.4215,Positive,Liberty First Credit Union,111,0,0,1
+0.9791,Positive,Liberty First Credit Union,111,3,0,1
+0.9458,Positive,Liberty First Credit Union,111,0,0,0
+0.9392,Positive,Liberty First Credit Union,111,0,0,0
+0.923,Positive,Liberty First Credit Union,111,1,0,0
+0.743,Positive,Liberty First Credit Union,111,0,0,1
+0.9588,Positive,Liberty First Credit Union,111,0,0,1
+0.8765,Positive,Liberty First Credit Union,111,0,0,0
+0.8832,Positive,Liberty First Credit Union,111,0,0,4
+0.8553,Positive,Liberty First Credit Union,111,1,0,0
+0.7644,Positive,Liberty First Credit Union,111,0,0,0
+0.4404,Positive,Liberty First Credit Union,111,0,1,0
+0.9036,Positive,Liberty First Credit Union,111,0,0,0
+0.9169,Positive,Liberty First Credit Union,111,1,0,2
+0.8458,Positive,Liberty First Credit Union,111,0,0,0
+0.937,Positive,Liberty First Credit Union,111,1,1,0
+0.7845,Positive,Liberty First Credit Union,111,0,0,1
+0.9751,Positive,Liberty First Credit Union,111,0,0,0
+0.5709,Positive,Liberty First Credit Union,111,0,0,0
+0.8476,Positive,Liberty First Credit Union,111,0,0,1
+0.9715,Positive,Liberty First Credit Union,111,0,0,1
+0.9089,Positive,Liberty First Credit Union,111,0,1,0
+0.1779,Positive,Liberty First Credit Union,111,0,0,0
+0.34,Positive,Liberty First Credit Union,111,0,0,0
+0.764,Positive,Liberty First Credit Union,111,0,0,0
+0.8746,Positive,Liberty First Credit Union,111,0,1,0
+0.296,Positive,Liberty First Credit Union,111,1,0,0
+0.8979,Positive,Liberty First Credit Union,111,0,0,0
+-0.2144,Negative,Liberty First Credit Union,111,0,0,0
+0.5719,Positive,Liberty First Credit Union,111,0,0,0
+0.762,Positive,Liberty First Credit Union,111,1,0,0
+0.9831,Positive,Liberty First Credit Union,111,3,0,0
+0.762,Positive,Liberty First Credit Union,111,1,0,0
+0.0,Neutral,Liberty First Credit Union,111,0,2,0
+0.8768,Positive,Liberty First Credit Union,111,0,0,1
+0.9325,Positive,Liberty First Credit Union,111,0,0,1
+0.6801,Positive,Liberty First Credit Union,111,0,0,0
+0.8801,Positive,Liberty First Credit Union,111,0,0,0
+0.4497,Positive,Liberty First Credit Union,111,0,0,0
+0.3818,Positive,Liberty First Credit Union,111,0,0,1
+0.883,Positive,Liberty First Credit Union,111,0,0,0
+0.0772,Positive,Liberty First Credit Union,111,2,0,0
+0.7536,Positive,Liberty First Credit Union,111,0,0,0
+0.6808,Positive,Liberty First Credit Union,111,0,0,0
+0.4754,Positive,Liberty First Credit Union,111,0,0,0
+0.7501,Positive,Liberty First Credit Union,111,0,0,0
+0.8211,Positive,Liberty First Credit Union,111,0,0,0
+0.836,Positive,Liberty First Credit Union,111,0,3,0
+0.624,Positive,Liberty First Credit Union,111,0,0,0
+-0.0258,Neutral,Liberty First Credit Union,111,0,0,0
+0.5719,Positive,Liberty First Credit Union,111,0,0,0
+0.7906,Positive,Liberty First Credit Union,111,0,1,0
+0.8313,Positive,Liberty First Credit Union,111,0,0,0
+0.2732,Positive,Liberty First Credit Union,111,0,0,0
+0.5244,Positive,Liberty First Credit Union,111,0,0,1
+0.7906,Positive,Liberty First Credit Union,111,0,0,1
+0.4754,Positive,Liberty First Credit Union,111,0,0,0
+0.6249,Positive,Liberty First Credit Union,111,0,0,0
+0.5563,Positive,Liberty First Credit Union,111,0,0,0
+0.7178,Positive,Liberty First Credit Union,111,0,0,0
+0.5413,Positive,Liberty First Credit Union,111,0,0,0
+0.4215,Positive,Liberty First Credit Union,111,0,0,0
+0.7717,Positive,Liberty First Credit Union,111,0,0,0
+0.5197,Positive,Liberty First Credit Union,111,0,0,0
+0.891,Positive,Liberty First Credit Union,111,0,0,0
+0.8878,Positive,Liberty First Credit Union,111,0,0,0
+0.1779,Positive,Liberty First Credit Union,111,0,0,0
+0.6249,Positive,Liberty First Credit Union,111,0,0,0
+0.8511,Positive,Heritage Valley Federal Credit Union,114,0,0,1
+0.9246,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.8398,Positive,Heritage Valley Federal Credit Union,114,0,0,0
+0.836,Positive,Kryptominerstech,118,0,0,0
+0.8126,Positive,Meriwest Credit Union,1110,1,1,0
+-0.3433,Negative,cryptobaseatm.com,1113,0,2,0
+0.0,Neutral,Cash Express,119,0,0,0
+0.886,Positive,Cash Express,119,0,0,0
+0.7003,Positive,PNC Bank,1118,1,0,0
+-0.8062,Negative,PNC Bank,1118,4,0,0
+-0.0536,Negative,PNC Bank,1118,2,0,0
+0.6792,Positive,PNC Bank,1118,4,0,0
+-0.9236,Negative,PNC Bank,1118,3,0,0
+0.6406,Positive,PNC Bank,1118,9,1,1
+0.3038,Positive,PNC Bank,1118,2,0,0
+-0.8687,Negative,PNC Bank,1118,2,0,0
+-0.8541,Negative,PNC Bank,1118,3,0,0
+-0.965,Negative,PNC Bank,1118,2,0,0
+0.6369,Positive,PNC Bank,1118,6,4,1
+0.871,Positive,PNC Bank,1118,0,1,0
+-0.5423,Negative,PNC Bank,1118,2,2,0
+-0.9325,Negative,PNC Bank,1118,0,0,0
+-0.7925,Negative,PNC Bank,1118,4,2,4
+0.5917,Positive,PNC Bank,1118,3,0,1
+0.1862,Positive,PNC Bank,1118,1,3,0
+-0.8402,Negative,PNC Bank,1118,0,0,0
+0.8622,Positive,PNC Bank,1118,0,0,0
+-0.8991,Negative,PNC Bank,1118,9,2,0
+0.7906,Positive,PNC Bank,1118,4,0,0
+-0.8058,Negative,PNC Bank,1118,4,0,0
+-0.9271,Negative,PNC Bank,1118,7,0,1
+-0.552,Negative,PNC Bank,1118,0,0,0
+-0.5352,Negative,PNC Bank,1118,1,0,0
+-0.7597,Negative,PNC Bank,1118,1,2,0
+0.6369,Positive,PNC Bank,1118,0,1,0
+0.6322,Positive,PNC Bank,1118,2,0,0
+-0.5242,Negative,PNC Bank,1118,3,0,0
+-0.765,Negative,PNC Bank,1118,3,1,1
+-0.5106,Negative,PNC Bank,1118,0,0,0
+-0.8139,Negative,PNC Bank,1118,1,2,2
+0.8379,Positive,PNC Bank,1118,1,0,0
+-0.5719,Negative,PNC Bank,1118,1,2,0
+-0.9429,Negative,PNC Bank,1118,1,0,2
+-0.3134,Negative,PNC Bank,1118,0,3,0
+-0.8367,Negative,PNC Bank,1118,0,0,0
+-0.0853,Negative,PNC Bank,1118,1,0,0
+-0.1546,Negative,PNC Bank,1118,0,0,0
+-0.7959,Negative,PNC Bank,1118,1,0,0
+-0.9361,Negative,PNC Bank,1118,0,0,2
+-0.802,Negative,PNC Bank,1118,1,0,0
+0.762,Positive,PNC Bank,1118,1,1,3
+0.9283,Positive,PNC Bank,1118,2,2,0
+0.1027,Positive,PNC Bank,1118,1,0,2
+0.8528,Positive,PNC Bank,1118,1,0,0
+-0.8323,Negative,PNC Bank,1118,1,1,1
+-0.9537,Negative,PNC Bank,1118,2,2,0
+0.34,Positive,PNC Bank,1118,0,0,0
+-0.6124,Negative,PNC Bank,1118,1,0,0
+-0.9496,Negative,PNC Bank,1118,0,0,0
+-0.733,Negative,PNC Bank,1118,1,2,0
+-0.1531,Negative,PNC Bank,1118,0,0,0
+-0.7241,Negative,PNC Bank,1118,3,1,0
+-0.7058,Negative,PNC Bank,1118,2,0,0
+0.6604,Positive,PNC Bank,1118,4,0,0
+0.8057,Positive,PNC Bank,1118,0,1,0
+-0.6852,Negative,PNC Bank,1118,2,2,0
+0.5284,Positive,PNC Bank,1118,4,0,5
+0.7416,Positive,PNC Bank,1118,2,0,3
+-0.1531,Negative,PNC Bank,1118,0,0,0
+0.7878,Positive,PNC Bank,1118,2,0,0
+0.6566,Positive,PNC Bank,1118,0,1,0
+0.7881,Positive,PNC Bank,1118,0,5,0
+-0.7579,Negative,PNC Bank,1118,3,0,0
+0.9184,Positive,PNC Bank,1118,1,0,2
+-0.34,Negative,PNC Bank,1118,1,0,0
+-0.8313,Negative,PNC Bank,1118,0,0,0
+-0.7321,Negative,PNC Bank,1118,1,0,0
+-0.7339,Negative,PNC Bank,1118,1,0,1
+-0.659,Negative,PNC Bank,1118,1,2,0
+0.4939,Positive,WPC Merchant Services & Credit Card Processing,117,2,2,0
+0.3612,Positive,Evergreen Credit Union,110,0,0,2
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.7424,Positive,Evergreen Credit Union,110,0,0,0
+0.9325,Positive,Evergreen Credit Union,110,0,0,0
+0.9524,Positive,Evergreen Credit Union,110,0,0,2
+0.9849,Positive,Evergreen Credit Union,110,0,0,2
+0.9389,Positive,Evergreen Credit Union,110,1,0,1
+0.9946,Positive,Evergreen Credit Union,110,0,5,2
+0.9894,Positive,Evergreen Credit Union,110,0,2,1
+0.8316,Positive,Evergreen Credit Union,110,0,0,2
+0.8627,Positive,Evergreen Credit Union,110,1,2,0
+0.9342,Positive,Evergreen Credit Union,110,0,0,4
+0.9428,Positive,Evergreen Credit Union,110,3,0,2
+0.9455,Positive,Evergreen Credit Union,110,1,1,1
+0.8825,Positive,Evergreen Credit Union,110,0,2,1
+0.6249,Positive,Evergreen Credit Union,110,0,0,2
+0.9558,Positive,Evergreen Credit Union,110,0,1,2
+0.806,Positive,Evergreen Credit Union,110,0,0,0
+0.8442,Positive,Evergreen Credit Union,110,0,0,2
+0.9721,Positive,Evergreen Credit Union,110,0,0,1
+0.9076,Positive,Evergreen Credit Union,110,0,0,1
+0.7845,Positive,Evergreen Credit Union,110,2,4,0
+0.8118,Positive,Evergreen Credit Union,110,0,0,0
+0.3987,Positive,Evergreen Credit Union,110,0,0,2
+0.9703,Positive,Evergreen Credit Union,110,0,4,0
+0.3274,Positive,Evergreen Credit Union,110,0,0,0
+0.8597,Positive,Evergreen Credit Union,110,0,0,1
+0.7269,Positive,Evergreen Credit Union,110,1,0,1
+-0.0258,Neutral,Evergreen Credit Union,110,0,0,0
+0.9397,Positive,Evergreen Credit Union,110,0,1,0
+0.9545,Positive,Evergreen Credit Union,110,0,0,1
+0.7946,Positive,Evergreen Credit Union,110,0,2,1
+0.8617,Positive,Evergreen Credit Union,110,0,0,0
+0.5127,Positive,Evergreen Credit Union,110,4,0,1
+0.8663,Positive,Evergreen Credit Union,110,1,0,1
+0.9392,Positive,Evergreen Credit Union,110,3,0,2
+0.8545,Positive,Evergreen Credit Union,110,0,2,1
+0.9458,Positive,Evergreen Credit Union,110,0,0,2
+0.8392,Positive,Evergreen Credit Union,110,0,1,0
+0.9079,Positive,Evergreen Credit Union,110,0,0,0
+0.908,Positive,Evergreen Credit Union,110,0,2,1
+0.902,Positive,Evergreen Credit Union,110,0,0,0
+0.974,Positive,Evergreen Credit Union,110,0,0,3
+0.68,Positive,Evergreen Credit Union,110,0,0,1
+0.6954,Positive,Evergreen Credit Union,110,0,0,1
+0.9638,Positive,Evergreen Credit Union,110,0,1,1
+0.86,Positive,Evergreen Credit Union,110,0,1,0
+0.9299,Positive,Evergreen Credit Union,110,0,0,1
+0.7328,Positive,Evergreen Credit Union,110,0,1,0
+0.9468,Positive,Evergreen Credit Union,110,0,0,1
+0.6369,Positive,Evergreen Credit Union,110,0,0,0
+0.8793,Positive,Evergreen Credit Union,110,0,0,1
+0.8625,Positive,Evergreen Credit Union,110,0,0,0
+0.9059,Positive,Evergreen Credit Union,110,0,0,0
+0.905,Positive,Evergreen Credit Union,110,0,1,0
+0.883,Positive,Evergreen Credit Union,110,0,2,0
+0.9484,Positive,Evergreen Credit Union,110,0,0,0
+-0.5719,Negative,Evergreen Credit Union,110,0,0,0
+0.891,Positive,Evergreen Credit Union,110,0,1,0
+0.4927,Positive,Evergreen Credit Union,110,0,0,0
+0.9671,Positive,Evergreen Credit Union,110,0,1,0
+0.5267,Positive,Evergreen Credit Union,110,0,0,0
+0.8905,Positive,Evergreen Credit Union,110,0,0,0
+0.2447,Positive,Evergreen Credit Union,110,0,0,1
+0.7249,Positive,Evergreen Credit Union,110,0,0,0
+0.6695,Positive,Evergreen Credit Union,110,0,0,1
+0.4926,Positive,Evergreen Credit Union,110,0,0,2
+0.9287,Positive,Evergreen Credit Union,110,0,0,0
+0.7474,Positive,Evergreen Credit Union,110,0,0,0
+0.8619,Positive,Evergreen Credit Union,110,0,0,0
+0.7178,Positive,Evergreen Credit Union,110,0,0,1
+0.7356,Positive,Evergreen Credit Union,110,0,0,0
+0.8779,Positive,Evergreen Credit Union,110,0,1,0
+0.9201,Positive,Evergreen Credit Union,110,0,0,1
+0.743,Positive,Evergreen Credit Union,110,0,0,0
+0.5411,Positive,Evergreen Credit Union,110,0,0,0
+0.8658,Positive,Evergreen Credit Union,110,0,0,1
+0.872,Positive,Evergreen Credit Union,110,0,2,0
+0.8118,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.9253,Positive,Evergreen Credit Union,110,0,0,0
+0.8062,Positive,Evergreen Credit Union,110,0,0,0
+0.5719,Positive,Evergreen Credit Union,110,0,0,0
+0.6892,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.807,Positive,Evergreen Credit Union,110,0,0,0
+-0.7841,Negative,Evergreen Credit Union,110,0,0,0
+0.4939,Positive,Evergreen Credit Union,110,0,0,0
+0.7322,Positive,Evergreen Credit Union,110,0,0,0
+0.8852,Positive,Evergreen Credit Union,110,0,0,0
+0.4389,Positive,Evergreen Credit Union,110,0,1,0
+0.6114,Positive,Evergreen Credit Union,110,0,1,0
+0.969,Positive,Evergreen Credit Union,110,0,2,0
+0.8652,Positive,Evergreen Credit Union,110,0,0,0
+0.0,Neutral,Evergreen Credit Union,110,1,0,0
+0.9575,Positive,Evergreen Credit Union,110,2,1,0
+0.5719,Positive,Evergreen Credit Union,110,1,0,1
+0.0,Neutral,Evergreen Credit Union,110,0,0,0
+0.9018,Positive,Evergreen Credit Union,110,0,0,0
+0.7901,Positive,Evergreen Credit Union,110,0,0,0
+0.8588,Positive,Evergreen Credit Union,110,0,2,0
+0.5719,Positive,Evergreen Credit Union,110,0,0,0
+0.9169,Positive,Evergreen Credit Union,110,0,0,1
+0.8718,Positive,Evergreen Credit Union,110,0,1,0
+0.9299,Positive,Evergreen Credit Union,110,0,0,0
+0.9785,Positive,Evergreen Credit Union,110,0,2,1
+0.8615,Positive,Evergreen Credit Union,110,0,0,1
+0.902,Positive,Evergreen Credit Union,110,0,0,0
+-0.8188,Negative,Asic Miners Rig,1115,1,0,0
+-0.9703,Negative,Asic Miners Rig,1115,0,0,0
+-0.3266,Negative,Asic Miners Rig,1115,1,0,0
+0.9394,Positive,NorthOne,1112,1,0,0
+0.8176,Positive,NorthOne,1112,1,0,0
+0.8122,Positive,NorthOne,1112,0,0,0
+0.8442,Positive,NorthOne,1112,0,0,0
+0.8922,Positive,NorthOne,1112,1,1,0
+0.9712,Positive,NorthOne,1112,4,0,0
+0.8479,Positive,NorthOne,1112,0,2,0
+0.8316,Positive,NorthOne,1112,0,0,0
+-0.2462,Negative,NorthOne,1112,3,2,0
+-0.6117,Negative,NorthOne,1112,1,0,0
+-0.3551,Negative,NorthOne,1112,1,0,0
+-0.6138,Negative,NorthOne,1112,5,0,0
+-0.7964,Negative,NorthOne,1112,3,0,0
+-0.4588,Negative,NorthOne,1112,0,0,0
+0.9311,Positive,NorthOne,1112,2,0,0
+0.6249,Positive,NorthOne,1112,1,1,0
+0.9169,Positive,NorthOne,1112,1,0,0
+0.9214,Positive,NorthOne,1112,1,1,0
+-0.7278,Negative,NorthOne,1112,1,0,0
+0.8513,Positive,NorthOne,1112,2,0,0
+-0.2023,Negative,NorthOne,1112,4,0,0
+-0.7369,Negative,NorthOne,1112,1,0,0
+0.8565,Positive,NorthOne,1112,1,0,0
+-0.8942,Negative,NorthOne,1112,4,1,0
+0.5859,Positive,NorthOne,1112,0,0,0
+0.9785,Positive,NorthOne,1112,1,2,0
+-0.9775,Negative,NorthOne,1112,4,0,0
+-0.5271,Negative,NorthOne,1112,4,0,0
+0.8833,Positive,NorthOne,1112,7,4,0
+0.1779,Positive,NorthOne,1112,2,0,0
+0.0258,Neutral,NorthOne,1112,1,2,0
+-0.8126,Negative,NorthOne,1112,3,1,0
+-0.925,Negative,NorthOne,1112,6,0,0
+0.7003,Positive,NorthOne,1112,0,0,0
+-0.6128,Negative,NorthOne,1112,3,1,0
+-0.4118,Negative,NorthOne,1112,0,2,0
+0.5076,Positive,NorthOne,1112,4,0,0
+-0.9904,Negative,NorthOne,1112,3,4,0
+0.9117,Positive,NorthOne,1112,0,1,0
+0.7839,Positive,NorthOne,1112,2,4,0
+0.7402,Positive,NorthOne,1112,0,0,0
+-0.296,Negative,NorthOne,1112,1,0,0
+0.0,Neutral,NorthOne,1112,0,0,0
+0.3054,Positive,NorthOne,1112,0,0,0
+0.8685,Positive,NorthOne,1112,0,0,0
+0.7906,Positive,NorthOne,1112,0,0,0
+-0.6433,Negative,NorthOne,1112,3,0,0
+0.6369,Positive,NorthOne,1112,0,0,0
+0.5719,Positive,NorthOne,1112,0,0,0
+0.296,Positive,NorthOne,1112,0,0,0
+0.0,Neutral,NorthOne,1112,0,0,0
+0.5267,Positive,NorthOne,1112,0,0,0
+0.6369,Positive,NorthOne,1112,0,0,0
+0.5719,Positive,NorthOne,1112,0,0,0
+0.9824,Positive,The Payment HQ,115,0,0,0
+-0.9636,Negative,Asicminertech,1117,0,0,0
+0.7104,Positive,Asicminertech,1117,0,0,0
+-0.838,Negative,Asicminertech,1117,0,0,0
+-0.6776,Negative,Asicminertech,1117,0,0,0
+0.6705,Positive,Asicminertech,1117,0,0,0
+-0.1027,Negative,Asicminertech,1117,0,0,0
+-0.7411,Negative,Asicminertech,1117,0,0,0
+0.9041,Positive,Liberty First Credit Union,111,0,0,1
+-0.8119,Negative,Liberty First Credit Union,111,0,1,2
+0.5777,Positive,Liberty First Credit Union,111,0,0,1
+0.912,Positive,Liberty First Credit Union,111,0,0,1
+0.7184,Positive,Liberty First Credit Union,111,0,0,0
+0.9447,Positive,Liberty First Credit Union,111,0,0,0
+0.7845,Positive,Liberty First Credit Union,111,0,0,2
+0.9766,Positive,Liberty First Credit Union,111,0,0,0
+0.9022,Positive,Liberty First Credit Union,111,0,0,1
+0.8807,Positive,Liberty First Credit Union,111,1,0,3
+0.875,Positive,Liberty First Credit Union,111,2,0,1
+0.9778,Positive,Liberty First Credit Union,111,0,0,2
+0.9087,Positive,Liberty First Credit Union,111,0,0,0
+0.9427,Positive,Liberty First Credit Union,111,0,0,0
+0.9677,Positive,Liberty First Credit Union,111,2,0,0
+0.9531,Positive,Liberty First Credit Union,111,1,1,0
+0.9838,Positive,Liberty First Credit Union,111,0,0,1
+0.9704,Positive,Liberty First Credit Union,111,0,0,0
+0.936,Positive,Liberty First Credit Union,111,0,0,2
+-0.2263,Negative,Liberty First Credit Union,111,2,0,1
+0.4215,Positive,Liberty First Credit Union,111,1,0,1
+0.9798,Positive,Liberty First Credit Union,111,1,0,1
+0.9701,Positive,Liberty First Credit Union,111,0,0,1
+0.9335,Positive,Liberty First Credit Union,111,1,0,0
+0.932,Positive,Liberty First Credit Union,111,0,0,0
+0.9062,Positive,Liberty First Credit Union,111,0,0,0
+0.9628,Positive,Liberty First Credit Union,111,1,3,0
+0.9001,Positive,Liberty First Credit Union,111,0,2,1
+0.9611,Positive,Liberty First Credit Union,111,1,1,1
+0.9656,Positive,Liberty First Credit Union,111,0,0,1
+0.9814,Positive,Liberty First Credit Union,111,0,0,1
+0.9113,Positive,Liberty First Credit Union,111,0,0,1
+0.9871,Positive,Liberty First Credit Union,111,0,0,2
+0.5859,Positive,Liberty First Credit Union,111,0,0,0
+0.8655,Positive,Liberty First Credit Union,111,0,2,1
+0.9628,Positive,Liberty First Credit Union,111,0,2,0
+0.0,Neutral,Liberty First Credit Union,111,0,2,0
+0.9183,Positive,Liberty First Credit Union,111,1,0,0
+0.9576,Positive,Liberty First Credit Union,111,0,0,0
+0.891,Positive,Liberty First Credit Union,111,1,0,0
+0.9766,Positive,Liberty First Credit Union,111,0,0,0
+0.944,Positive,Liberty First Credit Union,111,0,1,0
+0.9653,Positive,Liberty First Credit Union,111,0,0,0
+0.8732,Positive,Liberty First Credit Union,111,0,0,3
+0.7708,Positive,Liberty First Credit Union,111,0,0,0
+0.8703,Positive,Liberty First Credit Union,111,0,0,0
+0.1779,Positive,Liberty First Credit Union,111,1,0,0
+0.9153,Positive,Liberty First Credit Union,111,0,0,0
+0.8977,Positive,Liberty First Credit Union,111,0,0,0
+0.9593,Positive,Liberty First Credit Union,111,0,0,0
+0.6908,Positive,Liberty First Credit Union,111,1,0,0
+0.8579,Positive,Liberty First Credit Union,111,0,1,0

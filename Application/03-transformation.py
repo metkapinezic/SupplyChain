@@ -1,8 +1,21 @@
+import csv
+import json
 import pandas as pd
+import os
 
-#read webscrapping data
-df_atm = pd.read_csv('atm.csv')
-df_reviews = pd.read_csv('reviews.csv')
+# Define the base directory based on where the script is located
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Define the output directory
+output_dir = os.path.join(base_dir, 'output')
+os.makedirs(output_dir, exist_ok=True)
+
+# Read webscraping data
+atm_csv_path = os.path.join(output_dir, 'atm.csv')
+df_atm = pd.read_csv(atm_csv_path)
+
+reviews_csv_path = os.path.join(output_dir, 'reviews.csv')
+df_reviews = pd.read_csv(reviews_csv_path)
 
 # CREATE COMPANIES
 
@@ -31,4 +44,5 @@ columns = [
 merged_reviews_df = merged_reviews_df[columns]
 
 # Export merged DataFrame to CSV without the index column
-merged_reviews_df.to_csv('app_reviews.csv', index=False)
+app_reviews_output_path = os.path.join(output_dir, 'app_reviews.csv')
+merged_reviews_df.to_csv(app_reviews_output_path, index=False)

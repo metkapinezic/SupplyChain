@@ -1,0 +1,13 @@
+FROM python:3.8
+
+RUN pip install pandas dash plotly nltk
+
+COPY 06-dashboard.py /app/
+COPY ./output/ /app/
+COPY . /app/
+
+WORKDIR /app
+
+EXPOSE 8050
+
+CMD ["python", "06-dashboard.py"]

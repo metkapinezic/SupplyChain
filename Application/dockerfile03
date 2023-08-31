@@ -1,0 +1,10 @@
+FROM python:3.8
+
+RUN pip install pandas
+
+COPY 03-transformation.py /app/
+COPY ./output/ /app/
+
+WORKDIR /app
+
+CMD ["python", "03-transformation.py"]

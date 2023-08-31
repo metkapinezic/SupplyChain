@@ -15,6 +15,11 @@
 
 import requests 
 from bs4 import BeautifulSoup 
+import pandas as pd
+import os
+
+# Define the base directory based on where the script is located
+base_dir = os.path.dirname(os.path.abspath(__file__))
 
 atm_url = 'https://www.trustpilot.com/categories/atm'
 
@@ -54,7 +59,10 @@ def get_company_urls(soup_response):
 
 #function to get the link of the next page button and scrap content on next page
 def get_next_page_url(soup_response):
-    return soup_response.select("a[name='pagination-button-next']")[0].attrs.get("href")
+    try:
+        return soup_response.select("a[name='pagination-button-next']")[0].attrs.get("href")
+    except IndexError:
+        return None
 
 
 # In[64]:
@@ -133,8 +141,15 @@ df_details
 # In[71]:
 
 
-df_details.to_csv('company_details.csv', index=False)
+#df_details.to_csv('./output/company_details.csv', index=False)
+# Export DataFrame to CSV without the index column
+output_dir = os.path.join(base_dir, 'output')
+os.makedirs(output_dir, exist_ok=True)
+company_details_output_path = os.path.join(output_dir, 'company_details.csv')
+df_details.to_csv(company_details_output_path, index=False)
 
+# Print a message indicating success
+print("Data processing completed and CSV exported.")
 
 # In[78]:
 
@@ -184,8 +199,15 @@ for url in deduplicated_company_urls:
         
 columns = ['company_name','review_star', 'review_title', 'reviewer_name', 'review_text', 'experience_date', 'review_date', 'reply_date', 'reply_text']
 df_reviews = pd.DataFrame(alist, columns=columns)
-df_reviews.to_csv('reviews.csv', index=False)
 
+
+#df_reviews.to_csv('./output/reviews.csv', index=False)
+# Export DataFrame to CSV without the index column
+reviews_output_path = os.path.join(output_dir, 'reviews.csv')
+df_reviews.to_csv(reviews_output_path, index=False)
+
+# Print a message indicating success
+print("Data processing completed and CSV exported.")
 
 # #Establish connection with PostgreSQL using psycopg2
 # 

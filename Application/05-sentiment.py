@@ -1,10 +1,22 @@
 from elasticsearch import Elasticsearch
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import pandas as pd
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from collections import Counter
+import os
+
+# Determine if running in Docker container or locally
+running_in_docker = os.environ.get("DOCKER_ENV", False)
 
 # Connection to the cluster
-es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
-                   ca_certs="./ca/ca.crt")
+if running_in_docker:
+   es = Elasticsearch(hosts="https://elastic:datascientest@application-es01-1:9200",
+                       verify_certs=False)
+else:
+   es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
+                       ca_certs="./ca/ca.crt")
 
 # Initialize the VADER sentiment analyzer
 analyzer = SentimentIntensityAnalyzer()
@@ -17,7 +29,10 @@ search_query = {
     "size": 100  # Number of documents per page
 }
 
-#OUTPUT ALL REVIEWS WITH SENTIMENT
+# Define the base directory based on where the script is located
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# OUTPUT ALL REVIEWS WITH SENTIMENT
 
 # Lists to store data
 review_ids = []
@@ -27,15 +42,25 @@ review_texts = []
 compound_scores = []
 sentiment_labels = []
 
-# Paginated search
-page = 1
+# Initialize the Scroll API
+scroll_query = search_query
+scroll_query["scroll"] = "5m"  # Set the scroll time, adjust as needed
+
+# Paginated search using the Scroll API
+scroll_id = None
 while True:
-    response = es.search(index="bestatm_reviews", body=search_query, from_=(page - 1) * 100)
+    if scroll_id is None:
+        response = es.search(index="bestatm_reviews", scroll="5m", body={"query": {"match_all": {}}, "size": 100})
+    else:
+        response = es.scroll(scroll_id=scroll_id, scroll="5m")
     
-    if not response["hits"]["hits"]:
+    scroll_id = response.get("_scroll_id")
+    hits = response["hits"]["hits"]
+    
+    if not hits:
         break
     
-    for hit in response["hits"]["hits"]:
+    for hit in hits:
         source = hit.get("_source", {})
         review_id = source.get("review_id", "")
         company_id = source.get("company_id", "")
@@ -60,7 +85,8 @@ while True:
             compound_scores.append(compound_score)
             sentiment_labels.append(sentiment_label)
 
-    page += 1
+# Clear the scroll context when done
+es.clear_scroll(scroll_id=scroll_id)
 
 # Create dictionary
 data_all = {
@@ -76,7 +102,8 @@ data_all = {
 df_all = pd.DataFrame(data_all)
 
 # Output DataFrame to a CSV file
-df_all.to_csv("reviews_sentiments.csv", index=False)
+output_csv_path = os.path.join(base_dir, "output", "reviews_sentiments.csv")
+df_all.to_csv(output_csv_path, index=False)
 
 # COUNT MOST USED WORDS 
 
@@ -107,9 +134,9 @@ word_counts = Counter(filtered_words)
 most_common_words = word_counts.most_common(20)
 
 # Print the most common words
-print("Most common words in reviews:")
-for word, count in most_common_words:
-    print(f"{word}: {count}")
+#print("Most common words in reviews:")
+#for word, count in most_common_words:
+#    print(f"{word}: {count}")
 
 #CREATE WORD BUCKETS AND OUTPUT WORD ANALYSIS
 
@@ -147,7 +174,8 @@ for index, row in df_all.iterrows():
 df_new = pd.DataFrame(new_data)
 
 # Display the new DataFrame
-print(df_new)
+#print(df_new)
 
 # Output DataFrame to a CSV file
-df_new.to_csv("word_analysis.csv", index=False)
+word_analysis_csv_path = os.path.join(base_dir, "output", "word_analysis.csv")
+df_new.to_csv(word_analysis_csv_path, index=False)
