@@ -7,14 +7,14 @@ This is a repository for an application that is running in 6 steps and is trigge
 
 The back end of the application works in several steps. Those steps are marked from 01 - 06 and contain webscrapping of reviews from Trustpilotm; data modelling, transformation and cleaning of webscrapped data into organised and readable tables meant for further analyis; uploading organised dataset to elasticsearch database, running the sentiment analysis and outputting the dashboard using Dash accesible on port 8050.
 
-#Step 1 & 2: Webscraping
+### Step 1 & 2: Webscraping
   - 01-mainpage.py runs through the main page of the list of ATM companies ( https://www.trustpilot.com/categories/atm ) and outputs a file called atm.csv, which contains a list of companies details (company_name,trustscore,total_reviews, domain) and allocates company id (company_id,company_name,trustscore,total_reviews, domain).
   - 02-subpage.py runs through the subpages of the list of companies and extracts all the review details per company in a reviews.csv file. The file contains the following data per company: company_name, review_star, review_title, reviewer_name, review_text,experience_date, review_date, reply_date, reply_text.
 
-#Step 3: Organising data in a single file
+### Step 3: Organising data in a single file
   - 03-transformation.py python script reads the output from webscrapping (atm.csv, reviews.csv) and joins relevant data into a single output app_reviews.csv with columns company_name, review_star, review_title, reviewer_name, review_text, experience_date, review_date, reply_date, reply_text
 
-#Step 4: Upload data to Elasticsearch
+### Step 4: Upload data to Elasticsearch
   - 04-esconnect.py connects to elasticsearch previously set up using docker-compose file (services: setup, es01, es02, es03, kibana)
   - To run the script locally you must first 
     - run "docker-compose up - d setup, es01, es02, es03, kibana"
@@ -24,14 +24,14 @@ The back end of the application works in several steps. Those steps are marked f
     - run the 04-esconnect.py file to import the CSV data into Elasticsearch
   - The step is automated in docker-compose.yml file under service import_to_elasticsearch, where all the dependenciesa are specified
 
-#Step 5: Sentiment analysis
+### Step 5: Sentiment analysis
   - This step is dependent on a successful connection and data upload to elasticsearch
   - 05-sentiment.py:
       - runs through each of the reviews and allocates its sentiment score and  label (positive, negative, neutral), then outputs dataframe with review id, company id, company name, review text, sentiment score, and sentiment label (exports reviews_sentiments.csv)
       - creates a string of all reviews, counts and outputs 20 words based on their appearance
       - creates manually defined buckets based on the most used words (bank account, customer service, and credit) and outputs a dataframe containing company details, sentiment scores, and labels, and counts words within the buckets (exports word_analysis.csv)
    
-#Step 6: Dash application
+### Step 6: Dash application
   - The final step of the application is the dashboard running on http://0.0.0.0:8050/ 
   - 06-dashboard.py takes the output of the sentiment analysis step and creates data visualization of the output
   - The visual report is available using the link from docker or running the 06-dashboard.py script locally
