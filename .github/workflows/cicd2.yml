@@ -17,7 +17,8 @@ jobs:
                 docker build -f dockerfile04 . -t dhoang110/esconnect
                 docker build -f dockerfile05 . -t dhoang110/sentiment
                 docker build -f dockerfile06 . -t dhoang110/dashboard
-                
+                docker-compose up -d
+                sleep 120
     deploy:
         needs: build-container
         name: deploy
@@ -28,5 +29,5 @@ jobs:
               run: |
                 cd Application/
                 docker-compose up -d
-                sleep 60
+                sleep 120
                 curl localhost:8050

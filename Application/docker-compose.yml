@@ -1,4 +1,4 @@
-version: '24.0.5'
+version: '24.0.0'
 services:
   setup:
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
