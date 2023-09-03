@@ -1,0 +1,34 @@
+name: Supply Chain CI
+on: 
+    push:
+        branches: [main]
+jobs:
+    build-container:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: Build the Docker images
+              run: |
+                cd Application/
+                docker build -f dockerfile00 . -t dhoang110/essetup
+                docker build -f dockerfile01 . -t dhoang110/webscraping01
+                docker build -f dockerfile02 . -t dhoang110/webscraping02
+                docker build -f dockerfile03 . -t dhoang110/transformation
+                docker build -f dockerfile04 . -t dhoang110/esconnect
+                docker build -f dockerfile05 . -t dhoang110/sentiment
+                docker build -f dockerfile06 . -t dhoang110/dashboard
+                
+    deploy:
+        needs: build-container
+        name: deploy
+        runs-on: ubuntu-latest
+        steps:
+            - name: display dashboard on Dash
+              uses: actions/checkout@v3
+              with:
+                host: localhost
+                port: 8050
+                script: |
+                    docker-compose up -d
+                    sleep 60
+                    curl localhost:8050
