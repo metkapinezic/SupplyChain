@@ -14,7 +14,7 @@ if running_in_docker:
                        verify_certs=False)
 else:
    es = Elasticsearch(hosts="https://elastic:datascientest@localhost:9200",
-                       ca_certs="./ca/ca.crt")
+                       verify_certs=False)
 
 # Define the input file path based on the environment
 if running_in_docker:
