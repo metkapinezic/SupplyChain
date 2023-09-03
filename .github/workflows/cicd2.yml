@@ -26,6 +26,7 @@ jobs:
             - uses: actions/checkout@v3
             - name: display dashboard on Dash
               run: |
+                cd Application/
                 docker-compose up -d
                 sleep 60
                 curl localhost:8050
