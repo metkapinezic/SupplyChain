@@ -1,12 +1,14 @@
-# SupplyChain
-#Step 1 & 2: Webscraping & arrange data on Postgres:
-  - Install Postgres & PgAdmin4 
-  - Create Server/Database: user: postgres, password: postgres
-  - Create tables on database as in atm_scraping.sql file
-  - Run ATM-webscrapping.ipynb notebook
-  - Run subpage_details.ipynb notebook
-  - Run subpage_reviews.ipynb notebook
-  - Download reviews table as csv if you want. Done!
+# SupplyChain Sentiment Analysis of Reviews for ATM companies
+
+This is a repository for an application that is running in 6 steps and is triggered by simply running docker-compose-up within the Application folder. 
+
+The objective of this project is to demonstrate and provide a live and updated dashboard of ATM companies from which you can asses the sentiment of reviews for each company (or a group) based on the factors within the supply chain process of ATM services.
+
+The application works in several steps. Those steps are marked from 01 - 06 and contain webscrapping of reviews from Trustpilotm; data modelling, transformation and cleaning of webscrapped data into organised and readable tables meant for furter analyis; uploading organised dataset to elasticsearch database, running the sentiment analysis and outputting the dashboard using Dash accesible on port 8050.
+
+#Step 1 & 2: Webscraping
+  - 01-mainpage.py runs through the main page of the list of ATM companies ( https://www.trustpilot.com/categories/atm ), and ouputs a file called atm.csv, which contains a list of companies details (company_name,trustscore,total_reviews,domain) and allocates company id (company_id,company_name,trustscore,total_reviews,domain)
+  - 02-subpage
 
 #Step 3: Organising relational database
   - Run the python script that connects to your warehouse
