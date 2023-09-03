@@ -3,7 +3,6 @@ FROM python:3.8
 RUN pip install elasticsearch
 
 COPY 04-esconnect.py /app/
-COPY ./ca /app/
 COPY ./output/ /app/
 COPY . /app/
 

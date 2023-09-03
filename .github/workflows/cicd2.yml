@@ -10,7 +10,6 @@ jobs:
             - name: Build the Docker images
               run: |
                 cd Application/
-                docker build -f dockerfile00 . -t dhoang110/essetup
                 docker build -f dockerfile01 . -t dhoang110/webscraping01
                 docker build -f dockerfile02 . -t dhoang110/webscraping02
                 docker build -f dockerfile03 . -t dhoang110/transformation
