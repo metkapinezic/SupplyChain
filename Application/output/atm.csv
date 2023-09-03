@@ -1,7 +1,7 @@
 company_id,company_name,trustscore,total_reviews,domain
 110,Evergreen Credit Union,4.8,232,Financial Institution·ATM·Credit Union
 111,Liberty First Credit Union,4.7,210,Mortgage Lender·ATM·Car Finance and Loan Company·Financial Institution·Credit Union
-112,Crypto Dispensers ,2.3,131,ATM·Investment Service·Non-Bank Financial Service·Cryptocurrency Service
+112,Crypto Dispensers ,2.2,133,Cryptocurrency Service·ATM·Investment Service·Non-Bank Financial Service
 113,Swadesh,4.4,11,Money Transfer Service·Bank·Financial Institution·ATM
 114,Heritage Valley Federal Credit Union,4.1,11,ATM·Bank·Federal Credit Union·Financial Institution·Mortgage Lender·Credit Union
 115,The Payment HQ,3.8,2,Business to Business Service·Payment Service·Finance Broker·Payroll Service·ATM
