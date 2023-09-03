@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 version: '24.0.0'
+=======
+version: '3.8'
+>>>>>>> main
 services:
   setup:
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
