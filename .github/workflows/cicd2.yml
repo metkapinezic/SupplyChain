@@ -1,7 +1,7 @@
 name: Supply Chain CI
 on: 
     push:
-        branches: [main]
+        branches: [dhoang110-patch-1]
 jobs:
     build-container:
         runs-on: ubuntu-latest
@@ -23,12 +23,9 @@ jobs:
         name: deploy
         runs-on: ubuntu-latest
         steps:
+            - uses: actions/checkout@v3
             - name: display dashboard on Dash
-              uses: actions/checkout@v3
-              with:
-                host: localhost
-                port: 8050
-                script: |
-                    docker-compose up -d
-                    sleep 60
-                    curl localhost:8050
+              run: |
+                docker-compose up -d
+                sleep 60
+                curl localhost:8050
