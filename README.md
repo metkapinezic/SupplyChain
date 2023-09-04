@@ -1,28 +1,28 @@
 # SupplyChain:
 ## Sentiment Analysis of Reviews for ATM companies
 
-The objective of this project is to demonstrate and provide a live and updated dashboard of ATM companies from which you can asses the sentiment of reviews for each company (or a group) based on the factors within the supply chain process of ATM services.
+The objective of this project is to demonstrate and provide a live and updated dashboard of ATM companies from which you can assess the sentiment of reviews for each company (or a group) based on the factors within the supply chain process of ATM services.
 
-This is a repository for an application that is running in 6 steps and is triggered by simply running docker-compose up within the Application folder. 
+This repository showcases the steps of the application triggered by simply running docker-compose up within the Application folder. 
 
-The back end of the application works in several steps. Those steps are marked from 01 - 06 and contain webscrapping of reviews from Trustpilotm; data modelling, transformation and cleaning of webscrapped data into organised and readable tables meant for further analyis; uploading organised dataset to elasticsearch database, running the sentiment analysis and outputting the dashboard using Dash accesible on port 8050.
+The back-end of the app works in several steps. Those steps are marked from 01 - 06 and contain web scrapping of reviews from Trustpilot; data modeling, transformation, and cleaning of web scrapped data into organized and readable tables meant for further analysis; uploading organized dataset to elasticsearch database, running the sentiment analysis and outputting the dashboard using Dash accessible on port 8050.
 
 ### Step 1 & 2: Webscraping
   - 01-mainpage.py runs through the main page of the list of ATM companies ( https://www.trustpilot.com/categories/atm ) and outputs a file called atm.csv, which contains a list of companies details (company_name,trustscore,total_reviews, domain) and allocates company id (company_id,company_name,trustscore,total_reviews, domain).
   - 02-subpage.py runs through the subpages of the list of companies and extracts all the review details per company in a reviews.csv file. The file contains the following data per company: company_name, review_star, review_title, reviewer_name, review_text,experience_date, review_date, reply_date, reply_text.
 
 ### Step 3: Organising data in a single file
-  - 03-transformation.py python script reads the output from webscrapping (atm.csv, reviews.csv) and joins relevant data into a single output app_reviews.csv with columns company_name, review_star, review_title, reviewer_name, review_text, experience_date, review_date, reply_date, reply_text
+  - 03-transformation.py python script reads the output from web scrapping (atm.csv, reviews.csv) and joins relevant data into a single output app_reviews.csv with columns company_name, review_star, review_title, reviewer_name, review_text, experience_date, review_date, reply_date, reply_text
 
 ### Step 4: Upload data to Elasticsearch
   - 04-esconnect.py connects to elasticsearch previously set up using docker-compose file (services: setup, es01, es02, es03, kibana)
   - To run the script locally you must first 
     - run "docker-compose up - d setup, es01, es02, es03, kibana"
     - access kibana from Docker or from any browser: http://localhost:5601
-    - once in kibana User: elastic, Password : datascientest
+    - once in kibana User: elastic, Password: datascientest
     - create an Index name "atm_reviews"
     - run the 04-esconnect.py file to import the CSV data into Elasticsearch
-  - The step is automated in docker-compose.yml file under service import_to_elasticsearch, where all the dependenciesa are specified
+  - The step is automated in docker-compose.yml file under service import_to_elasticsearch, where all the dependencies are specified
 
 ### Step 5: Sentiment analysis
   - This step is dependent on a successful connection and data upload to elasticsearch
